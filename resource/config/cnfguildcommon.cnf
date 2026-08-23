@@ -1,0 +1,7 @@
+Config = Config or {}
+Config.cnfguildcommon = {
+		[1] = {
+			rename_gold = 100,
+			national_interval = 3600,
+		},
+}

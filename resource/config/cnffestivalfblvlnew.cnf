@@ -1,0 +1,45 @@
+Config = Config or {}
+Config.cnffestivalfblvlnew = {
+		[1] = {
+			guanqia = 1,
+			animation_id = 2070,
+			reward = {},
+			fb_id = 20001,
+			fb_type = 12,
+		},
+		[2] = {
+			guanqia = 2,
+			animation_id = 2070,
+			reward = {},
+			fb_id = 20002,
+			fb_type = 13,
+		},
+		[3] = {
+			guanqia = 3,
+			animation_id = 2070,
+			reward = {},
+			fb_id = 20003,
+			fb_type = 14,
+		},
+		[4] = {
+			guanqia = 4,
+			animation_id = 2070,
+			reward = {},
+			fb_id = 20004,
+			fb_type = 15,
+		},
+		[5] = {
+			guanqia = 5,
+			animation_id = 2070,
+			reward = {},
+			fb_id = 20005,
+			fb_type = 16,
+		},
+		[6] = {
+			guanqia = 6,
+			animation_id = 2070,
+			reward = {},
+			fb_id = 20006,
+			fb_type = 17,
+		},
+}

@@ -1,0 +1,17 @@
+Config = Config or {}
+Config.cnfnianfbinfo = {
+		[1] = {
+			record_id = 3401,
+			cool_time = 600,
+			team_level = 18,
+			day_count = 2,
+			tili = 10,
+			squib_id = 3754,
+			explain = [[]],
+			tweet = {},
+			skill_cool_time = 10,
+			skill_id = 74070,
+			paper_id = 3755,
+			squib_sound = 1075,
+		},
+}

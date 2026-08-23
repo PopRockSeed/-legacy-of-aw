@@ -1,0 +1,51 @@
+Config = Config or {}
+Config.cnffestivalfbshopnew = {
+		[3606] = {
+			item_id = 3606,
+			item_count = 1,
+			cost = 3000,
+			times = 1,
+		},
+		[3575] = {
+			item_id = 3575,
+			item_count = 1,
+			cost = 500,
+			times = 1,
+		},
+		[3762] = {
+			item_id = 3762,
+			item_count = 1,
+			cost = 50,
+			times = 10,
+		},
+		[3733] = {
+			item_id = 3733,
+			item_count = 1,
+			cost = 50,
+			times = 10,
+		},
+		[3716] = {
+			item_id = 3716,
+			item_count = 1,
+			cost = 25,
+			times = 10,
+		},
+		[3906] = {
+			item_id = 3906,
+			item_count = 1,
+			cost = 5,
+			times = 20,
+		},
+		[3851] = {
+			item_id = 3851,
+			item_count = 1,
+			cost = 5,
+			times = 20,
+		},
+		[20006] = {
+			item_id = 20006,
+			item_count = 1,
+			cost = 6000,
+			times = 1,
+		},
+}

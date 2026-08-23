@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnfguildtreemisc = {
+		[1] = {
+			help_text = [[1.每名玩家每天可培养神树1次；<BR SPACING=10>2.培养除了获得奖励外，还可使神树升级；<BR SPACING=10>3.神树达到特定等级，即可领取相应奖励；<BR SPACING=10>4.神树会在每天5:00进行重置；<BR SPACING=10>5.只有当天在当前公会进行过培养，才可领取奖励；]],
+		},
+}

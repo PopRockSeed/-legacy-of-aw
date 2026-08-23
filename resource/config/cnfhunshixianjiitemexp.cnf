@@ -1,0 +1,471 @@
+Config = Config or {}
+Config.cnfhunshixianjiitemexp = {
+		[3503] = {
+			item_id = 3503,
+			hunshi_exp = 5,
+		},
+		[3504] = {
+			item_id = 3504,
+			hunshi_exp = 5,
+		},
+		[3505] = {
+			item_id = 3505,
+			hunshi_exp = 5,
+		},
+		[3506] = {
+			item_id = 3506,
+			hunshi_exp = 5,
+		},
+		[3508] = {
+			item_id = 3508,
+			hunshi_exp = 5,
+		},
+		[3509] = {
+			item_id = 3509,
+			hunshi_exp = 5,
+		},
+		[3510] = {
+			item_id = 3510,
+			hunshi_exp = 5,
+		},
+		[3511] = {
+			item_id = 3511,
+			hunshi_exp = 5,
+		},
+		[3512] = {
+			item_id = 3512,
+			hunshi_exp = 5,
+		},
+		[3513] = {
+			item_id = 3513,
+			hunshi_exp = 5,
+		},
+		[3514] = {
+			item_id = 3514,
+			hunshi_exp = 5,
+		},
+		[3515] = {
+			item_id = 3515,
+			hunshi_exp = 5,
+		},
+		[3516] = {
+			item_id = 3516,
+			hunshi_exp = 5,
+		},
+		[3517] = {
+			item_id = 3517,
+			hunshi_exp = 5,
+		},
+		[3518] = {
+			item_id = 3518,
+			hunshi_exp = 5,
+		},
+		[3519] = {
+			item_id = 3519,
+			hunshi_exp = 5,
+		},
+		[3520] = {
+			item_id = 3520,
+			hunshi_exp = 5,
+		},
+		[3521] = {
+			item_id = 3521,
+			hunshi_exp = 5,
+		},
+		[3522] = {
+			item_id = 3522,
+			hunshi_exp = 5,
+		},
+		[3523] = {
+			item_id = 3523,
+			hunshi_exp = 5,
+		},
+		[3524] = {
+			item_id = 3524,
+			hunshi_exp = 5,
+		},
+		[3525] = {
+			item_id = 3525,
+			hunshi_exp = 5,
+		},
+		[3526] = {
+			item_id = 3526,
+			hunshi_exp = 5,
+		},
+		[3527] = {
+			item_id = 3527,
+			hunshi_exp = 5,
+		},
+		[3528] = {
+			item_id = 3528,
+			hunshi_exp = 5,
+		},
+		[3529] = {
+			item_id = 3529,
+			hunshi_exp = 5,
+		},
+		[3530] = {
+			item_id = 3530,
+			hunshi_exp = 5,
+		},
+		[3531] = {
+			item_id = 3531,
+			hunshi_exp = 5,
+		},
+		[3532] = {
+			item_id = 3532,
+			hunshi_exp = 5,
+		},
+		[3533] = {
+			item_id = 3533,
+			hunshi_exp = 5,
+		},
+		[3534] = {
+			item_id = 3534,
+			hunshi_exp = 5,
+		},
+		[3535] = {
+			item_id = 3535,
+			hunshi_exp = 5,
+		},
+		[3536] = {
+			item_id = 3536,
+			hunshi_exp = 5,
+		},
+		[3537] = {
+			item_id = 3537,
+			hunshi_exp = 5,
+		},
+		[3538] = {
+			item_id = 3538,
+			hunshi_exp = 5,
+		},
+		[3539] = {
+			item_id = 3539,
+			hunshi_exp = 5,
+		},
+		[3540] = {
+			item_id = 3540,
+			hunshi_exp = 5,
+		},
+		[3541] = {
+			item_id = 3541,
+			hunshi_exp = 5,
+		},
+		[3542] = {
+			item_id = 3542,
+			hunshi_exp = 5,
+		},
+		[3543] = {
+			item_id = 3543,
+			hunshi_exp = 5,
+		},
+		[3544] = {
+			item_id = 3544,
+			hunshi_exp = 5,
+		},
+		[3545] = {
+			item_id = 3545,
+			hunshi_exp = 5,
+		},
+		[3546] = {
+			item_id = 3546,
+			hunshi_exp = 5,
+		},
+		[3547] = {
+			item_id = 3547,
+			hunshi_exp = 5,
+		},
+		[3548] = {
+			item_id = 3548,
+			hunshi_exp = 5,
+		},
+		[3549] = {
+			item_id = 3549,
+			hunshi_exp = 5,
+		},
+		[3550] = {
+			item_id = 3550,
+			hunshi_exp = 5,
+		},
+		[3551] = {
+			item_id = 3551,
+			hunshi_exp = 5,
+		},
+		[3552] = {
+			item_id = 3552,
+			hunshi_exp = 5,
+		},
+		[3553] = {
+			item_id = 3553,
+			hunshi_exp = 5,
+		},
+		[3554] = {
+			item_id = 3554,
+			hunshi_exp = 5,
+		},
+		[3555] = {
+			item_id = 3555,
+			hunshi_exp = 5,
+		},
+		[3556] = {
+			item_id = 3556,
+			hunshi_exp = 5,
+		},
+		[3557] = {
+			item_id = 3557,
+			hunshi_exp = 5,
+		},
+		[3558] = {
+			item_id = 3558,
+			hunshi_exp = 5,
+		},
+		[3559] = {
+			item_id = 3559,
+			hunshi_exp = 5,
+		},
+		[3560] = {
+			item_id = 3560,
+			hunshi_exp = 5,
+		},
+		[3561] = {
+			item_id = 3561,
+			hunshi_exp = 5,
+		},
+		[3562] = {
+			item_id = 3562,
+			hunshi_exp = 5,
+		},
+		[3563] = {
+			item_id = 3563,
+			hunshi_exp = 5,
+		},
+		[3564] = {
+			item_id = 3564,
+			hunshi_exp = 5,
+		},
+		[3565] = {
+			item_id = 3565,
+			hunshi_exp = 5,
+		},
+		[3567] = {
+			item_id = 3567,
+			hunshi_exp = 5,
+		},
+		[3568] = {
+			item_id = 3568,
+			hunshi_exp = 5,
+		},
+		[3569] = {
+			item_id = 3569,
+			hunshi_exp = 5,
+		},
+		[3570] = {
+			item_id = 3570,
+			hunshi_exp = 5,
+		},
+		[3571] = {
+			item_id = 3571,
+			hunshi_exp = 5,
+		},
+		[3572] = {
+			item_id = 3572,
+			hunshi_exp = 5,
+		},
+		[3573] = {
+			item_id = 3573,
+			hunshi_exp = 5,
+		},
+		[3574] = {
+			item_id = 3574,
+			hunshi_exp = 5,
+		},
+		[3575] = {
+			item_id = 3575,
+			hunshi_exp = 5,
+		},
+		[3576] = {
+			item_id = 3576,
+			hunshi_exp = 5,
+		},
+		[3577] = {
+			item_id = 3577,
+			hunshi_exp = 5,
+		},
+		[3578] = {
+			item_id = 3578,
+			hunshi_exp = 5,
+		},
+		[3579] = {
+			item_id = 3579,
+			hunshi_exp = 5,
+		},
+		[3580] = {
+			item_id = 3580,
+			hunshi_exp = 5,
+		},
+		[3581] = {
+			item_id = 3581,
+			hunshi_exp = 5,
+		},
+		[3582] = {
+			item_id = 3582,
+			hunshi_exp = 5,
+		},
+		[3583] = {
+			item_id = 3583,
+			hunshi_exp = 5,
+		},
+		[3584] = {
+			item_id = 3584,
+			hunshi_exp = 5,
+		},
+		[3585] = {
+			item_id = 3585,
+			hunshi_exp = 5,
+		},
+		[3586] = {
+			item_id = 3586,
+			hunshi_exp = 5,
+		},
+		[3587] = {
+			item_id = 3587,
+			hunshi_exp = 5,
+		},
+		[3588] = {
+			item_id = 3588,
+			hunshi_exp = 5,
+		},
+		[3589] = {
+			item_id = 3589,
+			hunshi_exp = 5,
+		},
+		[3590] = {
+			item_id = 3590,
+			hunshi_exp = 5,
+		},
+		[3591] = {
+			item_id = 3591,
+			hunshi_exp = 5,
+		},
+		[3594] = {
+			item_id = 3594,
+			hunshi_exp = 5,
+		},
+		[3595] = {
+			item_id = 3595,
+			hunshi_exp = 5,
+		},
+		[3596] = {
+			item_id = 3596,
+			hunshi_exp = 5,
+		},
+		[3711] = {
+			item_id = 3711,
+			hunshi_exp = 5,
+		},
+		[3597] = {
+			item_id = 3597,
+			hunshi_exp = 5,
+		},
+		[3598] = {
+			item_id = 3598,
+			hunshi_exp = 5,
+		},
+		[3599] = {
+			item_id = 3599,
+			hunshi_exp = 5,
+		},
+		[3600] = {
+			item_id = 3600,
+			hunshi_exp = 5,
+		},
+		[3620] = {
+			item_id = 3620,
+			hunshi_exp = 5,
+		},
+		[3621] = {
+			item_id = 3621,
+			hunshi_exp = 5,
+		},
+		[3622] = {
+			item_id = 3622,
+			hunshi_exp = 5,
+		},
+		[3623] = {
+			item_id = 3623,
+			hunshi_exp = 5,
+		},
+		[3624] = {
+			item_id = 3624,
+			hunshi_exp = 5,
+		},
+		[3625] = {
+			item_id = 3625,
+			hunshi_exp = 5,
+		},
+		[3626] = {
+			item_id = 3626,
+			hunshi_exp = 5,
+		},
+		[3627] = {
+			item_id = 3627,
+			hunshi_exp = 5,
+		},
+		[3628] = {
+			item_id = 3628,
+			hunshi_exp = 5,
+		},
+		[3629] = {
+			item_id = 3629,
+			hunshi_exp = 5,
+		},
+		[3630] = {
+			item_id = 3630,
+			hunshi_exp = 5,
+		},
+		[3631] = {
+			item_id = 3631,
+			hunshi_exp = 5,
+		},
+		[3632] = {
+			item_id = 3632,
+			hunshi_exp = 5,
+		},
+		[3633] = {
+			item_id = 3633,
+			hunshi_exp = 5,
+		},
+		[3634] = {
+			item_id = 3634,
+			hunshi_exp = 5,
+		},
+		[3635] = {
+			item_id = 3635,
+			hunshi_exp = 5,
+		},
+		[3636] = {
+			item_id = 3636,
+			hunshi_exp = 5,
+		},
+		[3637] = {
+			item_id = 3637,
+			hunshi_exp = 5,
+		},
+		[3712] = {
+			item_id = 3712,
+			hunshi_exp = 10,
+		},
+		[3713] = {
+			item_id = 3713,
+			hunshi_exp = 20,
+		},
+		[3714] = {
+			item_id = 3714,
+			hunshi_exp = 50,
+		},
+		[3715] = {
+			item_id = 3715,
+			hunshi_exp = 120,
+		},
+}

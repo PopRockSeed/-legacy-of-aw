@@ -1,0 +1,23 @@
+Config = Config or {}
+Config.cnfgeminfo = {
+		[1] = {
+			id = 3733,
+			type = 1,
+			exp = 5,
+		},
+		[2] = {
+			id = 3734,
+			type = 2,
+			exp = 20,
+		},
+		[3] = {
+			id = 3731,
+			type = 3,
+			exp = 50,
+		},
+		[4] = {
+			id = 3732,
+			type = 4,
+			exp = 100,
+		},
+}
