@@ -1,0 +1,23 @@
+Config = Config or {}
+Config.cnftopwarblood = {
+		[1] = {
+			star = 3,
+			coeff_sub = 30,
+			guarantee_blood = 10,
+		},
+		[2] = {
+			star = 2,
+			coeff_sub = 20,
+			guarantee_blood = 6,
+		},
+		[3] = {
+			star = 1,
+			coeff_sub = 10,
+			guarantee_blood = 3,
+		},
+		[4] = {
+			star = 0,
+			coeff_sub = 0,
+			guarantee_blood = 0,
+		},
+}

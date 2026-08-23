@@ -1,0 +1,99 @@
+Config = Config or {}
+Config.cnfsjachievementreward = {
+		[1] = {
+			order = 1,
+			achievement = {1,1,},
+			reward_id = 31061,
+			name = [[总积分获得第一]],
+		},
+		[2] = {
+			order = 2,
+			achievement = {1,2,},
+			reward_id = 31062,
+			name = [[总积分获得第二]],
+		},
+		[3] = {
+			order = 3,
+			achievement = {1,3,},
+			reward_id = 31063,
+			name = [[总积分获得第三]],
+		},
+		[4] = {
+			order = 4,
+			achievement = {1,4,},
+			reward_id = 31064,
+			name = [[总积分获得第四]],
+		},
+		[5] = {
+			order = 5,
+			achievement = {1,5,},
+			reward_id = 31065,
+			name = [[总积分获得第五]],
+		},
+		[6] = {
+			order = 6,
+			achievement = {2,1,1,1,},
+			reward_id = 31066,
+			name = [[第一天获得第一]],
+		},
+		[7] = {
+			order = 7,
+			achievement = {2,1,2,5,},
+			reward_id = 31067,
+			name = [[第一天获得2-5名]],
+		},
+		[8] = {
+			order = 8,
+			achievement = {2,1,6,10,},
+			reward_id = 31068,
+			name = [[第一天获得6-10名]],
+		},
+		[9] = {
+			order = 9,
+			achievement = {2,1,11,50,},
+			reward_id = 31069,
+			name = [[第一天获得11-50名]],
+		},
+		[10] = {
+			order = 10,
+			achievement = {2,1,51,100,},
+			reward_id = 31070,
+			name = [[第一天获得51-100名]],
+		},
+		[11] = {
+			order = 11,
+			achievement = {3,1,1,10,},
+			reward_id = 31071,
+			name = [[任意1天获得1-10名]],
+		},
+		[12] = {
+			order = 12,
+			achievement = {3,1,11,20,},
+			reward_id = 31072,
+			name = [[任意1天获得11-20名]],
+		},
+		[13] = {
+			order = 13,
+			achievement = {3,1,21,50,},
+			reward_id = 31073,
+			name = [[任意1天获得21-50名]],
+		},
+		[14] = {
+			order = 14,
+			achievement = {3,1,51,100,},
+			reward_id = 31074,
+			name = [[任意1天获得51-100名]],
+		},
+		[15] = {
+			order = 15,
+			achievement = {3,1,101,500,},
+			reward_id = 31075,
+			name = [[任意1天获得101-500名]],
+		},
+		[16] = {
+			order = 16,
+			achievement = {3,1,501,1000,},
+			reward_id = 31076,
+			name = [[任意1天获得501-1000名]],
+		},
+}

@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnftangyuancommon = {
+		[1] = {
+			answer_time = 15,
+			delta_time = 3,
+			free_count = 1,
+			buy_cost = {50,100,100,150,150,},
+			detail_desc = [[<COLOR VALUE=FFFFFFFF>1.每道题目的时间均为15秒，每过1秒，可获得的积分-1<BR> <BR>2.回答正确，可以获得剩余积分；回答错误，不能获得积分<BR> <BR>3.积分达到要求后可以获得奖励<BR> <BR>4.积分排名前10的玩家，在活动结束后可以获得排名奖励<BR> <BR></COLOR>]],
+			rank_desc = [[第1名：足球宝贝魂石*30<BR SPACING=10>第2名：足球宝贝魂石*25<BR SPACING=10>第3名：足球宝贝魂石*20<BR SPACING=10>第4名：足球宝贝魂石*15<BR SPACING=10>第5名：足球宝贝魂石*10<BR SPACING=10>第6名：神魂*2500<BR SPACING=10>第7名：神魂*2500<BR SPACING=10>第8名：神魂*2000<BR SPACING=10>第9名：神魂*2000<BR SPACING=10>第10名：神魂*2000]],
+			main_say = {[[第一句话]],[[第二句话]],[[第三句话]],},
+			right_say = [[回答正确，再接再厉!]],
+			wrong_say = [[回答错咯，继续加油!]],
+			overtime_say = [[回答错咯，继续加油!]],
+		},
+}

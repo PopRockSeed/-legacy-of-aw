@@ -1,0 +1,33 @@
+Config = Config or {}
+Config.cnfuniversalitem = {
+		[1] = {
+			rare = 1,
+			id = 4021,
+			name = "白色万能材料",
+			res_name = "lv",
+		},
+		[2] = {
+			rare = 2,
+			id = 4021,
+			name = "绿色万能材料",
+			res_name = "lv",
+		},
+		[3] = {
+			rare = 3,
+			id = 4022,
+			name = "蓝色万能材料",
+			res_name = "lan",
+		},
+		[4] = {
+			rare = 4,
+			id = 4023,
+			name = "紫色万能材料",
+			res_name = "zi",
+		},
+		[5] = {
+			rare = 5,
+			id = 4023,
+			name = "橙色万能材料",
+			res_name = "zi",
+		},
+}

@@ -1,0 +1,13 @@
+Config = Config or {}
+Config.cnfsoccershot = {
+		[1] = {
+			cosume_item = 4000,
+			socre_rate = 30,
+			score_point = 3,
+			score_reward = 20300,
+			lose_point = 1,
+			start_time = {2016,7,10,0,0,0,},
+			end_time = {2016,7,15,4,59,},
+			rank_reward = {{1,20301,},{2,20302,},{3,20303,},{4,20304,},{5,20305,},{10,20306,},{20,20307,},{50,20308,},{100,20309,},{200,20310,},},
+		},
+}

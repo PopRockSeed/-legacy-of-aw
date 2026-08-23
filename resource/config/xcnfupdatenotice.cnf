@@ -1,0 +1,19 @@
+
+GameConfig.CnfUpdateNotice=
+{
+    [1] = {
+        updateContent = {
+            {[[“武将卡”之“卡牌工坊”]], [[<COLOR VALUE=FFFFFF00>“武将卡”耀世登场，延伸武将传承，游戏内容再添新能量！</COLOR><BR><COLOR VALUE=FFFFFF00>功能开启</COLOR><BR><COLOR VALUE=FFFFFF00>玩家等级≥45级</COLOR>，完成任务<COLOR VALUE=FFFFFF00>“魔蝠乱舞”</COLOR>，即可开启！<BR><COLOR VALUE=FFFFFF00>功能位置</COLOR><BR>功能开启后，放置在<COLOR VALUE=FFFFFF00>“小助手”</COLOR>日常活动面板<COLOR VALUE=FFFFFF00>“武将卡”</COLOR>图标中。<BR><COLOR VALUE=FFFFFF00>功能说明</COLOR><BR>1.点选一张卡牌进行制作。<BR>2.制作卡牌消耗<COLOR VALUE=FFFF8A00>武将之尘</COLOR>。<BR>3.制作<COLOR VALUE=FF00FFFF>人杰包</COLOR>会消耗<COLOR VALUE=FF00FFFF>人界结晶</COLOR>；<BR>4.制作<COLOR VALUE=FFFB46FB>鬼灵包</COLOR>会消耗<COLOR VALUE=FFFB46FB>鬼灵结晶</COLOR>；<BR>5.制作<COLOR VALUE=FFFF8A00>天仙包</COLOR>会消耗<COLOR VALUE=FFFF8A00>天界结晶</COLOR>。<BR>6.<COLOR VALUE=FFFF8A00>武将之尘</COLOR>的消耗取决于卡牌的稀有度！<BR>7.制作卡牌和卡牌包所需材料可在游戏内商城、“守卫嫦娥”以及“天界宝库”内获得。]], },
+            {[[“武将卡”之“卡牌附身”]], [[<COLOR VALUE=FFFFFF00>做卡、集卡为哪般，“卡牌附身”得天祝！</COLOR><BR><COLOR VALUE=FFFFFF00>功能开启</COLOR><BR><COLOR VALUE=FFFFFF00>玩家等级≥45级</COLOR>，完成任务<COLOR VALUE=FFFFFF00>“魔蝠乱舞”</COLOR>，即可开启！<BR><COLOR VALUE=FFFFFF00>功能位置</COLOR><BR>功能开启后，放置在<COLOR VALUE=FFFFFF00>“小助手”</COLOR>日常活动面板<COLOR VALUE=FFFFFF00>“武将卡”</COLOR>图标中。<BR><COLOR VALUE=FFFFFF00>功能说明</COLOR><BR><COLOR VALUE=FFFFFF00>卡牌装备</COLOR><BR>1.玩家通过“卡牌工坊”制作卡牌，可在“卡牌附身”中选择卡牌进行装备；<BR>2.装备特定的卡牌，可提升队伍全部成员的属性。<BR><COLOR VALUE=FFFFFF00>卡牌升级</COLOR><BR>1.卡牌升级会消耗一定数量的同种类以及同等级的卡牌，同时也会消耗一定的材料；<BR>2.卡牌升级后，相应的附加属性也会得到提升。<BR><COLOR VALUE=FFFFFF00>套装效果</COLOR><BR>卡牌上不光有单一的附加属性，也有相应的套装属性，合理的搭配卡牌，可以使队伍获得最优的属性加成。]], },
+            {[[“恭贺新春”之“吃饺子”]], [[<COLOR VALUE=FFFFFF00>快到碗里来！新春活动第一弹“吃饺子”让您拿奖励拿到手软！</COLOR><BR><COLOR VALUE=FFFFFF00>功能位置</COLOR><BR>“小助手”定时活动界面<COLOR VALUE=FFFFFF00>“限时活动”</COLOR>按钮中。<BR><COLOR VALUE=FFFFFF00>玩法说明</COLOR><BR>1.快到我碗里来！在饺子落地前用碗将其接住。<BR>2.获得的所有饺子全部兑换成积分，积分可以兑换珍贵物品。<BR>3.被炸弹砸中会扣一滴血，游戏结算时剩余血量也会换成积分。<BR>4.游戏分为三个阶段，难度会逐步增加，中途退出会消耗一次游戏机会。<BR>5.最终结算时，1个饺子兑换1积分,1滴血兑换10积分。<BR>6.活动结束时会强制退出游戏，当前吃到的饺子不转换成积分，历史剩余积分转换为铜钱。]], },
+            {[[“恭贺新春”之“抢红包”]], [[<COLOR VALUE=FFFFFF00>财神来贺喜！新春活动第二弹“抢红包”让您拿红包拿到手软！</COLOR><BR><COLOR VALUE=FFFFFF00>功能位置</COLOR><BR>“小助手”定时活动界面<COLOR VALUE=FFFFFF00>“限时活动”</COLOR>按钮中。<BR><COLOR VALUE=FFFFFF00>玩法说明</COLOR><BR>1.活动时间内全服玩家均可免费领取红包。<BR>2.每次领取红包都会产生一条楼层信息，特殊楼层奖励更丰厚！<BR>3.特殊楼层有：8楼、88楼、188楼、388楼、888楼。<BR>4.楼层达到888楼后，会重新从1楼累计。<BR>5.每次领取红包都会产生CD时间，CD时间过后才能再次领取。]], },
+            {[[“秘境寻宝”之“天界宝库”]], [[<COLOR VALUE=FFFFFF00>恰逢新年，天帝感召上天之恩德，特开放天界宝库，供众仙寻宝探秘。</COLOR><BR><COLOR VALUE=FFFFFF00>功能开启</COLOR><BR><COLOR VALUE=FFFFFF00>玩家等级≥53级</COLOR>，完成任务<COLOR VALUE=FFFFFF00>“暗中指点”</COLOR>，即可开启！<BR><COLOR VALUE=FFFFFF00>功能位置</COLOR><BR>“小助手”日常活动界面<COLOR VALUE=FFFFFF00>“秘境寻宝”</COLOR>按钮中。<BR><COLOR VALUE=FFFFFF00>玩法说明</COLOR><BR>1.通过天界宝库可获得武将之尘、装备神铸材料、法宝升阶材料等各种稀有道具；<BR>2.可以选择不同的寻宝次数，次数越多出现好宝贝的几率越大；<BR>3.可以使用元宝或天令进行寻宝，天令的数量与寻宝次数统一才会自动使用；<BR>4.每次寻宝优先使用天令，天令不足时自动使用元宝；<BR>5.寻宝获得的物品自动掉入背包内。]], },
+            {[[“每日必做”优化]], [[1.完成<COLOR VALUE=FFFFFF00>“守卫嫦娥”</COLOR>日常任务获得的奖励调整为<COLOR VALUE=FFFFFF00>人界结晶</COLOR>，人界结晶可合成卡牌包<COLOR VALUE=FFFFFF00>“人杰包”</COLOR>；<BR>2.完成<COLOR VALUE=FFFFFF00>“连连乐”</COLOR>日常任务获得的奖励调整为<COLOR VALUE=FFFFFF00>“天令”</COLOR>，天令可用于在<COLOR VALUE=FFFFFF00>天帝宝库</COLOR>寻宝。]], },
+        },
+        bugContent = {[[<COLOR VALUE=FFFFFF00>我们一直在努力。</COLOR>]], },
+        lastVersion = 65,
+    },
+};
+
+
+

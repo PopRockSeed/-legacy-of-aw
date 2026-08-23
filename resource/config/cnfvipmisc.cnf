@@ -1,0 +1,7 @@
+Config = Config or {}
+Config.cnfvipmisc = {
+		[1] = {
+			vip_reward_all_param = {0.1,5,},
+			reward_all_vip_scale = 2,
+		},
+}

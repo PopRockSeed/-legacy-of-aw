@@ -1,0 +1,18 @@
+Config = Config or {}
+Config.cnfworldboss = {
+		[1] = {
+			def_attr_id = 51,
+			def_attr_id_percent = 50,
+			def_attr_add_cost = {10,15,20,25,30,35,40,45,50,55,},
+			atk_attr_id = 66,
+			atk_attr_id_percent = 50,
+			atk_attr_add_cost = {10,15,20,25,30,35,40,45,50,55,},
+			escape_time = 7200,
+			invite_cooltime = 600,
+			battle_cost = 2,
+			teleport_sale_time = {12,14,},
+			damage_doubel_time = {18,20,},
+			teleport_buy_cost = {100,100,150,150,200,200,250,250,300,300,350,350,400,400,400,400,},
+			desc = [[1.普通副本通关后有机会发现BOSS。<BR> <BR>2.单次击败BOSS后有单次奖励，并减少BOSS重生次数。<BR> <BR>3.BOSS重生次数耗尽后有击杀奖励（邮件发送），没有及时击杀不能获得哟~。<BR> <BR>4.可以邀请其他玩家帮忙击杀BOSS，击杀奖励按照玩家的击杀次数进行分配，多劳多得。<BR> <BR>]],
+		},
+}

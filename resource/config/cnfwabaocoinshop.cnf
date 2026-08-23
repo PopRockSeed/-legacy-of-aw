@@ -1,0 +1,51 @@
+Config = Config or {}
+Config.cnfwabaocoinshop = {
+		[1] = {
+			id = 1,
+			item_icon = "cultivate",
+			item_num = 30000,
+			item_price = 10,
+			item_name = "金币",
+			origin_price = 12,
+		},
+		[2] = {
+			id = 2,
+			item_icon = "shoujing",
+			item_num = 100000,
+			item_price = 30,
+			item_name = "金币",
+			origin_price = 40,
+		},
+		[3] = {
+			id = 3,
+			item_icon = "min",
+			item_num = 180000,
+			item_price = 50,
+			item_name = "金币",
+			origin_price = 72,
+		},
+		[4] = {
+			id = 4,
+			item_icon = "zhi",
+			item_num = 270000,
+			item_price = 70,
+			item_name = "金币",
+			origin_price = 108,
+		},
+		[5] = {
+			id = 5,
+			item_icon = "wan",
+			item_num = 420000,
+			item_price = 100,
+			item_name = "金币",
+			origin_price = 168,
+		},
+		[6] = {
+			id = 6,
+			item_icon = "wan",
+			item_num = 680000,
+			item_price = 150,
+			item_name = "金币",
+			origin_price = 272,
+		},
+}

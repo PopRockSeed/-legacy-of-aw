@@ -1,0 +1,13 @@
+Config = Config or {}
+Config.cnftrialtruce = {
+		[1] = {
+			truce_type = 1,
+			truce_cost = 30,
+			truce_time = 1,
+		},
+		[2] = {
+			truce_type = 2,
+			truce_cost = 300,
+			truce_time = 24,
+		},
+}

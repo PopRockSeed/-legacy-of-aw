@@ -1,0 +1,38 @@
+Config = Config or {}
+Config.cnftangyuanreward = {
+		[1] = {
+			id = 1,
+			num = 100,
+			reward_id = 4811,
+		},
+		[2] = {
+			id = 2,
+			num = 200,
+			reward_id = 4812,
+		},
+		[3] = {
+			id = 3,
+			num = 300,
+			reward_id = 4813,
+		},
+		[4] = {
+			id = 4,
+			num = 500,
+			reward_id = 4814,
+		},
+		[5] = {
+			id = 5,
+			num = 800,
+			reward_id = 4815,
+		},
+		[6] = {
+			id = 6,
+			num = 1100,
+			reward_id = 4816,
+		},
+		[7] = {
+			id = 7,
+			num = 1500,
+			reward_id = 4817,
+		},
+}
