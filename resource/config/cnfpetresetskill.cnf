@@ -1,0 +1,8 @@
+Config = Config or {}
+Config.cnfpetresetskill = {
+		[1] = {
+			cost = {3850,5,},
+			cost2 = {3851,1,5,},
+			help_desc = "1、刷新宠物技能每次需要消耗若干个宠物刷新石<BR> <BR>2、使用宠物祝福石可以提高宠物技能刷新的成功率",
+		},
+}

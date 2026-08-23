@@ -1,0 +1,7 @@
+Config = Config or {}
+Config.cnfroutineprogressreward = {
+		[1] = {
+			id = 1,
+			reward_id = 6041,
+		},
+}
