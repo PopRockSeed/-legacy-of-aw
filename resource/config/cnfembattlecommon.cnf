@@ -1,8 +1,0 @@
-Config = Config or {}
-Config.cnfembattlecommon = {
-		[1] = {
-			huyou_open_level = 50,
-			huyou_item_id = {3785,3786,3787,},
-			huyou_rule = "1 拖动宠物至护佑阵位上，宠物即进入护佑状态；<BR SPACING=10>2 护佑宠物的属性，将通过护佑水晶自动附加到所有伙伴身上；<BR SPACING=10>3 每个护佑阵位只能转化特定的属性类型；<BR SPACING=10>4 护佑水晶等级越高，转化属性的比例越高；",
-		},
-}

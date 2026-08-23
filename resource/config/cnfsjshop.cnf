@@ -1,8 +1,0 @@
-Config = Config or {}
-Config.cnfsjshop = {
-		[1] = {
-			shop_type = 1,
-			position = 1,
-			item_list = {{100,3601,1,13,20,},{100,3602,1,13,40,},},
-		},
-}

@@ -1,9 +1,0 @@
-Config = Config or {}
-Config.cnfwabaoparam = {
-		[1] = {
-			base_coin = 30000,
-			linear_param = 50,
-			level_power = 1.2,
-			count_power = 0.2,
-		},
-}

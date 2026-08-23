@@ -1,8 +1,0 @@
-Config = Config or {}
-Config.cnftreasuremisc = {
-		[1] = {
-			draw_10_cost = 95,
-			draw_50_cost = 450,
-			luck_max_list = {1300,600,500,},
-		},
-}

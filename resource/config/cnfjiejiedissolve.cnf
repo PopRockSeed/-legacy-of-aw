@@ -1,7 +1,0 @@
-Config = Config or {}
-Config.cnfjiejiedissolve = {
-		[1] = {
-			describe_dissolve = [[1.结界材料熔解后会消失，请多加注意；<BR SPACING=10>2.材料越珍稀，熔解后获得的神力值越多；]],
-			open_level = 60,
-		},
-}

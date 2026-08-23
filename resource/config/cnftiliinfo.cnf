@@ -1,9 +1,0 @@
-Config = Config or {}
-Config.cnftiliinfo = {
-		[1] = {
-			refresh_time = 300,
-			initial_tili = 60,
-			buy_value_once = 100,
-			presented_tili_value = 50,
-		},
-}

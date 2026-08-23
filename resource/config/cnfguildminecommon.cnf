@@ -1,7 +1,0 @@
-Config = Config or {}
-Config.cnfguildminecommon = {
-		[1] = {
-			roll_cost = {0,30,30,50,50,50,80,80,80,80,},
-			rule = [[1.投掷骰子可获得移动步数；<BR SPACING=10>2.移动至格子会触发相应的事件；<BR SPACING=10>3.公会成员均可在第二天领取公共奖励；<BR SPACING=10>4.加入公会当天不能领取昨日奖励；]],
-		},
-}

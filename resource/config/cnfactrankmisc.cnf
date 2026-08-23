@@ -1,7 +1,0 @@
-Config = Config or {}
-Config.cnfactrankmisc = {
-		[1] = {
-			rank_time_len = 7,
-			reward_time_len = 2,
-		},
-}

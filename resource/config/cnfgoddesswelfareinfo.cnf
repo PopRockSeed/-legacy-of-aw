@@ -1,9 +1,0 @@
-Config = Config or {}
-Config.cnfgoddesswelfareinfo = {
-		[1] = {
-			once_gold = 68,
-			get_all_gold = 150,
-			goddess_level = {{0,1,},{50,2,},{200,3,},{900,4,},},
-			goddess_tips = {[[获得爱心后，我们的亲密度就会增加啦~]],[[亲密度达到条件，奖励会翻倍哟~]],[[最高奖励倍数为4，要多多加油哟~]],[[界面上显示的奖励数量为翻倍后的最终奖励哟~]],},
-		},
-}

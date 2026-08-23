@@ -1,6 +1,0 @@
-Config = Config or {}
-Config.cnfkfdescribe = {
-		[1] = {
-			exchange_describe = [[<COLOR VALUE=FFFF0000>活动时间:</COLOR><COLOR VALUE=FF442c20>新服开服后至礼包激活码领完为止</COLOR><BR><COLOR VALUE=FFFF0000>活动说明:</COLOR><COLOR VALUE=FF442c20>新服开启后，凡是加入到我们游戏的玩家，都可以通过论坛、媒体专区等途径获得一个价值<COLOR VALUE=FF00BFFF OUTLINE=FFF5F5F5>200钻石</COLOR>的新手礼包。</COLOR>]],
-		},
-}

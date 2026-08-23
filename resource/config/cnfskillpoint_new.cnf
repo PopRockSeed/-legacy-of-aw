@@ -1,7 +1,0 @@
-Config = Config or {}
-Config.cnfskillpoint_new = {
-		[1] = {
-			refresh_time = 300,
-			buy_point = 10,
-		},
-}
