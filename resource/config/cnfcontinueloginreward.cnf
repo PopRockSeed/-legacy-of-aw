@@ -1,0 +1,31 @@
+Config = Config or {}
+Config.cnfcontinueloginreward = {
+		[1] = {
+			day_num = 1,
+			reward_id = 9101,
+		},
+		[2] = {
+			day_num = 2,
+			reward_id = 9102,
+		},
+		[3] = {
+			day_num = 3,
+			reward_id = 9103,
+		},
+		[4] = {
+			day_num = 4,
+			reward_id = 9104,
+		},
+		[5] = {
+			day_num = 5,
+			reward_id = 9105,
+		},
+		[6] = {
+			day_num = 6,
+			reward_id = 9106,
+		},
+		[7] = {
+			day_num = 7,
+			reward_id = 9107,
+		},
+}

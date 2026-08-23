@@ -1,0 +1,10 @@
+Config = Config or {}
+Config.cnfcoinfbinfo = {
+		[1] = {
+			record_id = 3001,
+			cool_time = 600,
+			team_level = 18,
+			day_count = 2,
+			tili = 10,
+		},
+}

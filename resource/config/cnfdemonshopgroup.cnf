@@ -1,0 +1,38 @@
+Config = Config or {}
+Config.cnfdemonshopgroup = {
+		[1] = {
+			id = 1,
+			rank = 27,
+			level = 1,
+			icon = "lv1",
+			name = "青铜组",
+		},
+		[2] = {
+			id = 2,
+			rank = 22,
+			level = 1,
+			icon = "lv2",
+			name = "白银组",
+		},
+		[3] = {
+			id = 3,
+			rank = 17,
+			level = 1,
+			icon = "lv3",
+			name = "黄金组",
+		},
+		[4] = {
+			id = 4,
+			rank = 12,
+			level = 1,
+			icon = "lv4",
+			name = "白金组",
+		},
+		[5] = {
+			id = 5,
+			rank = 7,
+			level = 1,
+			icon = "lv5",
+			name = "钻石组",
+		},
+}

@@ -1,0 +1,43 @@
+Config = Config or {}
+Config.cnfarenascramblecount = {
+		[1] = {
+			count = 1,
+			consume = 20,
+		},
+		[2] = {
+			count = 2,
+			consume = 20,
+		},
+		[3] = {
+			count = 3,
+			consume = 50,
+		},
+		[4] = {
+			count = 4,
+			consume = 50,
+		},
+		[5] = {
+			count = 5,
+			consume = 100,
+		},
+		[6] = {
+			count = 6,
+			consume = 100,
+		},
+		[7] = {
+			count = 7,
+			consume = 100,
+		},
+		[8] = {
+			count = 8,
+			consume = 100,
+		},
+		[9] = {
+			count = 9,
+			consume = 100,
+		},
+		[10] = {
+			count = 10,
+			consume = 100,
+		},
+}

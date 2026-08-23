@@ -1,0 +1,14 @@
+Config = Config or {}
+Config.cnfawaken = {
+		[1] = {
+			shapeshift_limit_level = 5,
+			shapeshift_limit_stage = 0,
+			awaken_max_level = 8,
+			awaken_max_stage = 8,
+			open_level = 50,
+			msj_price = 1,
+			msj_tips_percent = 1000,
+			jieni_price = 1,
+			jieni_tips_percent = 1000,
+		},
+}

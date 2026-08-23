@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnfdailymisc = {
+		[1] = {
+			daily_map_scroll = 1700,
+		},
+}

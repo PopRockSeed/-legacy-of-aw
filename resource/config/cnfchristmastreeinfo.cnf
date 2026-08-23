@@ -1,0 +1,13 @@
+Config = Config or {}
+Config.cnfchristmastreeinfo = {
+		[1] = {
+			one_price = 136,
+			ten_price = 1224,
+			every_time_score = 1,
+			reward_delay_time = 1,
+			tree_score = {0,500,1000,},
+			deposit_num = 100,
+			description = [[1.玩家每天将获得一次免费许愿的机会；<BR SPACING=10>2.每次许愿将累计1点积分；<BR SPACING=10>3.活动结束后，积分排行前10的玩家将获得珍稀奖励；<BR SPACING=10>4.圣诞树每隔1小时会掉落礼物；<BR SPACING=10>5.该活动获得道具都将放置在礼物箱，需领取后才收入背包；<BR SPACING=10>6.活动结束后，系统自动将礼物箱物品领取至背包；]],
+			rand_desc = [[第1名：奥达斯魂石*20、圣诞雪花*800、圣诞铃铛*100、圣诞糖果*100<BR SPACING=10>第2名：奥达斯魂石*15、圣诞雪花*500、圣诞铃铛*80、圣诞糖果*80<BR SPACING=10>第3名：奥达斯魂石*10、圣诞雪花*400、圣诞铃铛*80<BR SPACING=10>第4名：圣诞姬魂石*15、圣诞雪花*300、圣诞铃铛*50<BR SPACING=10>第5名：圣诞姬魂石*12、圣诞雪花*200<BR SPACING=10>第6名：圣诞姬魂石*10、圣诞雪花*100<BR SPACING=10>第7名：圣诞乔巴魂石*10<BR SPACING=10>第8名：圣诞乔巴魂石*5<BR SPACING=10>第9名：神力袋*20<BR SPACING=10>第10名：神力袋*15]],
+		},
+}

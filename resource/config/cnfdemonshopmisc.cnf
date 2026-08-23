@@ -1,0 +1,7 @@
+Config = Config or {}
+Config.cnfdemonshopmisc = {
+		[1] = {
+			refresh_type = 1,
+			refresh_time = 60,
+		},
+}

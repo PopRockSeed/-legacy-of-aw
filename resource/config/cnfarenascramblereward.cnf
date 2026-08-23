@@ -1,0 +1,83 @@
+Config = Config or {}
+Config.cnfarenascramblereward = {
+		[1] = {
+			rank_idx = 1,
+			reward_id = 20500,
+		},
+		[2] = {
+			rank_idx = 2,
+			reward_id = 20501,
+		},
+		[3] = {
+			rank_idx = 3,
+			reward_id = 20502,
+		},
+		[4] = {
+			rank_idx = 4,
+			reward_id = 20503,
+		},
+		[5] = {
+			rank_idx = 5,
+			reward_id = 20504,
+		},
+		[6] = {
+			rank_idx = 6,
+			reward_id = 20505,
+		},
+		[7] = {
+			rank_idx = 11,
+			reward_id = 20506,
+		},
+		[8] = {
+			rank_idx = 21,
+			reward_id = 20507,
+		},
+		[9] = {
+			rank_idx = 51,
+			reward_id = 20508,
+		},
+		[10] = {
+			rank_idx = 101,
+			reward_id = 20509,
+		},
+		[11] = {
+			rank_idx = 201,
+			reward_id = 20510,
+		},
+		[12] = {
+			rank_idx = 301,
+			reward_id = 20511,
+		},
+		[13] = {
+			rank_idx = 401,
+			reward_id = 20512,
+		},
+		[14] = {
+			rank_idx = 501,
+			reward_id = 20513,
+		},
+		[15] = {
+			rank_idx = 601,
+			reward_id = 20514,
+		},
+		[16] = {
+			rank_idx = 1001,
+			reward_id = 20515,
+		},
+		[17] = {
+			rank_idx = 2001,
+			reward_id = 20516,
+		},
+		[18] = {
+			rank_idx = 3001,
+			reward_id = 20517,
+		},
+		[19] = {
+			rank_idx = 4001,
+			reward_id = 20518,
+		},
+		[20] = {
+			rank_idx = 5001,
+			reward_id = 20519,
+		},
+}
