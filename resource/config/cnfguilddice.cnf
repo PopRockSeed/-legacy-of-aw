@@ -1,0 +1,45 @@
+Config = Config or {}
+Config.cnfguilddice = {
+		[1] = {
+			num = 1,
+			rate = 1,
+			score = 100,
+			res = "sha",
+			pos = {-330,-180,},
+		},
+		[2] = {
+			num = 2,
+			rate = 1,
+			score = 150,
+			res = "yun",
+			pos = {-210,-160,},
+		},
+		[3] = {
+			num = 3,
+			rate = 1,
+			score = 200,
+			res = "yin",
+			pos = {-270,-230,},
+		},
+		[4] = {
+			num = 4,
+			rate = 1,
+			score = 250,
+			res = "yan",
+			pos = {-120,-170,},
+		},
+		[5] = {
+			num = 5,
+			rate = 1,
+			score = 300,
+			res = "wu",
+			pos = {-40,-160,},
+		},
+		[6] = {
+			num = 6,
+			rate = 1,
+			score = 450,
+			res = "muye",
+			pos = {-150,-230,},
+		},
+}

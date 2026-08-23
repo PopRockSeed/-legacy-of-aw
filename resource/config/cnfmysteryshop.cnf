@@ -1,0 +1,23 @@
+Config = Config or {}
+Config.cnfmysteryshop = {
+		[1] = {
+			count = 1,
+			consume = 20,
+		},
+		[2] = {
+			count = 2,
+			consume = 20,
+		},
+		[3] = {
+			count = 3,
+			consume = 20,
+		},
+		[4] = {
+			count = 4,
+			consume = 20,
+		},
+		[5] = {
+			count = 5,
+			consume = 20,
+		},
+}

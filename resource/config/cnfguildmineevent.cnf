@@ -1,0 +1,108 @@
+Config = Config or {}
+Config.cnfguildmineevent = {
+		[1] = {
+			id = 1,
+			event_type = 1,
+			param = {},
+		},
+		[2] = {
+			id = 2,
+			event_type = 5,
+			param = {2801,},
+		},
+		[3] = {
+			id = 3,
+			event_type = 7,
+			param = {2802,},
+		},
+		[4] = {
+			id = 4,
+			event_type = 3,
+			param = {},
+		},
+		[5] = {
+			id = 5,
+			event_type = 4,
+			param = {100,2803,},
+		},
+		[6] = {
+			id = 6,
+			event_type = 5,
+			param = {2801,},
+		},
+		[7] = {
+			id = 7,
+			event_type = 6,
+			param = {3,},
+		},
+		[8] = {
+			id = 8,
+			event_type = 7,
+			param = {2802,},
+		},
+		[9] = {
+			id = 9,
+			event_type = 3,
+			param = {},
+		},
+		[10] = {
+			id = 10,
+			event_type = 4,
+			param = {100,2803,},
+		},
+		[11] = {
+			id = 11,
+			event_type = 5,
+			param = {2801,},
+		},
+		[12] = {
+			id = 12,
+			event_type = 6,
+			param = {3,},
+		},
+		[13] = {
+			id = 13,
+			event_type = 3,
+			param = {},
+		},
+		[14] = {
+			id = 14,
+			event_type = 7,
+			param = {2802,},
+		},
+		[15] = {
+			id = 15,
+			event_type = 6,
+			param = {6,},
+		},
+		[16] = {
+			id = 16,
+			event_type = 4,
+			param = {100,2803,},
+		},
+		[17] = {
+			id = 17,
+			event_type = 3,
+			param = {},
+		},
+		[18] = {
+			id = 18,
+			event_type = 5,
+			param = {2801,},
+		},
+		[19] = {
+			id = 19,
+			event_type = 8,
+			param = {2802,},
+		},
+		[20] = {
+			id = 20,
+			event_type = 3,
+			param = {},
+		},
+		[21] = {
+			id = 21,
+			event_type = 2,
+			param = {},
+		},
+}

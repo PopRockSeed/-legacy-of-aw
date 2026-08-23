@@ -1,0 +1,39 @@
+Config = Config or {}
+Config.cnfkfjijinshibei = {
+		[1] = {
+			idx = 1,
+			condition = 10,
+			reward_id = 11101,
+			title_describe = [[战队等级达到10级，即可领取:]],
+		},
+		[2] = {
+			idx = 2,
+			condition = 25,
+			reward_id = 11102,
+			title_describe = [[战队等级达到25级，即可领取:]],
+		},
+		[3] = {
+			idx = 3,
+			condition = 35,
+			reward_id = 11103,
+			title_describe = [[战队等级达到35级，即可领取:]],
+		},
+		[4] = {
+			idx = 4,
+			condition = 45,
+			reward_id = 11104,
+			title_describe = [[战队等级达到45级，即可领取:]],
+		},
+		[5] = {
+			idx = 5,
+			condition = 55,
+			reward_id = 11105,
+			title_describe = [[战队等级达到55级，即可领取:]],
+		},
+		[6] = {
+			idx = 6,
+			condition = 60,
+			reward_id = 11106,
+			title_describe = [[战队等级达到60级，即可领取:]],
+		},
+}

@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnffbsaodang = {
+		[1] = {
+			saodangquan = 5005,
+		},
+}

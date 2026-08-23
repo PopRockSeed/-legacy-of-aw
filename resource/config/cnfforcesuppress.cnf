@@ -1,0 +1,108 @@
+Config = Config or {}
+Config.cnfforcesuppress = {
+		[1] = {
+			force_interval = 100000,
+			deeper_factor = 0.00,
+			jianmian_factor = 0.00,
+		},
+		[2] = {
+			force_interval = 200000,
+			deeper_factor = 0.02,
+			jianmian_factor = 0.02,
+		},
+		[3] = {
+			force_interval = 300000,
+			deeper_factor = 0.03,
+			jianmian_factor = 0.03,
+		},
+		[4] = {
+			force_interval = 400000,
+			deeper_factor = 0.05,
+			jianmian_factor = 0.05,
+		},
+		[5] = {
+			force_interval = 500000,
+			deeper_factor = 0.07,
+			jianmian_factor = 0.07,
+		},
+		[6] = {
+			force_interval = 600000,
+			deeper_factor = 0.08,
+			jianmian_factor = 0.08,
+		},
+		[7] = {
+			force_interval = 700000,
+			deeper_factor = 0.10,
+			jianmian_factor = 0.10,
+		},
+		[8] = {
+			force_interval = 800000,
+			deeper_factor = 0.12,
+			jianmian_factor = 0.12,
+		},
+		[9] = {
+			force_interval = 900000,
+			deeper_factor = 0.13,
+			jianmian_factor = 0.13,
+		},
+		[10] = {
+			force_interval = 1000000,
+			deeper_factor = 0.15,
+			jianmian_factor = 0.15,
+		},
+		[11] = {
+			force_interval = 1100000,
+			deeper_factor = 0.17,
+			jianmian_factor = 0.17,
+		},
+		[12] = {
+			force_interval = 1200000,
+			deeper_factor = 0.18,
+			jianmian_factor = 0.18,
+		},
+		[13] = {
+			force_interval = 1300000,
+			deeper_factor = 0.20,
+			jianmian_factor = 0.20,
+		},
+		[14] = {
+			force_interval = 1400000,
+			deeper_factor = 0.21,
+			jianmian_factor = 0.21,
+		},
+		[15] = {
+			force_interval = 1500000,
+			deeper_factor = 0.23,
+			jianmian_factor = 0.23,
+		},
+		[16] = {
+			force_interval = 1600000,
+			deeper_factor = 0.25,
+			jianmian_factor = 0.25,
+		},
+		[17] = {
+			force_interval = 1700000,
+			deeper_factor = 0.26,
+			jianmian_factor = 0.26,
+		},
+		[18] = {
+			force_interval = 1800000,
+			deeper_factor = 0.28,
+			jianmian_factor = 0.28,
+		},
+		[19] = {
+			force_interval = 1900000,
+			deeper_factor = 0.30,
+			jianmian_factor = 0.30,
+		},
+		[20] = {
+			force_interval = 2000000,
+			deeper_factor = 0.31,
+			jianmian_factor = 0.31,
+		},
+		[21] = {
+			force_interval = 2100000,
+			deeper_factor = 0.33,
+			jianmian_factor = 0.33,
+		},
+}

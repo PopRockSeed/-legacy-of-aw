@@ -1,0 +1,7 @@
+Config = Config or {}
+Config.cnfhunxiainfo = {
+		[1] = {
+			sacred_consume = 400,
+			hunxia_call_count = 6,
+		},
+}
