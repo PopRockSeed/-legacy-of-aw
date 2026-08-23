@@ -1,0 +1,8 @@
+Config = Config or {}
+Config.cnfworshipinfo = {
+		[1] = {
+			worship_count = 3301,
+			refresh_count = 3302,
+			refresh_cost = 10,
+		},
+}

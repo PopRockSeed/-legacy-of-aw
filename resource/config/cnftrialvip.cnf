@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnftrialvip = {
+		[1] = {
+			describe_text = [[<COLOR VALUE=442C0C>1、VIP试用期间可以享受相应的VIP功能，但无法领取VIP礼包。<BR>2、真实VIP等级超过试用VIP等级时，试用VIP自动失效。]],
+		},
+}

@@ -1,0 +1,1264 @@
+Config = Config or {}
+
+Config.motion = {}
+
+-----------------------------------------------------------------------------
+-- Buff用动作 beg -- >>
+-- 播放一次骨骼(身上Buff动画)
+Config.motion[1] = {
+	--{ start=0, fun="off", x=0, y=-50 },
+	{ start=0, fun="play_spine", key="animation", loop=false, wait=true },
+	{ start=0, fun="end" },
+}
+
+-- 显现放大，重复（头顶图片动画）
+Config.motion[2] = {
+	{ start=0, fun="off", x=0, y=32 },
+	{ start=0, fun="scale", factor=0.6 },
+	{ start=0, fun="opacity", factor=64 },
+	{ start=0, fun="fade_in", time=0.8 },
+	{ start=0.2, fun="scale_to", time=0.8, factor=1 },
+
+	{ start=1, fun="fade_to", opacity=128, time=0.8 },
+	{ start=1.2, fun="scale_to", time=0.8, factor=0.8 },
+	{ start=2, fun="fade_to", opacity=255, time=0.8 },
+	{ start=2.2, fun="scale_to", time=0.8, factor=1 },	
+    { start=3, fun="repeat", back=4, time_diff=0.5 },
+}
+
+-- 上升消失（头顶图片动画）
+Config.motion[3] = {
+	{ start=0, fun="scale", factor=0.6 },
+	{ start=0, fun="off", x=0, y=10 },
+	{ start=0, fun="scale_to", time=0.5, factor=1 },
+	{ start=0.2, fun="move_by", time=1, x=0, y=40 },
+	{ start=1.7, fun="fade_out", time=0.5 },
+	{ start=2.3, fun="end" },
+}
+
+
+-- 循环播放骨骼（头顶骨骼动画）
+Config.motion[4] = {
+	{ start=0, fun="play_spine", key="animation", loop=true },
+}
+
+-- 循环播放骨骼动作a一次，然后循环动作b(buff 31格挡提升 动作有问题~~~)
+Config.motion[5] = {
+	{ start=0, fun="play_spine", key="animationa", loop=false, wait=true },
+	{ start=0, fun="off", x=0, y=40 },
+	{ start=0, fun="fade_to", opacity=128, time=0.8 },
+	{ start=0.8, fun="play_spine", key="animationb", loop=true },
+}
+
+-- 有小到大，旋转(buff 9 沉默)
+Config.motion[6] = {
+	{ start=0, fun="anchor", x=0, y=0 },
+	{ start=0, fun="off", x=30, y=-10 },
+	{ start=0, fun="rotate", angle=90 },
+	{ start=0, fun="scale", factor=0.1 },
+	{ start=0, fun="rotate_by", time=0.2, angle=-90 },
+	{ start=0, fun="scale_to", time=0.2, factor=1 },
+}
+
+-- buff 28 物甲穿透
+Config.motion[7] = {
+    { start=0, fun="off", x=0, y=27 },
+	{ start=0.5, fun="play_spine", key="animationa", loop=false, wait=true },
+	{ start=0, fun="play_spine", key="animationab", loop=true },
+}
+
+-- 循环播放骨骼（头顶骨骼动画） 中偏下
+Config.motion[8] = {
+	{ start=0, fun="off", x=0, y=-30 },
+	{ start=0, fun="play_spine", key="animation", loop=true },
+}
+
+-- 显现放大，重复（底部图片动画）
+Config.motion[9] = {
+	{ start=0, fun="scale", factor=0.6 },
+	{ start=0, fun="opacity", factor=32 },
+	{ start=0, fun="fade_in", time=0.8 },
+	{ start=0.2, fun="scale_to", time=0.8, factor=1 },
+	{ start=1.0, fun="repeat", back=2 },
+}
+
+
+-- 只播放一个动画，攻击提升
+Config.motion[10] = {
+   { start=0, fun="play_spine", key="animation", loop=false, wait=true },
+   { start=0, fun="end" },
+}
+
+-- 循环播放骨骼动作a一次，然后循环动作b(buff 31格挡提升 动作有问题~~~)，攻速专用
+Config.motion[11] = {
+	{ start=0, fun="off", x=0, y=-130 },
+	{ start=0, fun="play_spine", key="animation", loop=false, wait=true },
+	{ start=0, fun="play_spine", key="animation2", loop=true },
+}
+
+
+-- 循环播放骨骼（变羊）
+Config.motion[12] = {
+	{ start=0, fun="play_spine", key="idle", loop=true },
+	{ start=0, fun="scale", factor=0.5 },
+
+}
+
+
+-- 循环播放骨骼（头顶骨骼动画），眩晕专用，只有一个动画循环
+Config.motion[13] = {
+    { start=0, fun="off", x=0, y=-130 },
+	{ start=0, fun="play_spine", key="animation", loop=true },
+}
+
+
+-- 循环播放骨骼动作a一次，然后循环动作b(buff 31格挡提升 动作有问题~~~)，在脚下的buff专用
+Config.motion[14] = {
+	{ start=0, fun="play_spine", key="animation", loop=false, wait=true },
+	{ start=0, fun="play_spine", key="animation2", loop=true },
+}
+
+
+-- 冰冻buff专用
+Config.motion[15] = {
+	{ start=0, fun="off", x=0, y=70 },
+}
+
+-- 循环播放骨骼（免疫buff类）
+Config.motion[16] = {
+    { start=0, fun="off", x=0, y=40 },
+	{ start=0, fun="play_spine", key="animation", loop=true },
+}
+
+-- 循环播放骨骼（头顶骨骼动画）（妖精盾专用）
+Config.motion[17] = {
+	{ start=0, fun="play_spine", key="animation", loop=true },
+	{ start=0, fun="off", x=0, y=-30 },
+}
+
+-- 循环播放骨骼（头顶骨骼动画）（雪怪专用）
+Config.motion[18] = {
+	{ start=0, fun="play_spine", key="animation", loop=true },
+	{ start=0, fun="scale", factor=1.5 },
+}
+-- Buff用动作 end << --
+-----------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------
+-- 战斗结算用动作 beg -- >>
+
+-----------------------------
+-- 胜利结算动画
+
+-- 光效
+Config.motion[101] = {
+	{ start=0.5, fun="visible", visible=true },
+}
+
+-- 底框
+Config.motion[102] = {
+	{ start=0, fun="off", x=0, y=320 },
+	{ start=0, fun="visible", visible=true },
+	{ start=0, fun="move_by", time=0.2, x=0, y=-320 },
+}
+
+-- 经验底框
+Config.motion[103] = {
+	{ start=0.2, fun="visible", visible=true },
+}
+-- 金币底框
+Config.motion[104] = {
+	{ start=0.2, fun="visible", visible=true },
+}
+-- 等级
+Config.motion[105] = {
+	{ start=0.5, fun="visible", visible=true },
+}
+
+-- 等级值
+Config.motion[106] = {
+	{ start=0.5, fun="visible", visible=true },
+	{ start=0.6, fun="user_fun" },
+}
+
+
+-- 团队经验条
+Config.motion[107] = {
+	{ start=0.5, fun="visible", visible=true },
+	{ start=0.5, fun="user_fun" },
+}
+
+-- 团队经验
+Config.motion[108] = {
+	{ start=0.5, fun="visible", visible=true},
+	{ start=0.6, fun="user_fun" },
+}
+-- 金币标签
+Config.motion[109] = {
+	{ start=0.1, fun="visible", visible=true },
+}
+-- 金币
+Config.motion[110] = {
+	{ start=0.5, fun="visible", visible=true },
+	{ start=0.6, fun="user_fun" },
+}
+
+-- 物品标签框
+Config.motion[112] = {
+	{ start=0.1, fun="visible", visible=true },
+}
+-- 物品标签
+Config.motion[113] = {
+	{ start=0.5, fun="visible", visible=true },
+}
+
+-- 绸缎
+Config.motion[114] = {
+	{ start=0.2, fun="visible", visible=true },
+}
+
+-- 胜利头像
+Config.motion[121] = {
+	{ start=0, fun="off", x=50, y=0 },
+	{ start=0.6, fun="visible", visible=true }, 
+	{ start=0.6, fun="move_by", time=0.1, x=-50, y=0 },
+	{ start=0.7, fun="user_fun" },
+	inter = 0.1,
+}
+
+-- 胜利奖励物品
+Config.motion[131] = {
+	{ start=0, fun="off", x=60, y=0 },
+	{ start=0.8, fun="visible", visible=true },
+	{ start=0.8, fun="move_by", time=0.1, x=-70, y=0 },
+	{ start=0.9, fun="move_by", time=0.05, x=10, y=0 },
+	inter = 0.1,
+}
+
+-- 胜利文字
+Config.motion[140] = {
+	{ start=0, fun="scale", factor=3 },
+	{ start=0.6, fun="visible", visible=true },
+	{ start=0.6, fun="scale_to", time=0.1, factor=1 },
+}
+
+-- 胜利星星1
+Config.motion[141] = {
+	{ start=0, fun="scale", factor=3 },
+	{ start=0.6, fun="visible", visible=true },
+	{ start=0.6, fun="scale_to", time=0.1, factor=1 },
+	{ start=0.7, fun="user_fun" },
+}
+-- 胜利星星2
+Config.motion[142] = {
+	{ start=0, fun="scale", factor=3 },
+	{ start=1, fun="visible", visible=true },
+	{ start=0.8, fun="scale_to", time=0.1, factor=1 },
+	{ start=0.9, fun="user_fun" },
+}
+-- 胜利星星3
+Config.motion[143] = {
+	{ start=0, fun="scale", factor=3 },
+	{ start=1.4, fun="visible", visible=true },
+	{ start=1, fun="scale_to", time=0.1, factor=1 },
+	{ start=1.1, fun="user_fun" },
+}
+
+-- 金币试炼 标签
+Config.motion[144] = {
+	{ start=0, fun="off", x=60, y=0 },
+	{ start=0.8, fun="visible", visible=true },
+	{ start=0.8, fun="move_by", time=0.1, x=-70, y=0 },
+	{ start=0.95, fun="move_by", time=0.05, x=10, y=0 },
+}
+
+-- 金币试炼 滚动数字
+Config.motion[145] = {
+	{ start=0, fun="off", x=60, y=0 },
+	{ start=0.8, fun="visible", visible=true },
+	{ start=0.8, fun="move_by", time=0.1, x=-70, y=0 },
+	{ start=0.95, fun="move_by", time=0.05, x=10, y=0 },
+	{ start=1, fun="user_fun" },
+}
+
+-----------------------------
+-- 失败结算动画
+
+-- 白色背景框
+Config.motion[151] = {
+	{ start=0, fun="off", x=0, y=320 },
+	{ start=0, fun="visible", visible=true },
+	{ start=0, fun="move_by", time=0.2, x=0, y=-320 },
+}
+-- 失败文字
+Config.motion[152] = {
+	{ start=0, fun="scale", factor=3 },
+	{ start=0.6, fun="visible", visible=true },
+	{ start=0.6, fun="scale_to", time=0.1, factor=1 },
+}
+
+-- 升级建议图标1
+Config.motion[161] = {
+	{ start=0.8, fun="visible", visible=true },
+}
+-- 升级建议图标2
+Config.motion[162] = {
+	{ start=0.8, fun="visible", visible=true },
+}
+
+-----------------------------
+-- 结算菜单按钮动画
+
+-- 再次挑战
+Config.motion[171] = {
+	{ start=1.5, fun="visible", visible=true },
+}
+-- 战斗数据
+Config.motion[172] = {
+	{ start=1.5, fun="visible", visible=true },
+}
+-- 确定
+Config.motion[173] = {
+	{ start=1.5, fun="visible", visible=true },
+}
+
+
+-- 战斗结算用动作 end << --
+-----------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------------------
+-- 战斗下一关箭头动画
+Config.motion[201] = {
+	{ start=0.2, fun="scale_to", time=0.8, factor=1.5 },
+	{ start=0.2, fun="move_by", time=0.6, x=30, y=0 },
+	{ start=1, fun="scale_to", time=0.8, factor=1.3 },
+	{ start=1, fun="move_by", time=0.8, x=-30, y=0 },
+	{ start=1.8, fun="repeat" },	
+}
+
+
+-----------------------------------------------------------------------------
+-- 弹属性动作id
+Config.motion[211] = {
+	{ start=0.2, fun="move_by", time=0.5, x=0, y=40 },
+	{ start=0.5, fun="fade_out", time=0.3 },
+	{ start=1, fun="end" },
+}
+
+-- 弹属性动作id 快
+Config.motion[212] = {
+	{ start=0.05, fun="move_by", time=0.15, x=0, y=60 },
+	{ start=0.2, fun="fade_out", time=0.15 },
+	{ start=0.5, fun="end" },
+}
+
+-- 技能升级弹属性
+Config.motion[213] = {
+	{ start=0.2, fun="move_by", time=0.5, x=0, y=40 },
+	{ start=0.5, fun="fade_out", time=0.3 },
+	{ start=0.5, fun="scale_to", time=0.3, factor=0.6 },
+	{ start=1, fun="end" },
+}
+
+-- 技能升级弹属性
+Config.motion[214] = {
+	{ start=0.2, fun="move_by", time=0.5, x=0, y=80 },
+	{ start=0.5, fun="fade_out", time=0.3 },
+	{ start=0.5, fun="scale_to", time=0.3, factor=0.6 },
+	{ start=1, fun="end" },
+}
+
+-----------------------------------------------------------------------------
+-- 战斗飘字
+
+-- 上飘
+Config.motion[221] = {
+	{ start=0, fun="move_by", time=0.5, x=0, y=40 },
+	{ start=0.2, fun="fade_out", time=0.5 },
+	{ start=0.7, fun="end" },
+}
+
+
+-- 左上飘
+Config.motion[222] = {
+	{ start=0, fun="move_by", time=0.5, x=-30, y=40 },
+	{ start=0.2, fun="fade_out", time=0.5 },
+	{ start=0.7, fun="end" },
+}
+
+-- 右上飘
+Config.motion[223] = {
+	{ start=0, fun="move_by", time=0.5, x=30, y=40 },
+	{ start=0.2, fun="fade_out", time=0.5 },
+	{ start=0.7, fun="end" },
+}
+
+
+-- 下飘
+Config.motion[224] = {
+	{ start=0, fun="move_by", time=0.5, x=0, y=-40 },
+	{ start=0.2, fun="fade_out", time=0.5 },
+	{ start=0.7, fun="end" },
+}
+
+-- 左下飘
+Config.motion[225] = {
+	{ start=0, fun="move_by", time=0.5, x=-30, y=-40 },
+	{ start=0.2, fun="fade_out", time=0.5 },
+	{ start=0.7, fun="end" },
+}
+
+-- 右下飘
+Config.motion[226] = {
+	{ start=0, fun="move_by", time=0.5, x=30, y=-40 },
+	{ start=0.2, fun="fade_out", time=0.5 },
+	{ start=0.7, fun="end" },
+}
+
+-- 淡出
+Config.motion[227] = {
+	{ start=0, fun="fade_out", time=0.1 },
+}
+
+
+-----------------------------------------------------------------------------
+-- 怪物吐槽动作id
+Config.motion[231] = {
+	{ start=0, fun="scale", factor=0 },
+	{ start=0, fun="scale_to", factor=1, time=0.1 },
+	{ start=1.5, fun="end" },
+}
+
+-- 黑黑的底板
+Config.motion[301] = {
+	{ start=0, fun="visible", visible=true },
+	{ start=0, fun="scale", factor=0.5 },
+	{ start=0, fun="scale_to", factor=1.1, time=0.1 },
+	{ start=0.1, fun="scale_to", factor=1, time=0.05 },
+}
+
+-- 属性项显示
+Config.motion[302] = {
+	{ start=0.2, fun="visible", visible=true },
+}
+
+-- 光圈
+Config.motion[303] = {
+	{ start=0.3, fun="visible", visible=true },
+}
+
+-- 关闭按钮
+Config.motion[304] = {
+	{ start=0.3, fun="visible", visible=true },
+}
+
+-- 属性值显示
+Config.motion[305] = {
+	{ start=0, fun="visible", visible=true },
+	{ start=0, fun="user_fun" },
+}
+
+-- 战斗升级
+Config.motion[306] = {
+	{ start=0.1, fun="visible", visible=true },
+	{ start=0.1, fun="scale", factor=0.5 },
+	{ start=0.1, fun="scale_to", factor=2, time=0.1 },
+	{ start=0.2, fun="scale_to", factor=1, time=0.08 },
+}
+
+
+
+-----------------------------------------------------
+-- 伙伴进阶升星动画动作 -- > begin
+-- 左边头像
+Config.motion[351] = {
+	{ start=0, fun="scale", factor=0.1 },
+	{ start=0.1, fun="visible", visible=true },
+	{ start=0.1, fun="scale_to", time=0.4, factor=1.1 },
+	{ start=0.5, fun="scale_to", time=0.1, factor=0.95 },
+	{ start=0.6, fun="scale_to", time=0.1, factor=1 },
+}
+-- 右边头像
+Config.motion[352] = {
+	{ start=0, fun="off", x=-200, y=0 },
+	{ start=0.7, fun="visible", visible=true },
+	{ start=0.7, fun="move_by", time=0.13, x=200, y=0 },
+	{ start=0.7, fun="scale_to", time=0.2, factor=1.1 },
+	{ start=0.9, fun="scale_to", time=0.1, factor=0.95 },
+	{ start=1, fun="scale_to", time=0.1, factor=1 },
+}
+-- 头像中间箭头
+Config.motion[353] = {
+	{ start=0, fun="opacity", factor=51 },
+	{ start=0.8, fun="visible", visible=true },
+	{ start=0.8, fun="fade_in", time=0.17 },
+}
+-- 左边头像名字
+Config.motion[354] = {
+	{ start=0, fun="opacity", factor=0 },
+	{ start=0.8, fun="visible", visible=true },
+	{ start=0.8, fun="fade_in", time=0.17 },
+}
+-- 右边头像名字
+Config.motion[355] = {
+	{ start=0.8, fun="visible", visible=true },
+	{ start=0.8, fun="fade_in", time=0.17 },
+}
+-- 属性 - 背景条
+Config.motion[356] = {
+	{ start=0, fun="off", x=-200, y=0 },
+	{ start=0, fun="scale", factor=0.2 },
+	{ start=0.87, fun="visible", visible=true },
+	{ start=0.87, fun="move_by", time=0.13, x=200, y=0 },
+	{ start=0.87, fun="scale_to", time=0.13, factor=1 },
+	inter = 0.1,
+}
+-- 属性 - 名称
+Config.motion[357] = {
+	{ start=0, fun="off", x=-200, y=0 },
+	{ start=1.03, fun="visible", visible=true },
+	{ start=1.03, fun="move_by", time=0.1, x=205, y=0 },
+	{ start=1.13, fun="move_by", time=0.1, x=-5, y=0 },
+	inter = 0.1,
+}
+-- 属性 - 旧值
+Config.motion[358] = {
+	{ start=0, fun="off", x=-200, y=0 },
+	{ start=1.13, fun="visible", visible=true },
+	{ start=1.13, fun="move_by", time=0.1, x=205, y=0 },
+	{ start=1.23, fun="move_by", time=0.13, x=-5, y=0 },
+	inter = 0.1,
+}
+-- 属性 - 中间箭头
+Config.motion[359] = {
+	{ start=0, fun="opacity", factor=51 },
+	{ start=1.13, fun="visible", visible=true },
+	{ start=1.13, fun="fade_in", time=0.2 },
+	inter = 0.1,
+}
+-- 属性 - 新值
+Config.motion[360] = {
+	{ start=1.17, fun="visible", visible=true },
+	{ start=1.17, fun="user_fun" },
+	inter = 0.1,
+}
+-- 属性 - 差别
+Config.motion[361] = {
+	{ start=1.31, fun="visible", visible=true },
+	inter = 0.1,
+}
+-- 解锁新技能标签
+Config.motion[362] = {
+	{ start=0, fun="off", x=-200, y=0 },
+	{ start=0, fun="opacity", factor=25 },
+	{ start=1.1, fun="visible", visible=true },
+	{ start=1.1, fun="move_by", time=0.13, x=200, y=0 },
+	{ start=1.1, fun="fade_in", time=0.13 },
+}
+-- 技能图标
+Config.motion[363] = {
+	{ start=0, fun="scale", factor=0.1 },
+	{ start=1.16, fun="visible", visible=true },
+	{ start=1.16, fun="scale_to", time=0.1, factor=1.1 },
+	{ start=1.26, fun="scale_to", time=0.1, factor=0.95 },
+	{ start=1.36, fun="scale_to", time=0.1, factor=1 },}
+-- 技能特效
+Config.motion[364] = {
+	{ start=1.36, fun="visible", visible=true },
+}
+-- 技能名称
+Config.motion[365] = {
+	{ start=0, fun="opacity", factor=0 },
+	{ start=1.8, fun="visible", visible=true },
+	{ start=1.8, fun="fade_in", time=0.57 },
+}
+-- 伙伴进阶升星动画动作 < -- end
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+-- 回收系统动作 -- > begin
+
+-- 数字呼吸动作-渐隐渐显+缩放
+Config.motion[401] = {
+	{ start=1, fun="fade_to", opacity=128, time=0.8 },
+	{ start=1.2, fun="scale_to", time=0.8, factor=0.8 },
+	{ start=2, fun="fade_to", opacity=255, time=0.8 },
+	{ start=2.2, fun="scale_to", time=0.8, factor=1 },
+    { start=3, fun="repeat" },
+}
+
+-- 进度条呼吸-渐隐渐显
+Config.motion[402] = {
+	{ start=0, fun="opacity", factor=64 },
+	{ start=0, fun="fade_to", opacity=176, time=0.8 },
+	{ start=1, fun="fade_to", opacity=64, time=0.8 },
+	{ start=2, fun="fade_to", opacity=176, time=0.8 },
+    { start=3, fun="repeat" },
+}
+
+-- 回收弹加经验
+Config.motion[403] = {
+	{ start=0, fun="visible", visible = true },
+	{ start=0, fun="move_by", time=0.5, x=0, y=40 },
+	{ start=0.2, fun="fade_out", time=0.5 },
+	{ start=0.7, fun="end" },
+}
+
+-- 回收系统动作 < -- end
+-----------------------------------------------------
+
+
+-- 羁绊系统动作 -- > begin
+-- 技能图标1
+Config.motion[451] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+  { start=0, fun="visible", visible = true },
+	{ start=0.3, fun="scale_to", time=0.2, factor=1.3 },
+	{ start=0.5, fun="scale_to", time=0.2, factor=1 },
+}
+-- 技能图标2
+Config.motion[452] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0.5, fun="scale_to", time=0.2, factor=1.3 },
+	{ start=0.7, fun="scale_to", time=0.2, factor=1 },
+}
+-- 技能图标箭头
+Config.motion[453] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0.7, fun="scale_to", time=0.2, factor=1.3 },
+	{ start=0.9, fun="scale_to", time=0.3, factor=1 },
+}
+
+-- 合击技能图标
+Config.motion[454] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0.9, fun="scale_to", time=0.2, factor=1.6 },
+	{ start=1.1, fun="scale_to", time=0.3, factor=1.4 },
+	{ start=1.2, fun="user_fun" },
+}
+
+--动态框
+	Config.motion[455] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0.8, fun="set_to_time", time = 1.6 },
+	{ start=1.2, fun="scale", factor = 0.8 },
+}
+
+
+--合体人1
+Config.motion[456] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0, fun="scale_to", time=0.2, factor=1.2 },
+	{ start=0.2, fun="scale_to", time=0.2, factor=1 },
+	{ start=0, fun="run_effect",effect_id = 105612},
+}
+
+--合体人2
+Config.motion[457] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0.2, fun="scale_to", time=0.2, factor=1.2 },
+	{ start=0.4, fun="scale_to", time=0.2, factor=1 },
+	{ start=0.2, fun="run_effect",effect_id = 105612},
+}
+
+--合体人3
+Config.motion[458] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0.4, fun="scale_to", time=0.2, factor=1.3 },
+	{ start=0.6, fun="scale_to", time=0.2, factor=1 },
+	{ start=0.4, fun="run_effect",effect_id = 105612},
+}
+
+--箭头
+Config.motion[459] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0},
+	{ start=0, fun="visible", visible = true },
+	{ start=0.3, fun="scale_to", time=0.2, factor=1.2 },
+	{ start=0.5, fun="scale_to", time=0.2, factor=1 },
+}
+-- 羁绊系统 < -- end
+
+
+
+-- 背包物品框动态
+Config.motion[500] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0, fun="scale_to", time=0.2, factor=1.2 },
+	{ start=0.2, fun="scale_to", time=0.2, factor=1 },
+}
+
+
+--排行榜
+
+Config.motion[501] = {
+	{ start=0, fun="off", x=-800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0, fun="move_by", time=0.1, x=800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[502] = {
+	{ start=0, fun="off", x=-800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.1, fun="move_by", time=0.2, x=800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[503] = {
+	{ start=0, fun="off", x=-800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.2, fun="move_by", time=0.3, x=800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[504] = {
+	{ start=0, fun="off", x=-800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.3, fun="move_by", time=0.4, x=800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[505] = {
+	{ start=0, fun="off", x=-800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.4, fun="move_by", time=0.5, x=800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[506] = {
+	{ start=0, fun="off", x=-800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.5, fun="move_by", time=0.6, x=800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[507] = {
+	{ start=0, fun="off", x=-800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.6, fun="move_by", time=0.7, x=800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+--排行榜结束
+
+--公会骰子
+Config.motion[600] = {
+	{ start=0, fun="rotate_by", time=2, angle=3600 },
+	{ start=2, fun="user_fun" },
+}
+
+
+-- 结界属性详情变化，属性跳动动作
+Config.motion[521] = {
+	{ start=0, fun="scale", factor = 0.8 },
+	{ start=0, fun="scale_to", time=0.1, factor=1.4 },
+	{ start=0.2, fun="scale_to", time=0.2, factor=1 },
+}
+
+
+-- 崩玉系统---------------------begin
+--使用宝石动画
+Config.motion[541] = {
+	{ start=0, fun="move_to", time=0.4},
+	{ start=0.4, fun="end" },
+}
+
+Config.motion[542] = {
+	{ start=0, fun="move_to", time=0.4},
+	{ start=0.4, fun="end" },
+}
+
+Config.motion[543] = {
+	{ start=0, fun="move_to", time=0.4},
+	{ start=0.4, fun="end" },
+}
+
+Config.motion[544] = {
+	{ start=0, fun="move_to", time=0.4},
+	{ start=0.4, fun="end" },
+}
+
+-- 升级属性动画 最右
+Config.motion[560] = {
+	{ start=0, fun="opacity", factor=0 },
+	{ start=0, fun="fade_in", time=0.2 },
+	{ start=0, fun="move_to", time=0.3},
+	{ start=0.4, fun="end" },
+}
+
+--右
+Config.motion[561] = {
+	{ start=0, fun="move_to", time=0.3},
+	{ start=0.4, fun="end" },
+}
+--左
+Config.motion[562] = {
+	{ start=0, fun="move_to", time=0.3},
+	{ start=0, fun="fade_out", time=0.3 },
+	{ start=0.4, fun="end" },
+}
+
+-- 物品变化动画
+Config.motion[565] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=0, fun="scale", factor = 0 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0, fun="scale_to", time=0.2, factor=1.2 },
+	{ start=0.2, fun="scale_to", time=0.2, factor=0.9 },
+}
+
+Config.motion[566] = {
+	begin_time = 1, add_time = 0.2, end_time = 0.2,
+}
+
+-- 崩玉系统---------------------end
+
+
+
+-- 新世界 ----------------------beg
+Config.motion[571] = {
+	{ start=0, fun="scale", factor=0.6 },
+	{ start=0, fun="opacity", factor=32 },
+	{ start=0, fun="fade_in", time=0.8 },
+	{ start=0.2, fun="scale_to", time=0.8, factor=1 },
+	{ start=1.0, fun="repeat", back=2 },
+}
+-- 新世界 ----------------------end
+
+
+--资源获取途径提示面板----------------BEG
+
+Config.motion[580] = {
+	{ start=0, fun="off", x=800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0, fun="move_by", time=0.1, x=-800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[581] = {
+	{ start=0, fun="off", x=800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.1, fun="move_by", time=0.2, x=-800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[582] = {
+	{ start=0, fun="off", x=800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.2, fun="move_by", time=0.3, x=-800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[583] = {
+	{ start=0, fun="off", x=800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.3, fun="move_by", time=0.4, x=-800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[584] = {
+	{ start=0, fun="off", x=800, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.4, fun="move_by", time=0.8, x=-800,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+-- 进度条呼吸-渐隐渐显
+Config.motion[585] = {
+	{ start=0, fun="opacity", factor=64 },
+	{ start=0, fun="fade_to", opacity=176, time=0.8 },
+	{ start=1, fun="fade_to", opacity=128, time=0.8 },
+	{ start=2, fun="fade_to", opacity=176, time=0.8 },
+    { start=3, fun="repeat" },
+}
+--资源获取途径提示面板----------------END
+
+
+--升级后功能预告--开始
+
+Config.motion[591] = {
+	{ start=0, fun="off", x=-1200, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0, fun="move_by", time=0.2, x=1200,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[592] = {
+	{ start=0, fun="off", x=-1200, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.1, fun="move_by", time=0.3, x=1200,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+Config.motion[593] = {
+	{ start=0, fun="off", x=-1200, y=0 },
+	{ start=0, fun="opacity", factor = 0 },
+	{ start=0.2, fun="move_by", time=0.4, x=1200,y=0 },
+	--{ start=0.5, fun="fade_in", time=0.3, },
+}
+
+--升级后功能预告--结束
+
+-- 经验转化 ----------------------beg
+-- 物品1-3
+Config.motion[603] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=2.5, fun="move_by", time=0.1, x=-200,y=-50 },
+	{ start=2.5, fun="visible", visible = true },
+}
+Config.motion[602] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=2.7, fun="move_by", time=0.1, x=0,y=-50 },
+	{ start=2.7, fun="visible", visible = true },
+}
+Config.motion[601] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=2.9, fun="move_by", time=0.1, x=200,y=-50 },
+	{ start=2.9, fun="visible", visible = true },
+}
+Config.motion[604] = {
+	{ start=0, fun="visible", visible = false },
+	{ start=4, fun="visible", visible = true },
+}
+
+--  经验转化 -----------------------end
+
+-- 战斗进场属性动画
+Config.motion[610] = {
+	{ start=2.1, fun="move_by", time=0.1, x=0,y=150 },
+	{ start=2.1, fun="fade_out", time=0.2 },
+	{ start=2.3, fun="end" },
+}
+
+
+
+
+
+
+Config.motion[611] = {
+	{ start=0, fun="scale", factor = 0.7},
+	{ start=0, fun="scale_to", time=0.23, factor=0.9 },
+	{ start=0, fun="visible", visible = true },
+	{ start=0, fun="move_by", time=0.7, x=0,y=25 },
+	{ start=0, fun="opacity", factor=0 },
+	{ start=0, fun="fade_to", opacity=255, time=0.23 },
+	{ start=0.5, fun="fade_to", opacity=0, time=0.4 },
+	--{ start=0.9, fun="end" },
+}
+Config.motion[612] = {
+	{ start=0.12, fun="scale", factor = 0.7},
+	{ start=0.12, fun="scale_to", time=0.23, factor=0.9 },
+	{ start=0.12, fun="visible", visible = true },
+	{ start=0.12, fun="move_by", time=0.7, x=0,y=25 },
+	{ start=0.12, fun="opacity", factor=0 },
+	{ start=0.12, fun="fade_to", opacity=255, time=0.23 },
+	{ start=0.62, fun="fade_to", opacity=0, time=0.4 },
+	--{ start=1.02, fun="end" },
+}
+Config.motion[613] = {
+	{ start=0.24, fun="scale", factor = 0.7},                         --缩放0.8
+	{ start=0.24, fun="scale_to", time=0.23, factor=0.9 },            --缩放1.0
+	{ start=0.24, fun="visible", visible = true },                    --出现
+	{ start=0.24, fun="move_by", time=0.7, x=0,y=25 },                --移动
+	{ start=0.24, fun="opacity", factor=0 },                          --透明度0
+	{ start=0.24, fun="fade_to", opacity=255, time=0.23 },            --透明度255
+	{ start=0.74, fun="fade_to", opacity=0, time=0.4 },               --透明度0
+	--{ start=1.14, fun="end" },                                      --结束消失
+}
+Config.motion[614] = {
+	{ start=0.36, fun="scale", factor = 0.7},
+	{ start=0.36, fun="scale_to", time=0.23, factor=0.9 },
+	{ start=0.36, fun="visible", visible = true },
+	{ start=0.36, fun="move_by", time=0.7, x=0,y=25 },
+	{ start=0.36, fun="opacity", factor=0 },
+	{ start=0.36, fun="fade_to", opacity=255, time=0.23 },
+	{ start=0.86, fun="fade_to", opacity=0, time=0.4 },
+	--{ start=1.26, fun="end" },
+}
+Config.motion[615] = {
+	{ start=0.48, fun="scale", factor = 0.7},
+	{ start=0.48, fun="scale_to", time=0.23, factor=0.9 },
+	{ start=0.48, fun="visible", visible = true },
+	{ start=0.48, fun="move_by", time=0.7, x=0,y=25 },
+	{ start=0.48, fun="opacity", factor=0 },
+	{ start=0.48, fun="fade_to", opacity=255, time=0.23 },
+	{ start=0.98, fun="fade_to", opacity=0, time=0.4 },
+	--{ start=1.38, fun="end" },
+}
+
+
+Config.motion[616] = 
+{
+	-- 玩家进场间隔
+	enter_inteval_time = 0.3, 
+	-- 相对于布阵光柱动画开始时间
+	enter_obj_time = 0.3,     -- 角色进入 
+	jiejie_anim_time = 0.3,   -- 结界动画
+	attr_anim_time = 0.6,     -- 属性动画
+	play_battle_time = 2,     -- 最后一个玩家出场后多久开始战斗
+	attr_interval = 1
+}
+
+
+Config.motion[617] = {
+	{ start=0, fun="move_to", time=0.4, x=250, y=255},
+	{ start=0.4, fun="end" },
+}
+
+Config.motion[618] = {
+	{ start=0, fun="move_to", time=0.4, x=575, y=45},
+	{ start=0.4, fun="end" },
+}
+
+
+Config.motion[650] = {
+	{ start=0, fun="scale_to", time=0.2, factor=1.2 },
+	{ start=0.2, fun="scale_to", time=0.2, factor=1 },
+}
+
+Config.motion[651] = {
+	{ start=0, fun="move_by", time=0.5, x=0,y=25 },
+	{ start=0.5, fun="move_by", time=0.7, x=0,y=-25 },
+	{ start=1, fun="repeat" },
+}
+
+Config.motion[652] = {
+	{ start=0, fun="rotate_to", time=0.25, angle=0 },
+	{ start=0.25, fun="rotate_to", time=0.25, angle=90 },
+	{ start=0.5, fun="repeat" },
+}
+
+--人物骨骼播放一次的用play atk，需要填下个动作next state index，循环播放用 play actor
+--特效使用play_spine
+-- 索香合体动画 
+Config.motion[670] = {											--伙伴模型动作 黑足君（1041）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=1 },
+	{ start=0.3, fun="jump_by", time=0.3, x=0, y=80, h=80, frequency=1 },
+	{ start=0.6, fun="jump_by", time=0.3, x=0, y=-10, h=-10, frequency=1 },
+	{ start=0.9, fun="jump_by", time=0.3, x=0, y=10, h=10, frequency=1 },
+	{ start=1, fun="end" },
+}
+Config.motion[670].init = {visible=true,x=-145,y=-80}           --是否可见以及初始位置
+Config.motion[671] = {											--伙伴模型动作 绿藻君（1017）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=1 },
+	{ start=0.3, fun="jump_by", time=0.3, x=0, y=80, h=80, frequency=1 },
+	{ start=0.6, fun="jump_by", time=0.3, x=0, y=-10, h=-10, frequency=1 },
+	{ start=0.9, fun="jump_by", time=0.3, x=0, y=10, h=10, frequency=1 },
+	{ start=1, fun="end" },
+}
+Config.motion[671].init = {visible=true,x=50,y=-80}
+
+Config.motion[672] = {											--黑足君身上特效 （101750）
+	{ start=0, fun="off", x=0, y=-50 },
+	{ start=0.2, fun="visible", visible=true },
+	{ start=0.1, fun="play_spine", key="animation", loop=true },
+	{ start=0.3, fun="jump_by", time=0.3, x=0, y=60, h=60, frequency=1 },
+	{ start=1, fun="end" },
+}
+Config.motion[672].init = {visible=false,x=-145,y=-40}
+Config.motion[673] = {											--绿藻君身上特效 （101750）
+	{ start=0, fun="off", x=0, y=-50 },
+	{ start=0.2, fun="visible", visible=true },
+	{ start=0.1, fun="play_spine", key="animation", loop=true },
+	{ start=0.3, fun="jump_by", time=0.3, x=0, y=60, h=60, frequency=1 },
+	{ start=1, fun="end" },
+}
+Config.motion[673].init = {visible=false,x=70,y=-40}
+
+Config.motion[674] = {											--新伙伴动作 索香（1096）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=1.3, fun="visible", visible=true },
+	{ start=1.3, fun="play_actor", state_index=1 },
+}
+Config.motion[674].init = {visible=false,x=0,y=-60}
+
+Config.motion[675] = {											--新伙伴身上特效（101751）
+	{ start=0.2, fun="visible", visible=true },
+	{ start=1, fun="play_spine", key="animation", loop=false },
+	{ start=1.4, fun="end" },
+}
+Config.motion[675].init = {visible=false,x=-30,y=-140}
+
+-- 一白合体动画
+Config.motion[676] = {											--伙伴模型动作 草莓君（1005）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=1 },
+	{ start=0.5, fun="end" },
+}
+Config.motion[676].init = {visible=true,x=-145,y=-80}
+Config.motion[677] = {											--伙伴模型动作 大白（1019）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=1 },
+	{ start=0.5, fun="end" },
+}
+Config.motion[677].init = {visible=true,x=50,y=-80}
+
+Config.motion[678] = {											--草莓君身上特效（105510）
+	{ start=0.2, fun="visible", visible=true },
+	{ start=0.3, fun="play_spine", key="animation", loop=true },
+	{ start=0.8, fun="end" },
+}
+Config.motion[678].init = {visible=false,x=-145,y=-80}
+Config.motion[679] = {											--大白身上特效（105510）
+	{ start=0.2, fun="visible", visible=true },
+	{ start=0.3, fun="play_spine", key="animation", loop=true },
+	{ start=0.8, fun="end" },
+}
+Config.motion[679].init = {visible=false,x=50,y=-80}
+
+Config.motion[680] = {											--新伙伴动作 一白（1097）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=1.1, fun="visible", visible=true },
+	{ start=1, fun="play_actor", state_index=1 },
+}
+Config.motion[680].init = {visible=false,x=0,y=-80}
+
+Config.motion[681] = {											--新伙伴身上特效（105514）
+	{ start=0.8, fun="visible", visible=true },
+	{ start=0.8, fun="play_spine", key="animation", loop=false },
+	{ start=1.3, fun="end" },
+}
+Config.motion[681].init = {visible=false,x=0,y=-20}
+
+-- 悟吉塔体动画
+Config.motion[682] = {											--伙伴模型动作 空空（1033）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=1 },
+	{ start=0.5, fun="end" },
+}
+Config.motion[682].init = {visible=true,x=-145,y=-80}
+Config.motion[683] = {											--伙伴模型动作 王子贝（1026）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=1 },
+	{ start=0.5, fun="end" },
+}
+Config.motion[683].init = {visible=true,x=50,y=-80}
+
+Config.motion[684] = {											--空空身上特效 （105612）
+	{ start=0.4, fun="visible", visible=true },
+	{ start=0.4, fun="play_spine", key="animation", loop=true },
+	{ start=0.7, fun="end" },
+}
+Config.motion[684].init = {visible=false,x=-145,y=-40}
+Config.motion[685] = {											--王子贝身上特效 （105612）
+	{ start=0.4, fun="visible", visible=true },
+	{ start=0.4, fun="play_spine", key="animation", loop=true },
+	{ start=0.7, fun="end" },
+}
+Config.motion[685].init = {visible=false,x=50,y=-40}
+
+Config.motion[686] = {											--新伙伴动作 悟吉塔（1098）
+	{ start=1.8, fun="visible", visible=true },
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=1.6, fun="play_actor", state_index=1 },
+}
+Config.motion[686].init = {visible=false,x=0,y=-80}
+
+Config.motion[687] = {											--合体特效1（105610）
+	{ start=0.6, fun="visible", visible=true },
+	{ start=0.6, fun="play_spine", key="animation", loop=false },
+	{ start=1.6, fun="end" },
+}
+Config.motion[687].init = {visible=false,x=150,y=-100}
+Config.motion[688] = {											--合体特效2（105610）
+	{ start=1.6, fun="visible", visible=true },
+	{ start=1.6, fun="play_spine", key="animation", loop=false },
+	{ start=2, fun="end" },
+}
+Config.motion[688].init = {visible=false,x=-60,y=200}
+
+-- 六道融合动画
+Config.motion[689] = {											--伙伴模型动作 佐二少（1012）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=9 },
+	{ start=1, fun="end" },
+}
+Config.motion[689].init = {visible=true,x=-145,y=-80}
+Config.motion[690] = {											--伙伴模型动作 吊车尾（1034）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=9 },
+	{ start=1, fun="end" },
+}
+Config.motion[690].init = {visible=true,x=50,y=-80}
+
+Config.motion[691] = {											--佐二少身上特效 （9503）
+	{ start=0.9, fun="visible", visible=true },
+	{ start=0.9, fun="play_spine", key="animation", loop=true },
+	{ start=1.5, fun="end" },
+}
+Config.motion[691].init = {visible=false,x=-145,y=-40}
+Config.motion[692] = {											--吊车尾身上特效 （9503）
+	{ start=0.9, fun="visible", visible=true },
+	{ start=0.9, fun="play_spine", key="animation", loop=true },
+	{ start=1.5, fun="end" },
+}
+Config.motion[692].init = {visible=false,x=50,y=-40}
+
+Config.motion[693] = {											--新伙伴动作 六道（1099）
+	{ start=4.2, fun="visible", visible=true },
+	{ start=4.2, fun="play_actor", state_index=1 },
+	{ start=4.25, fun="scale_to", time=0.5, factor=1.5 },
+}
+Config.motion[693].init = {visible=false,x=0,y=-80}
+
+Config.motion[694] = {											--合体特效（9512）
+	{ start=1.3, fun="visible", visible=true },
+	{ start=1.3, fun="play_spine", key="animation", loop=false },
+	{ start=5, fun="end" },
+}
+Config.motion[694].init = {visible=false,x=0,y=-80}
+
+-- 始神融合动画
+Config.motion[695] = {											--伙伴模型动作 夏莉（1064）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=1 },
+	{ start=0.5, fun="jump_by", time=0.3, x=100, y=100, h=100, frequency=1 },
+	{ start=0.8, fun="end" },
+}
+Config.motion[695].init = {visible=true,x=-150,y=-80}
+Config.motion[696] = {											--伙伴模型动作 黎恩（1065）
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=0, fun="play_actor", state_index=1 },
+	{ start=0.5, fun="jump_by", time=0.3, x=-100, y=100, h=100, frequency=1 },
+	{ start=0.8, fun="end" },
+}
+Config.motion[696].init = {visible=true,x=50,y=-80}
+
+Config.motion[697] = {											--新伙伴动作 始神（1100）
+	{ start=1.6, fun="visible", visible=true },
+	{ start=0, fun="scale", factor=1.5 },
+	{ start=1.6, fun="play_actor", state_index=1 },
+	{ start=1.6, fun="jump_by", time=0.3, x=0, y=-100, h=-100, frequency=1 },
+}
+Config.motion[697].init = {visible=false,x=0,y=20}
+
+Config.motion[698] = {											--合体特效（106651）
+	{ start=0.8, fun="visible", visible=true },
+	{ start=0.8, fun="play_spine", key="animation", loop=false },
+	{ start=2.2, fun="end" },
+}
+Config.motion[698].init = {visible=false,x=0,y=20}

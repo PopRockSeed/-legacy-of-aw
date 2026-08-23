@@ -1,0 +1,18 @@
+Config = Config or {}
+Config.cnffcinvest = {
+		[1] = {
+			invest_gold = 100,
+			reward_gold = 888,
+			reward_day = 1,
+		},
+		[2] = {
+			invest_gold = 200,
+			reward_gold = 2888,
+			reward_day = 3,
+		},
+		[3] = {
+			invest_gold = 300,
+			reward_gold = 6888,
+			reward_day = 7,
+		},
+}
