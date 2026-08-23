@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfarenainfo = {
+		[1] = {
+			challenge_count = 5,
+			buy_arena_count = 5,
+			win_reward_id = 8201,
+			lost_reward_id = 8202,
+			music_id = {1,0,0,},
+			resource_id = {1071,1071,},
+			arena_explain = [[<COLOR VALUE=442c0c>1、每天有5次挑战次数，凌晨5点重置次数。VIP可以购买挑战次数，VIP等级越高可购买次数越多。<BR>
+2、每次挑战玩家可以获得声望和金币奖励，失败只能获得一半奖励；<BR>
+3、排名上升会有丰厚的钻石奖励；每24小时根据竞技场排名发放一次丰厚的钻石、声望和金币奖励。<BR>
+4、声望可以在竞技商店兑换物品或伙伴魂石。</COLOR>]],
+		},
+}

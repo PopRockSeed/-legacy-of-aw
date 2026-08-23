@@ -1,0 +1,11 @@
+Config = Config or {}
+Config.cnfcomebackbag = {
+		[1] = {
+			id = 1,
+			offline_day = 7,
+			left_day = 7,
+			reward_list = {{2,0,15,},{3,0,50000,},{5,0,720,},{1,3733,3,},{8,0,40,},{1,3703,10,},},
+			original_price = 500,
+			discount = 8,
+		},
+}

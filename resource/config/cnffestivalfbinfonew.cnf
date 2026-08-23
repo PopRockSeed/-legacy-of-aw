@@ -1,0 +1,13 @@
+Config = Config or {}
+Config.cnffestivalfbinfonew = {
+		[1] = {
+			fb_type = 1,
+			start_time = {2016,12,2,0,0,0,},
+			end_time = {2016,12,9,0,0,0,},
+			item_id = 3948,
+			explain = [[]],
+			tweet = {[[你想吃冰棍吗？]],[[快把火柴拿开！]],[[圣诞雪球是我的，别抢！]],[[啊~卖女孩的小火柴~]],},
+			goddess_tips = [[]],
+			monster_scale = 0.3,
+		},
+}

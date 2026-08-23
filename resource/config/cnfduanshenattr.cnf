@@ -1,0 +1,47 @@
+Config = Config or {}
+Config.cnfduanshenattr = {
+		[1] = {
+			rare = 1,
+			attr_rate_list = {},
+		},
+		[2] = {
+			rare = 2,
+			attr_rate_list = {},
+		},
+		[3] = {
+			rare = 3,
+			attr_rate_list = {},
+		},
+		[4] = {
+			rare = 4,
+			attr_rate_list = {},
+		},
+		[5] = {
+			rare = 5,
+			attr_rate_list = {},
+		},
+		[6] = {
+			rare = 6,
+			attr_rate_list = {},
+		},
+		[7] = {
+			rare = 7,
+			attr_rate_list = {},
+		},
+		[8] = {
+			rare = 8,
+			attr_rate_list = {},
+		},
+		[9] = {
+			rare = 9,
+			attr_rate_list = {},
+		},
+		[10] = {
+			rare = 10,
+			attr_rate_list = {},
+		},
+		[11] = {
+			rare = 11,
+			attr_rate_list = {},
+		},
+}

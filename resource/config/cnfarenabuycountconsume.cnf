@@ -1,0 +1,23 @@
+Config = Config or {}
+Config.cnfarenabuycountconsume = {
+		[1] = {
+			count = 1,
+			consume = 50,
+		},
+		[2] = {
+			count = 2,
+			consume = 100,
+		},
+		[3] = {
+			count = 3,
+			consume = 200,
+		},
+		[4] = {
+			count = 4,
+			consume = 500,
+		},
+		[5] = {
+			count = 5,
+			consume = 1000,
+		},
+}

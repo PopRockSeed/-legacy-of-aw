@@ -1,0 +1,9 @@
+Config = Config or {}
+Config.cnfbiteinfo = {
+		[1] = {
+			bite_count = 20,
+			suc_reward_id = 11601,
+			fail_reward_id = 11602,
+			cool_down = 300,
+		},
+}

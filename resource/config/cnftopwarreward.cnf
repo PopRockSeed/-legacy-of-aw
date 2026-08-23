@@ -1,0 +1,83 @@
+Config = Config or {}
+Config.cnftopwarreward = {
+		[1] = {
+			rank = {1,1,},
+			reward_id = 7451,
+		},
+		[2] = {
+			rank = {2,2,},
+			reward_id = 7452,
+		},
+		[3] = {
+			rank = {3,3,},
+			reward_id = 7453,
+		},
+		[4] = {
+			rank = {4,4,},
+			reward_id = 7454,
+		},
+		[5] = {
+			rank = {5,5,},
+			reward_id = 7455,
+		},
+		[6] = {
+			rank = {6,6,},
+			reward_id = 7456,
+		},
+		[7] = {
+			rank = {7,7,},
+			reward_id = 7457,
+		},
+		[8] = {
+			rank = {8,8,},
+			reward_id = 7458,
+		},
+		[9] = {
+			rank = {9,9,},
+			reward_id = 7459,
+		},
+		[10] = {
+			rank = {10,10,},
+			reward_id = 7460,
+		},
+		[11] = {
+			rank = {11,11,},
+			reward_id = 7471,
+		},
+		[12] = {
+			rank = {12,12,},
+			reward_id = 7472,
+		},
+		[13] = {
+			rank = {13,13,},
+			reward_id = 7473,
+		},
+		[14] = {
+			rank = {14,14,},
+			reward_id = 7474,
+		},
+		[15] = {
+			rank = {15,15,},
+			reward_id = 7475,
+		},
+		[16] = {
+			rank = {16,16,},
+			reward_id = 7476,
+		},
+		[17] = {
+			rank = {17,17,},
+			reward_id = 7477,
+		},
+		[18] = {
+			rank = {18,18,},
+			reward_id = 7478,
+		},
+		[19] = {
+			rank = {19,19,},
+			reward_id = 7479,
+		},
+		[20] = {
+			rank = {20,20,},
+			reward_id = 7480,
+		},
+}

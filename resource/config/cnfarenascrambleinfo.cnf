@@ -1,0 +1,12 @@
+Config = Config or {}
+Config.cnfarenascrambleinfo = {
+		[1] = {
+			challenge_count = 3,
+			buy_scramble_count = 10,
+			win_reward_id = 20520,
+			lost_reward_id = 20521,
+			music_id = {1,0,0,},
+			resource_id = {1071,1071,},
+			arena_explain = [[<COLOR VALUE=442c0c>1、擂台争霸赛分周期进行，每周一早上5点进行周期结算并开始下一个周期。<BR SPACING=10>2、一场战斗为3局2胜制，玩家可以出战3个队伍，每个队伍最多只能出战3个伙伴，每个队伍各自进行一场战斗（如出现一方连胜两场的情况将不再进行第三场战斗）。<BR SPACING=10>3、布阵时，允许对战双方不在某个队伍内出战任何伙伴，在这局战斗中会直接判定拥有伙伴的队伍一方胜利；若同一局双方的队伍都没有出战伙伴，则会判定防守方胜利。<BR SPACING=10>4、每个守擂者每隔10分钟获得一定数量的徽章，战胜守擂者可以掠夺一定数量的徽章，守擂者会失去对应数量徽章。<BR SPACING=10>5、徽章可以在兑换商店兑换各种珍贵的物品。<BR SPACING=10>6、兑换商店中兑换商品除了消耗徽章外还会消耗兑换次数，兑换次数会随着时间恢复。</COLOR><BR SPACING=10>]],
+		},
+}

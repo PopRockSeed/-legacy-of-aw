@@ -1,0 +1,7 @@
+Config = Config or {}
+Config.cnfactachtime = {
+		[1] = {
+			activity_end_time = 7,
+			reward_end_time = 10,
+		},
+}
