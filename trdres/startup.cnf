@@ -1,0 +1,7 @@
+
+-- 启动界面动画配置
+StartUp = StartUp or {}
+
+StartUp.anim_list = {
+
+}

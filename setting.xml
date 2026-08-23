@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<setting>
+	<setting name="AutoBattle">true</setting>
+	<setting name="BgMusicVolume">0.3</setting>
+	<setting name="CdnSaveTime">1773181008</setting>
+	<setting name="CdnServerAddr">http://yncdn.mmd.ffcai.com/</setting>
+	<setting name="EffectVolume">1</setting>
+	<setting name="FinishDownload">true</setting>
+	<setting name="GameServerAddr">s1021.yinni.mmd.ffcai.com</setting>
+	<setting name="GameServerPort">22746</setting>
+	<setting name="ImeiTicket">c537ab7f4d1f27c5f4e2432c99e48d32</setting>
+	<setting name="IsSuperUser">0</setting>
+	<setting name="LocalPushList">0</setting>
+	<setting name="MaxVideoId">0</setting>
+	<setting name="Md5">680bd8b7c39987bc1f2d2f06bc20baf6</setting>
+	<setting name="OriginUserName">Kt4DkXB4</setting>
+	<setting name="PlatID">263</setting>
+	<setting name="PlatName">zx_Kt4DkXB4</setting>
+	<setting name="RegisterTicket">762135c270c88ec81e59a40d2d635820</setting>
+	<setting name="RegisterValidTime">1773181031</setting>
+	<setting name="RemoteMd5">680bd8b7c39987bc1f2d2f06bc20baf6</setting>
+	<setting name="RoleID">612</setting>
+	<setting name="RoleLevel">92</setting>
+	<setting name="RoleName">S1034-Kaiman-GOD</setting>
+	<setting name="RoleServerID">1021</setting>
+	<setting name="RoleServerID1">1021</setting>
+	<setting name="RoleServerName">S1024-Uehara</setting>
+	<setting name="StartCoverVersion">2.20.250826</setting>
+	<setting name="ThirdUidSid"></setting>
+	<setting name="UserSn">c797fab4a3acfcdd07f23b68dc38cb9e</setting>
+	<setting name="efunkey">nil</setting>
+</setting>

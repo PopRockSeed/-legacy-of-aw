@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="appsFlyerCount" value="11" />
+    <long name="AppsFlyerTimePassedSincePrevLaunch" value="1773181006333" />
+    <string name="CACHED_CHANNEL">120001</string>
+    <int name="appsflyerConversionDataRequestRetries" value="0" />
+    <string name="savedPropertoes">{&quot;AppsFlyerKey&quot;:&quot;NzeCRSHCwLXSgUrCkVX5J7&quot;,&quot;advertiserId&quot;:&quot;35a8139b-93c1-43c1-93f5-f986668d86af&quot;,&quot;advertiserIdEnabled&quot;:&quot;true&quot;}</string>
+    <string name="appsFlyerFirstInstall">2026-02-28_2019+0000</string>
+    <int name="versionCode" value="220250826" />
+</map>

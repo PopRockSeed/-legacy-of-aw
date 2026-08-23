@@ -1,0 +1,61 @@
+[2026-02-28 20:20:42] (Info): clear sever ...
+[2026-02-28 20:20:42] (Info): request role list ... 
+[2026-02-28 20:20:42] (Info): {"[sdkname is]":["hwfxand_indofun"]}
+[2026-02-28 20:20:43] (Info): get role list suc ... 
+[2026-02-28 20:20:43] (Info): get server list ...
+[2026-02-28 20:20:45] (Info): get server list suc ...
+[2026-02-28 20:20:45] (Info): maintain_time:0
+[2026-02-28 21:00:04] (Info): {"[sdkname is]":["hwfxand_indofun"]}
+[2026-02-28 21:00:04] (Info): is_super_user:false
+[2026-02-28 21:00:04] (Info): status:1
+[2026-02-28 21:00:04] (Info): Recent Login:http://yncdn.mmd.ffcai.com/
+[2026-02-28 21:00:05] (Info): on connect:net_id:0
+[2026-02-28 21:00:05] (Info): Run GameConfig.Network.func
+[2026-02-28 21:00:05] (Info): OnDisconnect:1
+[2026-02-28 21:00:05] (Info): OnDisconnect:2
+[2026-02-28 21:00:05] (Info): OnDisconnect:3
+[2026-02-28 21:00:05] (Info): OnDisconnect:4
+[2026-02-28 21:00:05] (Info): OnDisconnect:5
+[2026-02-28 21:00:07] (Info): {"[ActivityMgr:InitActList count]":[13]}
+[2026-02-28 21:00:07] (Info): {"[chargemanager.lua SetPayInfoBy_user_single_charge_list no exData]":[]}
+[2026-02-28 21:00:07] (Info): {"[ActivityMgr:InitActList count]":[13]}
+[2026-02-28 21:00:11] (Info): Loading UI 54 TimeOut
+[2026-02-28 21:00:12] (Info): {"[chargemanager.lua SetPayInfoBy_user_single_charge_list no exData]":[]}
+[2026-02-28 21:00:36] (Info): Loading UI 39 TimeOut
+[2026-02-28 21:00:47] (Info): Loading UI 40 TimeOut
+[2026-02-28 21:00:58] (Info): Loading UI 23 TimeOut
+[2026-02-28 21:00:59] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:00:59] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:01:31] (Error): Call Function[Update] Error.
+[2026-02-28 21:01:31] (Error): [string "logic/battle/skill/skilllogic"]:490: attempt to index field 'battle_logic' (a nil value)
+[2026-02-28 21:01:31] (Error): [LuaEngine::Update CallLuaUpdateError][time:-1]
+[2026-02-28 21:01:31] (Error): Call Function[Update] Error.
+[2026-02-28 21:01:31] (Error): [string "logic/battle/skill/skilllogic"]:490: attempt to index field 'battle_logic' (a nil value)
+[2026-02-28 21:01:31] (Error): [LuaEngine::Update CallLuaUpdateError][time:-1]
+[2026-02-28 21:01:31] (Error): Call Function[Update] Error.
+[2026-02-28 21:01:31] (Error): [string "logic/battle/skill/skilllogic"]:490: attempt to index field 'battle_logic' (a nil value)
+[2026-02-28 21:01:31] (Error): [LuaEngine::Update CallLuaUpdateError][time:-1]
+[2026-02-28 21:01:31] (Error): Call Function[Update] Error.
+[2026-02-28 21:01:31] (Error): [string "logic/battle/skill/skilllogic"]:490: attempt to index field 'battle_logic' (a nil value)
+[2026-02-28 21:01:31] (Error): [LuaEngine::Update CallLuaUpdateError][time:-1]
+[2026-02-28 21:01:33] (Error): Call Function[Update] Error.
+[2026-02-28 21:01:33] (Error): [string "logic/battle/skill/skilllogic"]:490: attempt to index field 'battle_logic' (a nil value)
+[2026-02-28 21:01:33] (Error): [LuaEngine::Update CallLuaUpdateError][time:-1]
+[2026-02-28 21:01:33] (Error): Call Function[Update] Error.
+[2026-02-28 21:01:33] (Error): [string "logic/battle/skill/skilllogic"]:490: attempt to index field 'battle_logic' (a nil value)
+[2026-02-28 21:01:33] (Error): [LuaEngine::Update CallLuaUpdateError][time:-1]
+[2026-02-28 21:02:03] (Info): Loading UI 11 TimeOut
+[2026-02-28 21:02:15] (Info): Loading UI 44 TimeOut
+[2026-02-28 21:02:48] (Info): {"[chargemanager.lua SetPayInfoBy_user_single_charge_list no exData]":[]}
+[2026-02-28 21:02:54] (Info): Loading UI 154 TimeOut
+[2026-02-28 21:03:28] (Info): result:false,ret_code:0,is_abort:false,network load failed : resource/ui_res/huishou/bk1.sdz
+[2026-02-28 21:03:54] (Info): Loading UI 31 TimeOut
+[2026-02-28 21:04:30] (Info): Loading UI 133 TimeOut
+[2026-02-28 21:04:35] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:04:35] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:04:36] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:05:15] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:05:15] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:05:50] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:05:50] (Info): can't find res compose name Ui_Res_Language_Common[nil]
+[2026-02-28 21:07:03] (Info): reload:1
