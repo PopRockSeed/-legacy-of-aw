@@ -1,0 +1,52 @@
+Config = Config or {}
+Config.cnfpartnersoulcompose = {
+		[3554] = {
+			item_id = 3554,
+			material1 = {3541,2,},
+			material2 = {3517,2,},
+			soul_materia = {4084,1,120,},
+			partner_id = 1096,
+		},
+		[3555] = {
+			item_id = 3555,
+			material1 = {3505,2,},
+			material2 = {3519,2,},
+			soul_materia = {4084,1,120,},
+			partner_id = 1097,
+		},
+		[3556] = {
+			item_id = 3556,
+			material1 = {3533,2,},
+			material2 = {3526,2,},
+			soul_materia = {4084,1,120,},
+			partner_id = 1098,
+		},
+		[3553] = {
+			item_id = 3553,
+			material1 = {3512,2,},
+			material2 = {3534,2,},
+			soul_materia = {4084,1,120,},
+			partner_id = 1099,
+		},
+		[3566] = {
+			item_id = 3566,
+			material1 = {3564,2,},
+			material2 = {3565,2,},
+			soul_materia = {4084,1,120,},
+			partner_id = 1100,
+		},
+		[3589] = {
+			item_id = 3589,
+			material1 = {3561,2,},
+			material2 = {3528,2,},
+			soul_materia = {4084,1,120,},
+			partner_id = 1101,
+		},
+		[3597] = {
+			item_id = 3597,
+			material1 = {3567,2,},
+			material2 = {3568,2,},
+			soul_materia = {4084,1,120,},
+			partner_id = 1103,
+		},
+}
