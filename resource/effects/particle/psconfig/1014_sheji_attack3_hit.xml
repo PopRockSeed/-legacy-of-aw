@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <cycle_total_time>1</cycle_total_time>
+    <Technique>
+        <name>Technique_1</name>
+        <particle_quota>5</particle_quota>
+        <render type="Billboard">
+            <texture_name>other_274</texture_name>
+            <billboard_type>oriented_self</billboard_type>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_1</name>
+            <direction>0 1 0</direction>
+            <position>0 30 0</position>
+            <emission_rate>4</emission_rate>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="random">
+                <min>20</min>
+                <max>30</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>20</min>
+                <max>40</max>
+            </dyn>
+            <size>40 60 0</size>
+        </Emitter>
+        <Affector type="Colour">
+            <name>Affector_2</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 1</time_colour>
+            <time_colour>0.5 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Randomiser">
+            <name>Affector_6</name>
+            <max_deviation>0.02 0.02 0.02</max_deviation>
+        </Affector>
+        <Affector type="Suction">
+            <name>Affector_1</name>
+            <dyn type="suction_force" dyn_type="fixed">
+                <value>-64</value>
+            </dyn>
+            <suction_cv>true</suction_cv>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>3</particle_quota>
+        <render type="Billboard">
+            <texture_name>other_276</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <position>0 40 0</position>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.5</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>91</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>67</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_3</name>
+            <position>0 40 0</position>
+            <cycle_time>0.1 1</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_2</name>
+            <position>0 40 0</position>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.15</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_4</name>
+            <exclude_emitter>Emitter_0</exclude_emitter>
+            <exclude_emitter>Emitter_2</exclude_emitter>
+            <is_all_scale>false</is_all_scale>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_x" dyn_type="curve_spline">
+                <points>0 91</points>
+                <points>1 455</points>
+            </dyn>
+            <dyn type="scale_y" dyn_type="curve_spline">
+                <points>0 67</points>
+                <points>1 335</points>
+            </dyn>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_0</name>
+            <exclude_emitter>Emitter_3</exclude_emitter>
+            <exclude_emitter>Emitter_2</exclude_emitter>
+            <is_all_scale>false</is_all_scale>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_x" dyn_type="curve_spline">
+                <points>0 182</points>
+                <points>0.3 101</points>
+                <points>1 101</points>
+            </dyn>
+            <dyn type="scale_y" dyn_type="curve_spline">
+                <points>0 134</points>
+                <points>0.3 74</points>
+                <points>1 74</points>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_3</name>
+            <exclude_emitter>Emitter_0</exclude_emitter>
+            <exclude_emitter>Emitter_2</exclude_emitter>
+            <time_colour>0 1 1 1 0.005</time_colour>
+            <time_colour>0.1 1 1 1 0.5</time_colour>
+            <time_colour>0.3 1 1 1 0.463</time_colour>
+            <time_colour>0.7 1 1 1 0</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_5</name>
+            <exclude_emitter>Emitter_3</exclude_emitter>
+            <exclude_emitter>Emitter_2</exclude_emitter>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 1</time_colour>
+            <time_colour>0.5 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_7</name>
+            <exclude_emitter>Emitter_0</exclude_emitter>
+            <exclude_emitter>Emitter_3</exclude_emitter>
+            <is_all_scale>false</is_all_scale>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_x" dyn_type="curve_spline">
+                <points>0 400</points>
+                <points>1 101</points>
+            </dyn>
+            <dyn type="scale_y" dyn_type="curve_spline">
+                <points>0 300</points>
+                <points>1 74</points>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_8</name>
+            <exclude_emitter>Emitter_0</exclude_emitter>
+            <exclude_emitter>Emitter_3</exclude_emitter>
+            <time_colour>0 1 0.557 0.557 0</time_colour>
+            <time_colour>1 0.835 0.667 0.667 0.5</time_colour>
+        </Affector>
+    </Technique>
+</ParticleSystem>

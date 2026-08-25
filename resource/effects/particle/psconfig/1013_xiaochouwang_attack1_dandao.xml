@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-268 191 379 -187</bound>
+    <cycle_total_time>1</cycle_total_time>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>3</particle_quota>
+        <render type="Billboard">
+            <texture_name>trail_360</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <direction>0.304159 0.952621 0</direction>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <live_forever>true</live_forever>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>193</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>305</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>300</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_1</name>
+            <direction>0.707107 -0.707107 0</direction>
+            <position>-50 50 0</position>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <live_forever>true</live_forever>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>96</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>153</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>300</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_2</name>
+            <direction>0.870388 0.492366 0</direction>
+            <position>0 -50 0</position>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <live_forever>true</live_forever>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>96</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>153</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>300</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_0</name>
+            <dyn type="rot_start_angle" dyn_type="fixed">
+                <value>-90</value>
+            </dyn>
+        </Affector>
+        <Affector type="Randomiser">
+            <name>Affector_3</name>
+            <is_random_direction>false</is_random_direction>
+            <max_deviation>0.1 0.1 0.1</max_deviation>
+        </Affector>
+        <Affector type="Deflector">
+            <name>Affector_1</name>
+            <plane_point>0 -50 0</plane_point>
+            <plane_normal>0 1 0</plane_normal>
+        </Affector>
+        <Affector type="Deflector">
+            <name>Affector_2</name>
+            <plane_point>0 51 0</plane_point>
+        </Affector>
+        <Affector type="Deflector">
+            <name>Affector_4</name>
+            <plane_point>-51 0 0</plane_point>
+            <plane_normal>1 0 0</plane_normal>
+        </Affector>
+        <Affector type="Deflector">
+            <name>Affector_5</name>
+            <plane_point>50 0 0</plane_point>
+            <plane_normal>-1 0 0</plane_normal>
+        </Affector>
+    </Technique>
+</ParticleSystem>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>10</particle_quota>
+        <render type="Billboard">
+            <texture_name>spot_072</texture_name>
+            <mat_type>1</mat_type>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_0</name>
+            <direction>0 -1 0</direction>
+            <position>0 200 0</position>
+            <emission_rate>6</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.8</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>45</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="random">
+                <min>16</min>
+                <max>32</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>30</min>
+                <max>50</max>
+            </dyn>
+            <size>400 200 0</size>
+        </Emitter>
+        <Emitter type="Box">
+            <name>Emitter_1</name>
+            <direction>0 -1 0</direction>
+            <position>300 200 0</position>
+            <emission_rate>4</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.5</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>45</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="random">
+                <min>16</min>
+                <max>32</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>30</min>
+                <max>50</max>
+            </dyn>
+            <size>100 200 0</size>
+        </Emitter>
+        <Emitter type="Box">
+            <name>Emitter_2</name>
+            <direction>0 -1 0</direction>
+            <position>-300 200 0</position>
+            <emission_rate>4</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.8</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>45</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="random">
+                <min>16</min>
+                <max>32</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>30</min>
+                <max>50</max>
+            </dyn>
+            <size>100 200 0</size>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_1</name>
+            <dyn type="rot_speed" dyn_type="curve_spline">
+                <points>0 60</points>
+                <points>0.25 -60</points>
+                <points>0.5 60</points>
+                <points>0.75 -60</points>
+                <points>1 60</points>
+            </dyn>
+            <dyn type="rot_start_angle" dyn_type="fixed">
+                <value>-90</value>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_2</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 0.5</time_colour>
+            <time_colour>0.5 1 1 1 0.5</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Randomiser">
+            <name>Affector_3</name>
+            <max_deviation>0.02 0.02 0.02</max_deviation>
+        </Affector>
+        <Affector type="LinearForce">
+            <name>Affector_5</name>
+            <dyn type="dyn_force" dyn_type="random">
+                <min>10</min>
+                <max>50</max>
+            </dyn>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_1</name>
+        <particle_quota>14</particle_quota>
+        <render type="Billboard">
+            <texture_name>seq_447</texture_name>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_3</name>
+            <direction>0 -1 0</direction>
+            <position>0 200 0</position>
+            <emission_rate>6</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.8</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>45</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>20</min>
+                <max>32</max>
+            </dyn>
+            <dyn type="height" dyn_type="random">
+                <min>80</min>
+                <max>64</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>30</min>
+                <max>50</max>
+            </dyn>
+            <size>400 200 0</size>
+        </Emitter>
+        <Emitter type="Box">
+            <name>Emitter_4</name>
+            <direction>0 -1 0</direction>
+            <position>300 160 0</position>
+            <emission_rate>4</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.5</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>45</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>16</min>
+                <max>24</max>
+            </dyn>
+            <dyn type="height" dyn_type="random">
+                <min>50</min>
+                <max>40</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>30</min>
+                <max>50</max>
+            </dyn>
+            <size>100 100 0</size>
+        </Emitter>
+        <Emitter type="Box">
+            <name>Emitter_5</name>
+            <direction>0 -1 0</direction>
+            <position>-300 160 0</position>
+            <emission_rate>4</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.8</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>45</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>16</min>
+                <max>24</max>
+            </dyn>
+            <dyn type="height" dyn_type="random">
+                <min>50</min>
+                <max>40</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>30</min>
+                <max>50</max>
+            </dyn>
+            <size>100 100 0</size>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_10</name>
+            <time_step>10</time_step>
+            <col_num>4</col_num>
+            <random_start>true</random_start>
+        </Affector>
+        <Affector type="Rotation">
+            <name>Affector_9</name>
+            <dyn type="rot_speed" dyn_type="curve_spline">
+                <points>0 60</points>
+                <points>0.25 -60</points>
+                <points>0.5 60</points>
+                <points>0.75 -60</points>
+                <points>1 60</points>
+            </dyn>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>-110</min>
+                <max>-70</max>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_8</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 1</time_colour>
+            <time_colour>0.5 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Randomiser">
+            <name>Affector_7</name>
+            <max_deviation>0.02 0.02 0.02</max_deviation>
+        </Affector>
+        <Affector type="LinearForce">
+            <name>Affector_6</name>
+            <dyn type="dyn_force" dyn_type="random">
+                <min>10</min>
+                <max>50</max>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>

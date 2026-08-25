@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-289 220 407 -123</bound>
+    <cycle_total_time>1</cycle_total_time>
+    <Technique>
+        <name>Technique_2</name>
+        <tech_pos>75 10 0</tech_pos>
+        <tech_axis>1 0 0.2</tech_axis>
+        <tech_angle>80</tech_angle>
+        <render type="Entity">
+            <texture_name>trail_270</texture_name>
+            <mesh_name>daoguang_03.mesh</mesh_name>
+            <dyn type="scroll_v" dyn_type="curve_spline">
+                <points>0 8</points>
+                <points>1 2</points>
+            </dyn>
+            <v_cycle>false</v_cycle>
+            <offset_v>-1</offset_v>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_2</name>
+            <cycle_time>0.4 1</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <start_color>1 1 1 0.5</start_color>
+            <end_color>1 1 1 0.5</end_color>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+    </Technique>
+    <Technique>
+        <name>Technique_1</name>
+        <tech_pos>75 10 0</tech_pos>
+        <tech_axis>1 0 0.2</tech_axis>
+        <tech_angle>80</tech_angle>
+        <render type="Entity">
+            <texture_name>trail_270</texture_name>
+            <mat_type>1</mat_type>
+            <mesh_name>daoguang_03.mesh</mesh_name>
+            <dyn type="scroll_v" dyn_type="curve_spline">
+                <points>0 8</points>
+                <points>1 2</points>
+            </dyn>
+            <v_cycle>false</v_cycle>
+            <offset_v>-1</offset_v>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_1</name>
+            <cycle_time>0.4 1</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <start_color>1 1 1 0.5</start_color>
+            <end_color>1 1 1 0.5</end_color>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+    </Technique>
+</ParticleSystem>

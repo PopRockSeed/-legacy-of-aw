@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <tech_pos>-50 0 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>seq_377</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <live_forever>true</live_forever>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>208</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>98</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_0</name>
+            <time_step>0.05</time_step>
+            <row_num>3</row_num>
+            <amin_type>0</amin_type>
+        </Affector>
+    </Technique>
+</ParticleSystem>

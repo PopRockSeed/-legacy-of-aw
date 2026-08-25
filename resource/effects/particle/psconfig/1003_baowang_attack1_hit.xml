@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>3</particle_quota>
+        <render type="Billboard">
+            <texture_name>seq_316</texture_name>
+            <mat_type>1</mat_type>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_0</name>
+            <position>0 20 0</position>
+            <cycle_time>0 0.799842</cycle_time>
+            <start_color>0.792 1 1 1</start_color>
+            <end_color>0 1 1 1</end_color>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>90</min>
+                <max>180</max>
+            </dyn>
+            <dyn type="height" dyn_type="random">
+                <min>70</min>
+                <max>100</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <size>30 90 0</size>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_1</name>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>-40</min>
+                <max>0</max>
+            </dyn>
+        </Affector>
+        <Affector type="TextureAnimator">
+            <name>Affector_0</name>
+            <time_step>0.04</time_step>
+            <col_num>5</col_num>
+        </Affector>
+    </Technique>
+</ParticleSystem>

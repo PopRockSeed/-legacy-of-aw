@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-172.385 218.846 293 -84.2308</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>5</particle_quota>
+        <render type="Billboard">
+            <texture_name>other_277</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <direction>0.945335 0.3261 0</direction>
+            <position>0 75 0</position>
+            <cycle_time>0.3 0.5</cycle_time>
+            <emission_rate>20</emission_rate>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.5</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>30</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="random">
+                <min>8</min>
+                <max>12</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>80</min>
+                <max>140</max>
+            </dyn>
+        </Emitter>
+        <Affector type="Colour">
+            <name>Affector_1</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 1</time_colour>
+            <time_colour>0.5 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Elasticity">
+            <name>Affector_0</name>
+            <distance_factor>0</distance_factor>
+            <time_start>0.2</time_start>
+            <reverse_factor>0.9</reverse_factor>
+            <offset_radius>0</offset_radius>
+        </Affector>
+    </Technique>
+</ParticleSystem>

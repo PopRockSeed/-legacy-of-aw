@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>1</particle_quota>
+        <render type="Billboard">
+            <texture_name>other_282</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <position>0 64 0</position>
+            <cycle_time>0.68 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_0</name>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 1024</points>
+                <points>1 64</points>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_1</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>1 1 1 1 0.7</time_colour>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_1</name>
+        <particle_quota>1</particle_quota>
+        <render type="Billboard">
+            <texture_name>seq_337</texture_name>
+            <billboard_origin>top_left</billboard_origin>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_1</name>
+            <position>0 -32 0</position>
+            <cycle_time>0.8 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.3</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>162</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>118</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_2</name>
+            <time_step>0.05</time_step>
+            <row_num>2</row_num>
+            <col_num>3</col_num>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>1</particle_quota>
+        <render type="Billboard">
+            <texture_name>seq_337</texture_name>
+            <billboard_type>perpendicular_common</billboard_type>
+            <billboard_origin>top_left</billboard_origin>
+            <billboard_common_dir>0 0 -1</billboard_common_dir>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_2</name>
+            <position>0 -32 0</position>
+            <cycle_time>0.8 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.3</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>162</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>118</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_3</name>
+            <time_step>0.05</time_step>
+            <row_num>2</row_num>
+            <col_num>3</col_num>
+        </Affector>
+    </Technique>
+</ParticleSystem>
