@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_1</name>
+        <particle_quota>1</particle_quota>
+        <render type="Billboard">
+            <texture_name>other_271</texture_name>
+            <billboard_origin>top_right</billboard_origin>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_3</name>
+            <position>44 42 0</position>
+            <cycle_time>1.2 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_3</name>
+            <dyn type="rot_speed" dyn_type="fixed">
+                <value>-1440</value>
+            </dyn>
+            <dyn type="rot_start_angle" dyn_type="fixed">
+                <value>90</value>
+            </dyn>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>10</particle_quota>
+        <render type="Billboard">
+            <texture_name>glow_049</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.5</add_power_ratio>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_5</name>
+            <position>-4 74 0</position>
+            <cycle_time>0.3 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.9</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Circle">
+            <name>Emitter_6</name>
+            <position>-4 74 0</position>
+            <cycle_time>0.25 0.9</cycle_time>
+            <emission_rate>13</emission_rate>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.6</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="random">
+                <min>16</min>
+                <max>20</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>-20</min>
+                <max>-60</max>
+            </dyn>
+            <circle_x_radius>80</circle_x_radius>
+            <circle_z_radius>80</circle_z_radius>
+            <circle_x_width>40</circle_x_width>
+            <circle_z_width>40</circle_z_width>
+            <circle_auto_dir>true</circle_auto_dir>
+        </Emitter>
+        <Affector type="Randomiser">
+            <name>Affector_5</name>
+            <exclude_emitter>Emitter_4</exclude_emitter>
+            <exclude_emitter>Emitter_6</exclude_emitter>
+            <max_deviation>0.01 0.01 0.01</max_deviation>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_6</name>
+            <exclude_emitter>Emitter_4</exclude_emitter>
+            <exclude_emitter>Emitter_5</exclude_emitter>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.3 1 1 1 0.5</time_colour>
+            <time_colour>0.6 1 1 1 0.5</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Rotation">
+            <name>Affector_9</name>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>0</min>
+                <max>360</max>
+            </dyn>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_10</name>
+            <exclude_emitter>Emitter_5</exclude_emitter>
+            <exclude_emitter>Emitter_6</exclude_emitter>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 1200</points>
+                <points>1 200</points>
+            </dyn>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>10</particle_quota>
+        <render type="Billboard">
+            <texture_name>spot_064</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.5</add_power_ratio>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <position>-4 74 0</position>
+            <cycle_time>0.1 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Colour">
+            <name>Affector_4</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>1 1 1 1 0.614</time_colour>
+        </Affector>
+        <Affector type="Rotation">
+            <name>Affector_1</name>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>0</min>
+                <max>360</max>
+            </dyn>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_0</name>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 1200</points>
+                <points>1 200</points>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>

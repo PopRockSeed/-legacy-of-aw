@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-143.89 -141.341 -144.659 -141.341</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>1</particle_quota>
+        <render type="Billboard">
+            <texture_name>seq_345</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <position>0 30 0</position>
+            <cycle_time>0.0664557 3</cycle_time>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.36</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>-150</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>80</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_0</name>
+            <time_step>0.06</time_step>
+            <row_num>3</row_num>
+            <col_num>2</col_num>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_1</name>
+        <particle_quota>1</particle_quota>
+        <render type="Billboard">
+            <texture_name>trail_346</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.5</add_power_ratio>
+            <billboard_type>oriented_self</billboard_type>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_1</name>
+            <direction>-0.954195 -0.299187 0</direction>
+            <position>45 33 0</position>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>20</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>90</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>500</value>
+            </dyn>
+        </Emitter>
+    </Technique>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>1</particle_quota>
+        <render type="Billboard">
+            <texture_name>seq_345</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_2</name>
+            <position>0 27 0</position>
+            <cycle_time>0.598101 3</cycle_time>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.37</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>-180</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>90</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_1</name>
+            <time_step>0.06</time_step>
+            <row_num>3</row_num>
+            <col_num>2</col_num>
+        </Affector>
+        <Affector type="Rotation">
+            <name>Affector_2</name>
+            <dyn type="rot_start_angle" dyn_type="fixed">
+                <value>10</value>
+            </dyn>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_3</name>
+        <particle_quota>1</particle_quota>
+        <render type="Billboard">
+            <texture_name>trail_346</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.5</add_power_ratio>
+            <billboard_type>oriented_self</billboard_type>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_3</name>
+            <direction>-0.954195 -0.299187 0</direction>
+            <position>45 30 0</position>
+            <cycle_time>0.522152 3</cycle_time>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>13</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>90</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>450</value>
+            </dyn>
+        </Emitter>
+    </Technique>
+</ParticleSystem>

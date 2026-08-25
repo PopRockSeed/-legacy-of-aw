@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>1</particle_quota>
+        <tech_pos>0 90 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>flash_093</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <cycle_time>0.35 3</cycle_time>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="fixed">
+                <value>256</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_1</name>
+            <dyn type="scale_xyz" dyn_type="fixed">
+                <value>-2000</value>
+            </dyn>
+        </Affector>
+        <Affector type="Rotation">
+            <name>Affector_0</name>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>0</min>
+                <max>360</max>
+            </dyn>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_1</name>
+        <particle_quota>2</particle_quota>
+        <tech_pos>0 90 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>ring_287</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.6</add_power_ratio>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_1</name>
+            <cycle_time>0.35 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.8</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="fixed">
+                <value>128</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_2</name>
+            <position>0 30 0</position>
+            <cycle_time>1.2 3</cycle_time>
+            <emission_rate>2</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.4</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="fixed">
+                <value>170</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_2</name>
+            <exclude_emitter>Emitter_2</exclude_emitter>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 0</points>
+                <points>0.2 180</points>
+                <points>0.3 200</points>
+                <points>0.4 180</points>
+                <points>0.5 200</points>
+                <points>0.6 180</points>
+                <points>0.7 200</points>
+                <points>0.8 180</points>
+                <points>0.9 200</points>
+                <points>1 180</points>
+            </dyn>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_3</name>
+            <exclude_emitter>Emitter_1</exclude_emitter>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 0</points>
+                <points>0.3 400</points>
+                <points>1 500</points>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_4</name>
+            <exclude_emitter>Emitter_1</exclude_emitter>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>2</particle_quota>
+        <tech_pos>0 90 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>other_232</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.6</add_power_ratio>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_4</name>
+            <position>0 30 0</position>
+            <cycle_time>1.2 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>73</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>94</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_6</name>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 0</points>
+                <points>0.5 300</points>
+                <points>1 360</points>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_5</name>
+            <exclude_emitter>Emitter_3</exclude_emitter>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_3</name>
+        <particle_quota>2</particle_quota>
+        <tech_pos>0 90 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>seq_278</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_5</name>
+            <cycle_time>0.45 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.9</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="fixed">
+                <value>180</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_7</name>
+            <cycle_time>1.2 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.4</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_8</name>
+            <time_step>0.05</time_step>
+            <row_num>2</row_num>
+            <col_num>2</col_num>
+            <amin_type>0</amin_type>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_7</name>
+            <exclude_emitter>Emitter_5</exclude_emitter>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 0</points>
+                <points>0.3 320</points>
+                <points>1 400</points>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_15</name>
+            <exclude_emitter>Emitter_5</exclude_emitter>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 0.5</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_4</name>
+        <particle_quota>1</particle_quota>
+        <tech_pos>0 90 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>ring_045</texture_name>
+            <mat_type>1</mat_type>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_3</name>
+            <cycle_time>0.35 3</cycle_time>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_11</name>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>0</min>
+                <max>360</max>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_10</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.02 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_9</name>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_5</name>
+        <particle_quota>1</particle_quota>
+        <tech_pos>0 90 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>ring_281</texture_name>
+            <mat_type>1</mat_type>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_6</name>
+            <cycle_time>0.3 3</cycle_time>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="fixed">
+                <value>200</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_12</name>
+            <dyn type="rot_speed" dyn_type="fixed">
+                <value>720</value>
+            </dyn>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>0</min>
+                <max>360</max>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_13</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.02 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_14</name>
+            <dyn type="scale_xyz" dyn_type="fixed">
+                <value>-512</value>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>

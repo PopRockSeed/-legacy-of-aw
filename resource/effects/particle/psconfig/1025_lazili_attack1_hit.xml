@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>8</particle_quota>
+        <render type="EmittedPS">
+            <texture_name>basewhite</texture_name>
+            <ps_template>1025_lazili_attack1_hit_emit</ps_template>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_1</name>
+            <position>100 0 0</position>
+            <cycle_time>0 0.6</cycle_time>
+            <emission_rate>20</emission_rate>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.5</value>
+            </dyn>
+            <size>300 50 0</size>
+        </Emitter>
+    </Technique>
+</ParticleSystem>

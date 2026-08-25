@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <render type="Billboard">
+            <texture_name>other_296</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <direction>0.894427 0.447214 0</direction>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <live_forever>true</live_forever>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>146</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>148</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>200</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Deflector">
+            <name>Affector_3</name>
+            <plane_point>-1 0 0</plane_point>
+            <plane_normal>1 0 0</plane_normal>
+        </Affector>
+        <Affector type="Deflector">
+            <name>Affector_2</name>
+            <plane_point>1 0 0</plane_point>
+            <plane_normal>-1 0 0</plane_normal>
+        </Affector>
+        <Affector type="Deflector">
+            <name>Affector_1</name>
+            <plane_point>0 1 0</plane_point>
+        </Affector>
+        <Affector type="Deflector">
+            <name>Affector_0</name>
+            <plane_point>0 -1 0</plane_point>
+            <plane_normal>0 1 0</plane_normal>
+        </Affector>
+    </Technique>
+</ParticleSystem>

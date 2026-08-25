@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-286.556 -52.5556 -286.556 -52.5556</bound>
+    <Technique>
+        <name>Technique_1</name>
+        <particle_quota>3</particle_quota>
+        <tech_angle>10</tech_angle>
+        <render type="Entity">
+            <texture_name>trail_257</texture_name>
+            <mesh_name>xuanfengquan_01.mesh</mesh_name>
+            <dyn type="scroll_u" dyn_type="fixed">
+                <value>-3</value>
+            </dyn>
+            <dyn type="scroll_v" dyn_type="fixed">
+                <value>-0.2</value>
+            </dyn>
+            <entity_axis>0 1 0</entity_axis>
+            <scale_u>1.1</scale_u>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_7</name>
+            <cycle_time>0 2.00079</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.3</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>30</min>
+                <max>60</max>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>80</value>
+            </dyn>
+            <dyn type="depth" dyn_type="random">
+                <min>30</min>
+                <max>50</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>450</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_8</name>
+            <position>0 10 0</position>
+            <cycle_time>0 2</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.25</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>150</min>
+                <max>200</max>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>150</value>
+            </dyn>
+            <dyn type="depth" dyn_type="random">
+                <min>150</min>
+                <max>200</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>450</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_10</name>
+            <position>-10 30 0</position>
+            <cycle_time>0 2</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>300</min>
+                <max>400</max>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>200</value>
+            </dyn>
+            <dyn type="depth" dyn_type="random">
+                <min>300</min>
+                <max>400</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>450</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_4</name>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 -670.588</points>
+                <points>0.05 131.707</points>
+                <points>0.19 -58.537</points>
+                <points>0.29 39.024</points>
+                <points>0.39 -34.146</points>
+                <points>0.52 39.024</points>
+                <points>0.65 -43.902</points>
+                <points>0.77 29.268</points>
+                <points>0.87 -29.268</points>
+                <points>1 0</points>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_10</name>
+            <time_colour>0 1 0.502 0 0.023</time_colour>
+            <time_colour>0.13 1 0.502 0 0.727</time_colour>
+            <time_colour>0.63 1 0.502 0 0.61</time_colour>
+            <time_colour>1 1 0.502 0 0.012</time_colour>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_5</name>
+        <tech_angle>10</tech_angle>
+        <render type="Entity">
+            <texture_name>trail_324</texture_name>
+            <mat_type>1</mat_type>
+            <mesh_name>xuanfengquan_01.mesh</mesh_name>
+            <dyn type="scroll_u" dyn_type="fixed">
+                <value>-3</value>
+            </dyn>
+            <entity_axis>0 1 0</entity_axis>
+            <scale_u>0.5</scale_u>
+            <scale_v>3</scale_v>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <position>-10 0 0</position>
+            <cycle_time>0 2</cycle_time>
+            <emission_rate>2</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>150</min>
+                <max>250</max>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>250</value>
+            </dyn>
+            <dyn type="depth" dyn_type="random">
+                <min>100</min>
+                <max>200</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>450</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_5</name>
+            <is_all_scale>false</is_all_scale>
+            <dyn type="scale_x" dyn_type="curve_spline">
+                <points>0 0</points>
+                <points>0.09 405.263</points>
+                <points>0.13 -400</points>
+                <points>0.22 315.79</points>
+                <points>0.32 -357.895</points>
+                <points>0.4 289.474</points>
+                <points>0.51 -331.579</points>
+                <points>0.58 268.421</points>
+                <points>0.72 -273.684</points>
+                <points>0.81 221.053</points>
+                <points>1 0</points>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_6</name>
+            <time_colour>0 1 1 0.808 0.009</time_colour>
+            <time_colour>0.31 1 1 0.502 0.386</time_colour>
+            <time_colour>0.71 1 1 1 0.331</time_colour>
+            <time_colour>1 1 1 0.749 0.02</time_colour>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>3</particle_quota>
+        <render type="Entity">
+            <texture_name>trail_297</texture_name>
+            <mat_type>1</mat_type>
+            <mesh_name>xuanfengquan_01.mesh</mesh_name>
+            <dyn type="scroll_u" dyn_type="fixed">
+                <value>-3</value>
+            </dyn>
+            <dyn type="scroll_v" dyn_type="fixed">
+                <value>-0.2</value>
+            </dyn>
+            <entity_axis>0 1 0</entity_axis>
+            <scale_u>1.1</scale_u>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_4</name>
+            <cycle_time>0 2.00079</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.3</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>30</min>
+                <max>60</max>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>80</value>
+            </dyn>
+            <dyn type="depth" dyn_type="random">
+                <min>30</min>
+                <max>50</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>450</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_5</name>
+            <position>0 10 0</position>
+            <cycle_time>0 2</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.25</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>150</min>
+                <max>200</max>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>150</value>
+            </dyn>
+            <dyn type="depth" dyn_type="random">
+                <min>150</min>
+                <max>200</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>450</value>
+            </dyn>
+        </Emitter>
+        <Emitter type="Point">
+            <name>Emitter_6</name>
+            <position>-10 30 0</position>
+            <cycle_time>0 2</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1.2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>300</min>
+                <max>400</max>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>200</value>
+            </dyn>
+            <dyn type="depth" dyn_type="random">
+                <min>300</min>
+                <max>400</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>450</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_1</name>
+            <is_all_scale>false</is_all_scale>
+            <dyn type="scale_x" dyn_type="curve_spline">
+                <points>0 -331.915</points>
+                <points>1 -800</points>
+            </dyn>
+            <dyn type="scale_y" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_0</name>
+            <time_colour>0 1 0.502 0 0.023</time_colour>
+            <time_colour>0.15 1 0.502 0 0.221</time_colour>
+            <time_colour>0.59 1 0.502 0 0.071</time_colour>
+            <time_colour>1 1 0.502 0 0.012</time_colour>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_4</name>
+        <render type="EmittedPS">
+            <texture_name>basewhite</texture_name>
+            <ps_template>1021_luanju_attack2_emit</ps_template>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_7</name>
+            <cycle_time>0 1</cycle_time>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>500</value>
+            </dyn>
+            <size>0 0 0</size>
+        </Emitter>
+    </Technique>
+</ParticleSystem>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>3</particle_quota>
+        <tech_angle>30</tech_angle>
+        <render type="Entity">
+            <texture_name>trail_296</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.3</add_power_ratio>
+            <mesh_name>daoguang_03.mesh</mesh_name>
+            <dyn type="scroll_u" dyn_type="fixed">
+                <value>-3</value>
+            </dyn>
+            <dyn type="scroll_v" dyn_type="fixed">
+                <value>5</value>
+            </dyn>
+            <entity_axis>0.0175353 -0.694936 0.718858</entity_axis>
+            <u_cycle>false</u_cycle>
+            <v_cycle>false</v_cycle>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <position>-45 10 0</position>
+            <cycle_time>0.498418 3</cycle_time>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>140</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>65</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_0</name>
+            <dyn type="rot_start_angle" dyn_type="fixed">
+                <value>-30</value>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>
