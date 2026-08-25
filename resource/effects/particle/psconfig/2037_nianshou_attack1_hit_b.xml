@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <render type="Billboard">
+            <texture_name>fluxay_055</texture_name>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>2</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>156</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>71</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Colour">
+            <name>Affector_1</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.2 1 1 1 1</time_colour>
+            <time_colour>0.85 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="Scale">
+            <name>Affector_0</name>
+            <is_all_scale>false</is_all_scale>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_x" dyn_type="curve_spline">
+                <points>0 312</points>
+                <points>0.2 468</points>
+                <points>1 584</points>
+            </dyn>
+            <dyn type="scale_y" dyn_type="curve_spline">
+                <points>0 142</points>
+                <points>0.2 213</points>
+                <points>1 264</points>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>

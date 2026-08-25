@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <render type="Billboard">
+            <texture_name>glow_048</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.6</add_power_ratio>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <force_emit>true</force_emit>
+            <live_forever>true</live_forever>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <use_all_size>true</use_all_size>
+            <dyn type="all_xyz" dyn_type="fixed">
+                <value>90</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_0</name>
+            <scale_fixed>true</scale_fixed>
+            <dyn type="scale_xyz" dyn_type="curve_spline">
+                <points>0 90</points>
+                <points>0.46 100</points>
+                <points>1 90</points>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <tech_angle>63</tech_angle>
+        <render type="Entity">
+            <texture_name>trail_337</texture_name>
+            <mat_type>1</mat_type>
+            <mesh_name>daoguang_08.mesh</mesh_name>
+            <dyn type="scroll_u" dyn_type="fixed">
+                <value>-4.5</value>
+            </dyn>
+            <dyn type="scroll_v" dyn_type="fixed">
+                <value>6</value>
+            </dyn>
+            <entity_axis>0 -0.286025 0.958222</entity_axis>
+            <u_cycle>false</u_cycle>
+            <v_cycle>false</v_cycle>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <position>-10 180 0</position>
+            <cycle_time>0.417695 3</cycle_time>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>90</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>-60</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_0</name>
+            <dyn type="rot_start_angle" dyn_type="fixed">
+                <value>20</value>
+            </dyn>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_1</name>
+        <tech_angle>63</tech_angle>
+        <render type="Entity">
+            <texture_name>rotation_026</texture_name>
+            <mat_type>1</mat_type>
+            <mesh_name>daoguang_08.mesh</mesh_name>
+            <dyn type="scroll_u" dyn_type="fixed">
+                <value>-5</value>
+            </dyn>
+            <dyn type="scroll_v" dyn_type="fixed">
+                <value>5</value>
+            </dyn>
+            <entity_axis>0 -0.286025 0.958222</entity_axis>
+            <u_cycle>false</u_cycle>
+            <v_cycle>false</v_cycle>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_1</name>
+            <position>-10 180 0</position>
+            <cycle_time>0.417695 3</cycle_time>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>90</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>-60</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_1</name>
+            <dyn type="rot_start_angle" dyn_type="fixed">
+                <value>20</value>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>

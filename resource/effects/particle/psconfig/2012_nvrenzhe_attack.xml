@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-136.155 186.402 97.0033 -71.4931</bound>
+    <Technique>
+        <name>Technique_1</name>
+        <tech_pos>16 58 0</tech_pos>
+        <render type="RibbonTrail">
+            <texture_name>trail_332</texture_name>
+            <mat_type>1</mat_type>
+            <ribbon_change_color>0 0 0 1</ribbon_change_color>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_1</name>
+            <cycle_time>0.3 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.5</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Colour">
+            <name>Affector_2</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 1</time_colour>
+            <time_colour>0.8 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+        <Affector type="PathFollower">
+            <name>PathFollower_nvrenzhe</name>
+            <pf_pos>-35.71 -30.46 0</pf_pos>
+            <pf_pos>-40.2 -35.36 0</pf_pos>
+            <pf_pos>-46.16 -38.19 0</pf_pos>
+            <pf_pos>-78.68 -10.66 0</pf_pos>
+            <pf_pos>-78.92 -11.35 0</pf_pos>
+            <pf_pos>-79.1 -12.05 0</pf_pos>
+            <pf_pos>-79.17 -12.77 0</pf_pos>
+            <pf_pos>-79.15 -13.5 0</pf_pos>
+            <pf_pos>-79.06 -14.22 0</pf_pos>
+            <pf_pos>-78.92 -14.93 0</pf_pos>
+            <pf_pos>-78.74 -15.64 0</pf_pos>
+            <pf_pos>-78.52 -16.33 0</pf_pos>
+            <pf_pos>-63.44 1.54 -0</pf_pos>
+            <pf_pos>-30.93 9.49 -0</pf_pos>
+            <pf_pos>2.38 6.55 -0</pf_pos>
+            <pf_pos>32.05 -8.75 0</pf_pos>
+            <pf_pos>32.05 -8.75 0</pf_pos>
+            <pf_pos>32.05 -8.75 0</pf_pos>
+            <pf_pos>32.05 -8.75 0</pf_pos>
+            <pf_pos>32.05 -8.75 0</pf_pos>
+            <pf_pos>32.05 -8.75 0</pf_pos>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_0</name>
+        <tech_pos>64 44 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>seq_358</texture_name>
+            <mat_type>1</mat_type>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <cycle_time>0.7 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.15</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>82</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>114</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_0</name>
+            <time_step>0.05</time_step>
+            <col_num>3</col_num>
+        </Affector>
+    </Technique>
+</ParticleSystem>

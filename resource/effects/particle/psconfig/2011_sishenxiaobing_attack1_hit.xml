@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <cycle_total_time>1</cycle_total_time>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>2</particle_quota>
+        <render type="EmittedPS">
+            <texture_name>basewhite</texture_name>
+            <ps_template>2011_sishenxiaobing_attack1_hit_emit</ps_template>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_1</name>
+            <cycle_time>0 0.5</cycle_time>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <size>200 100 0</size>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_0</name>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>-10</min>
+                <max>10</max>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>

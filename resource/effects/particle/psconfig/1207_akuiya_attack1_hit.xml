@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>4</particle_quota>
+        <render type="Billboard">
+            <texture_name>seq_404</texture_name>
+            <mat_type>1</mat_type>
+            <add_power_ratio>0.8</add_power_ratio>
+            <billboard_type>perpendicular_self</billboard_type>
+            <billboard_origin>top_center</billboard_origin>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <direction>0 0 1</direction>
+            <emission_rate>5</emission_rate>
+            <force_emit>true</force_emit>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.3</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>60</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>100</min>
+                <max>200</max>
+            </dyn>
+            <dyn type="height" dyn_type="random">
+                <min>73</min>
+                <max>146</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>3</value>
+            </dyn>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_2</name>
+            <dyn type="scale_xyz" dyn_type="random">
+                <min>64</min>
+                <max>128</max>
+            </dyn>
+        </Affector>
+        <Affector type="TextureAnimator">
+            <name>Affector_0</name>
+            <time_step>0.05</time_step>
+            <row_num>5</row_num>
+        </Affector>
+    </Technique>
+</ParticleSystem>
