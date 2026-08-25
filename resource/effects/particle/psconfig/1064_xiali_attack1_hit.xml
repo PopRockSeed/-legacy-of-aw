@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_6</name>
+        <particle_quota>10</particle_quota>
+        <render type="EmittedPS">
+            <texture_name>basewhite</texture_name>
+            <ps_template>1064_xiali_attack1_hit_emit</ps_template>
+        </render>
+        <Emitter type="Circle">
+            <name>Emitter_4</name>
+            <cycle_time>0 0.3</cycle_time>
+            <emission_rate>20</emission_rate>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.5</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <circle_x_radius>80</circle_x_radius>
+        </Emitter>
+    </Technique>
+</ParticleSystem>

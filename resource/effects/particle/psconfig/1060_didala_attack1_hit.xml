@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>3</particle_quota>
+        <render type="EmittedPS">
+            <texture_name>basewhite</texture_name>
+            <ps_template>1060_didala</ps_template>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_4</name>
+            <position>-50 20 0</position>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <size>30 10 0</size>
+        </Emitter>
+        <Emitter type="Box">
+            <name>Emitter_6</name>
+            <position>50 20 0</position>
+            <cycle_time>0.0332278 3</cycle_time>
+            <emission_rate>1</emission_rate>
+            <force_emit>true</force_emit>
+            <is_cycle>false</is_cycle>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <size>30 10 0</size>
+        </Emitter>
+        <Emitter type="Box">
+            <name>Emitter_7</name>
+            <position>0 60 0</position>
+            <cycle_time>0.056962 3</cycle_time>
+            <is_cycle>false</is_cycle>
+            <size>20 50 0</size>
+        </Emitter>
+    </Technique>
+</ParticleSystem>

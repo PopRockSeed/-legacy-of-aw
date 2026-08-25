@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <pre_time>0.2</pre_time>
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>10</particle_quota>
+        <render type="Billboard">
+            <texture_name>seq_437</texture_name>
+            <billboard_type>oriented_self</billboard_type>
+        </render>
+        <Emitter type="Circle">
+            <name>Emitter_2</name>
+            <cycle_time>0 1.6</cycle_time>
+            <emission_rate>40</emission_rate>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="random">
+                <min>0.15</min>
+                <max>0.2</max>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>160</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>136</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="random">
+                <min>3000</min>
+                <max>4000</max>
+            </dyn>
+            <circle_x_radius>128</circle_x_radius>
+            <circle_z_radius>128</circle_z_radius>
+            <circle_auto_dir>true</circle_auto_dir>
+            <fan_start_angle>335</fan_start_angle>
+            <fan_end_angle>345</fan_end_angle>
+        </Emitter>
+        <Affector type="Scale">
+            <name>Affector_0</name>
+            <is_all_scale>false</is_all_scale>
+            <dyn type="scale_x" dyn_type="fixed">
+                <value>800</value>
+            </dyn>
+            <dyn type="scale_y" dyn_type="fixed">
+                <value>1600</value>
+            </dyn>
+        </Affector>
+        <Affector type="TextureAnimator">
+            <name>Affector_1</name>
+            <time_step>1</time_step>
+            <col_num>2</col_num>
+            <random_start>true</random_start>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_2</name>
+            <time_colour>0 1 1 1 1</time_colour>
+            <time_colour>0.7 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+    </Technique>
+</ParticleSystem>

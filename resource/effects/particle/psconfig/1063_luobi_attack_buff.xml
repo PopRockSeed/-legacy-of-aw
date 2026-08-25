@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <particle_quota>10</particle_quota>
+        <render type="Billboard">
+            <texture_name>other_321</texture_name>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_0</name>
+            <direction>0 -1 0</direction>
+            <cycle_time>0 1</cycle_time>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>2</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>250</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>140</value>
+            </dyn>
+            <size>300 80 0</size>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_0</name>
+            <dyn type="rot_speed" dyn_type="random">
+                <min>-10</min>
+                <max>10</max>
+            </dyn>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>0</min>
+                <max>360</max>
+            </dyn>
+        </Affector>
+        <Affector type="Colour">
+            <name>Affector_1</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.1 1 1 1 1</time_colour>
+            <time_colour>0.7 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+    </Technique>
+</ParticleSystem>
