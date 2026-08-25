@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParticleSystem is_cycle="true">
+    <bound>-64 -64 64 64</bound>
+    <Technique>
+        <name>Technique_0</name>
+        <tech_pos>0 -30 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>seq_488</texture_name>
+            <billboard_origin>top_center</billboard_origin>
+        </render>
+        <Emitter type="Point">
+            <name>Emitter_0</name>
+            <force_emit>true</force_emit>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>360</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>388</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+        </Emitter>
+        <Affector type="TextureAnimator">
+            <name>Affector_0</name>
+            <time_step>0.05</time_step>
+            <row_num>4</row_num>
+            <col_num>4</col_num>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_1</name>
+        <particle_quota>10</particle_quota>
+        <tech_pos>0 -40 0</tech_pos>
+        <render type="Billboard">
+            <texture_name>trail_416</texture_name>
+        </render>
+        <Emitter type="Box">
+            <name>Emitter_1</name>
+            <direction>0 1 0</direction>
+            <position>0 -40 0</position>
+            <cycle_time>0.56 1</cycle_time>
+            <emission_rate>100</emission_rate>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.1</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="fixed">
+                <value>182</value>
+            </dyn>
+            <dyn type="height" dyn_type="fixed">
+                <value>212</value>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>3000</value>
+            </dyn>
+            <size>200 60 0</size>
+        </Emitter>
+        <Affector type="Colour">
+            <name>Affector_1</name>
+            <time_colour>0 1 1 1 0</time_colour>
+            <time_colour>0.5 1 1 1 1</time_colour>
+            <time_colour>1 1 1 1 0</time_colour>
+        </Affector>
+    </Technique>
+    <Technique>
+        <name>Technique_2</name>
+        <particle_quota>16</particle_quota>
+        <render type="Entity">
+            <texture_name>trail_289</texture_name>
+            <mesh_name>luoxuan_14.mesh</mesh_name>
+            <dyn type="scroll_v" dyn_type="fixed">
+                <value>4</value>
+            </dyn>
+            <entity_axis>0 1 0</entity_axis>
+            <v_cycle>false</v_cycle>
+            <offset_v>-1</offset_v>
+            <scale_v>3</scale_v>
+        </render>
+        <Emitter type="Line">
+            <name>Emitter_3</name>
+            <cycle_time>0.56 0.85</cycle_time>
+            <emission_rate>32</emission_rate>
+            <start_color>0 0 0.141 1</start_color>
+            <end_color>0 0 0 1</end_color>
+            <is_cycle>false</is_cycle>
+            <dyn type="live_time" dyn_type="fixed">
+                <value>0.5</value>
+            </dyn>
+            <dyn type="angle" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <dyn type="width" dyn_type="random">
+                <min>200</min>
+                <max>250</max>
+            </dyn>
+            <dyn type="height" dyn_type="random">
+                <min>200</min>
+                <max>300</max>
+            </dyn>
+            <dyn type="velocity" dyn_type="fixed">
+                <value>0</value>
+            </dyn>
+            <start_point>0 0 0</start_point>
+            <line_direction>0 100 0</line_direction>
+        </Emitter>
+        <Affector type="Rotation">
+            <name>Affector_3</name>
+            <dyn type="rot_start_angle" dyn_type="random">
+                <min>0</min>
+                <max>360</max>
+            </dyn>
+        </Affector>
+    </Technique>
+</ParticleSystem>
