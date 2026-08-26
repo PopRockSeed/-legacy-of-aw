@@ -1,0 +1,20 @@
+
+
+GameConfig.ResCompose.Ui_Res_Share=
+{
+	Path = "resource/ui_res/share.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bk = { 133, 295, 45, 37, 0, 0, },
+	
+	cord = { 0, 0, 160, 160, 0, 0, },
+	
+	logo = { 0, 164, 195, 127, 0, 0, },
+	
+	news_bk = { 0, 295, 129, 97, 0, 0, },
+	
+	pic = { 133, 336, 33, 33, 0, 0, },
+}
+

@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Shouchong=
+{
+	Path = "resource/ui_res/shouchong.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	czhi = { 0, 591, 151, 74, 0, 0, },
+	
+	kuang = { 0, 0, 877, 587, 0, 0, },
+}
+

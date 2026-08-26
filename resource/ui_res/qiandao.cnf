@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Qiandao=
+{
+	Path = "resource/ui_res/qiandao.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	got = { 0, 124, 70, 60, 0, 0, },
+	
+	todayframe = { 0, 0, 120, 120, 0, 0, },
+	
+	vip = { 0, 188, 120, 54, 0, 0, },
+}
+

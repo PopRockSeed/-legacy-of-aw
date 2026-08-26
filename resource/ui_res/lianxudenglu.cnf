@@ -1,0 +1,22 @@
+
+
+GameConfig.ResCompose.Ui_Res_Lianxudenglu=
+{
+	Path = "resource/ui_res/lianxudenglu.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	blue_up = { 111, 0, 118, 76, 0, 0, },
+	
+	close_bk = { 0, 136, 74, 25, 0, 0, },
+	
+	content_bk = { 0, 90, 49, 42, 0, 0, },
+	
+	gei_bk = { 53, 90, 42, 40, 0, 0, },
+	
+	memo = { 0, 0, 107, 86, 0, 0, },
+	
+	page_down = { 111, 80, 105, 76, 0, 0, },
+}
+

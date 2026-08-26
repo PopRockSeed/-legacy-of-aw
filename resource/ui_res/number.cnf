@@ -1,0 +1,68 @@
+
+
+GameConfig.ResCompose.Ui_Res_Number=
+{
+	Path = "resource/ui_res/number.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	arena = { 1202, 0, 216, 27, 0, 0, },
+	
+	baoji = { 658, 0, 286, 32, 0, 0, },
+	
+	charge_vip = { 184, 0, 470, 52, 0, 0, },
+	
+	charge_vip2 = { 880, 106, 220, 30, 0, 0, },
+	
+	fengce = { 1160, 34, 46, 28, 0, 0, },
+	
+	fengce_VIP = { 252, 56, 320, 44, 0, 0, },
+	
+	green_font = { 1210, 31, 240, 27, 0, 0, },
+	
+	green_posion_font = { 1356, 62, 240, 27, 0, 0, },
+	
+	jiejiebiaoxian = { 1600, 62, 165, 20, 0, 0, },
+	
+	jiejiebiaoxian1 = { 1602, 86, 165, 20, 0, 0, },
+	
+	jiejiebiaoxian2 = { 1602, 110, 165, 20, 0, 0, },
+	
+	jjc_battleui = { 576, 56, 300, 40, 0, 0, },
+	
+	num_font_white12x1 = { 1160, 66, 192, 28, 0, 0, },
+	
+	paiming1 = { 168, 84, 80, 64, 0, 0, },
+	
+	paiming2 = { 0, 84, 80, 65, 0, 0, },
+	
+	paiming3 = { 84, 84, 80, 65, 0, 0, },
+	
+	rankinglist = { 252, 104, 320, 44, 0, 0, },
+	
+	red_big_font = { 880, 36, 276, 31, 0, 0, },
+	
+	red_crit_enemy = { 880, 71, 276, 31, 0, 0, },
+	
+	red_expfb = { 576, 100, 300, 40, 0, 0, },
+	
+	red_font = { 1358, 93, 240, 27, 0, 0, },
+	
+	red_hit_enemy = { 1358, 124, 240, 27, 0, 0, },
+	
+	vip = { 658, 36, 130, 15, 0, 0, },
+	
+	yellow_anger_font = { 1422, 0, 240, 27, 0, 0, },
+	
+	yellow_font = { 1454, 31, 240, 27, 0, 0, },
+	
+	yellow_vip_font = { 1602, 134, 100, 14, 0, 0, },
+	
+	zbsz = { 0, 0, 180, 80, 0, 0, },
+	
+	zhanlibiaoqian = { 948, 0, 250, 30, 0, 0, },
+	
+	zhanli_green = { 1104, 106, 250, 30, 0, 0, },
+}
+

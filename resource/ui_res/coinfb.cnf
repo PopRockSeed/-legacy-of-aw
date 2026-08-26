@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Coinfb=
+{
+	Path = "resource/ui_res/coinfb.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	baoxiang = { 211, 73, 64, 58, 0, 0, },
+	
+	baoxiang2 = { 211, 0, 76, 69, 0, 0, },
+	
+	nilu = { 0, 0, 207, 210, 0, 0, },
+	
+	title_bk = { 0, 214, 335, 92, 0, 0, },
+}
+

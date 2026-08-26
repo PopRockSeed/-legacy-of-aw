@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Box=
+{
+	Path = "resource/ui_res/box.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	box1 = { 0, 0, 78, 78, 0, 0, },
+	
+	box2 = { 82, 0, 78, 78, 0, 0, },
+	
+	box3 = { 164, 0, 78, 78, 0, 0, },
+}
+

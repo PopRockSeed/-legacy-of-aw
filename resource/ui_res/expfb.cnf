@@ -1,0 +1,24 @@
+
+
+GameConfig.ResCompose.Ui_Res_Expfb=
+{
+	Path = "resource/ui_res/expfb.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	blue_bk = { 0, 209, 281, 73, 0, 0, },
+	
+	cainiao = { 0, 0, 234, 205, 0, 0, },
+	
+	dashen = { 238, 0, 234, 205, 0, 0, },
+	
+	green_bk = { 0, 286, 281, 73, 0, 0, },
+	
+	jingying = { 476, 0, 234, 205, 0, 0, },
+	
+	purple = { 285, 209, 281, 73, 0, 0, },
+	
+	title_bk = { 285, 286, 415, 73, 0, 0, },
+}
+

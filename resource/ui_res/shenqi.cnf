@@ -1,0 +1,24 @@
+
+
+GameConfig.ResCompose.Ui_Res_Shenqi=
+{
+	Path = "resource/ui_res/shenqi.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	cjjls = { 281, 124, 46, 46, 0, 0, },
+	
+	czj = { 0, 0, 277, 272, 0, 0, },
+	
+	diamond = { 281, 174, 45, 46, 0, 0, },
+	
+	fen = { 281, 0, 120, 120, 0, 0, },
+	
+	gjjls = { 281, 224, 46, 46, 0, 0, },
+	
+	yls = { 330, 174, 46, 46, 0, 0, },
+	
+	zjjls = { 331, 124, 46, 46, 0, 0, },
+}
+

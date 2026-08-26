@@ -1,0 +1,12 @@
+
+
+GameConfig.ResCompose.Ui_Res_Guildsoldier=
+{
+	Path = "resource/ui_res/guildsoldier.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	soldier_bk = { 0, 0, 23, 64, 0, 0, },
+}
+

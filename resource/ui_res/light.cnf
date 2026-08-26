@@ -1,0 +1,12 @@
+
+
+GameConfig.ResCompose.Ui_Res_Light=
+{
+	Path = "resource/ui_res/light.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	light = { 0, 0, 280, 280, 0, 0, },
+}
+

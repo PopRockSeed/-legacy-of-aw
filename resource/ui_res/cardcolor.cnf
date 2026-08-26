@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Cardcolor=
+{
+	Path = "resource/ui_res/cardcolor.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	down_gold = { 0, 0, 325, 103, 0, 0, },
+	
+	top_gold = { 0, 107, 325, 45, 0, 0, },
+}
+

@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Onlinereward=
+{
+	Path = "resource/ui_res/onlinereward.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	dot = { 125, 104, 18, 18, 0, 0, },
+	
+	item_bk = { 0, 0, 121, 149, 0, 0, },
+	
+	label_bk = { 125, 0, 237, 48, 0, 0, },
+	
+	label_bk_2 = { 125, 52, 237, 48, 0, 0, },
+}
+

@@ -1,0 +1,28 @@
+
+
+GameConfig.ResCompose.Ui_Res_Rankinglist=
+{
+	Path = "resource/ui_res/rankinglist.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	button = { 196, 73, 101, 63, 0, 0, },
+	
+	button2 = { 196, 140, 97, 63, 0, 0, },
+	
+	button3 = { 0, 293, 158, 54, 0, 0, },
+	
+	button3_0 = { 162, 293, 158, 54, 0, 0, },
+	
+	me_bk = { 297, 140, 42, 48, 0, 0, },
+	
+	side = { 0, 0, 192, 289, 0, 0, },
+	
+	side1 = { 196, 207, 199, 54, 0, 0, },
+	
+	star = { 196, 265, 22, 20, 0, 0, },
+	
+	xunzhang1 = { 196, 0, 114, 69, 0, 0, },
+}
+

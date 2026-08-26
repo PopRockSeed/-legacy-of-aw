@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Captain=
+{
+	Path = "resource/ui_res/captain.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	beijing = { 274, 0, 113, 84, 0, 0, },
+	
+	captainshow_bk = { 0, 0, 270, 378, 0, 0, },
+}
+

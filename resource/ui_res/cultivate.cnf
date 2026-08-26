@@ -1,0 +1,26 @@
+
+
+GameConfig.ResCompose.Ui_Res_Cultivate=
+{
+	Path = "resource/ui_res/cultivate.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bk = { 0, 0, 344, 307, 0, 0, },
+	
+	blue = { 0, 311, 116, 116, 0, 0, },
+	
+	dou = { 348, 261, 36, 29, 0, 0, },
+	
+	green = { 120, 311, 116, 116, 0, 0, },
+	
+	purple = { 240, 311, 116, 116, 0, 0, },
+	
+	red = { 348, 0, 116, 116, 0, 0, },
+	
+	shallow2 = { 348, 120, 100, 100, 0, 0, },
+	
+	tips = { 348, 224, 33, 33, 0, 0, },
+}
+

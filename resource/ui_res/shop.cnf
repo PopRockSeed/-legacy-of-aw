@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Shop=
+{
+	Path = "resource/ui_res/shop.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	dialog = { 0, 618, 167, 116, 0, 0, },
+	
+	mask = { 171, 618, 100, 99, 0, 0, },
+	
+	shuaxin = { 275, 618, 44, 44, 0, 0, },
+	
+	zhuangshi1 = { 0, 0, 644, 614, 0, 0, },
+}
+

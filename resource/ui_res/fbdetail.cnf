@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Fbdetail=
+{
+	Path = "resource/ui_res/fbdetail.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	close_bk = { 151, 114, 75, 70, 0, 0, },
+	
+	count_frame = { 151, 0, 162, 110, 0, 0, },
+	
+	fbframe = { 230, 114, 64, 49, 0, 0, },
+	
+	wipeout = { 0, 0, 147, 154, 0, 0, },
+}
+

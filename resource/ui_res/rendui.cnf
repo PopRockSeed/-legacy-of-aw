@@ -1,0 +1,12 @@
+
+
+GameConfig.ResCompose.Ui_Res_Rendui=
+{
+	Path = "resource/ui_res/rendui.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	duizhang = { 0, 0, 47, 49, 0, 0, },
+}
+

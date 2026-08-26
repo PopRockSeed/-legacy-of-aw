@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Jewel=
+{
+	Path = "resource/ui_res/jewel.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	line = { 228, 110, 10, 2, 0, 0, },
+	
+	li_jewel = { 228, 0, 106, 106, 0, 0, },
+	
+	min_jewel = { 0, 0, 110, 110, 0, 0, },
+	
+	zhi_jewel = { 114, 0, 110, 110, 0, 0, },
+}
+

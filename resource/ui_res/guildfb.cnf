@@ -1,0 +1,28 @@
+
+
+GameConfig.ResCompose.Ui_Res_Guildfb=
+{
+	Path = "resource/ui_res/guildfb.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bk = { 488, 0, 111, 91, 0, 0, },
+	
+	bk1 = { 603, 58, 50, 50, 0, 0, },
+	
+	boss = { 845, 52, 73, 41, 0, 0, },
+	
+	btn1 = { 603, 0, 117, 54, 0, 0, },
+	
+	btn2 = { 724, 0, 117, 54, 0, 0, },
+	
+	paihang1 = { 755, 58, 86, 48, 0, 0, },
+	
+	paihang2 = { 657, 58, 94, 49, 0, 0, },
+	
+	paihang3 = { 845, 0, 86, 48, 0, 0, },
+	
+	title_bk = { 0, 0, 484, 100, 0, 0, },
+}
+

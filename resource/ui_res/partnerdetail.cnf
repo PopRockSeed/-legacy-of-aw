@@ -1,0 +1,46 @@
+
+
+GameConfig.ResCompose.Ui_Res_Partnerdetail=
+{
+	Path = "resource/ui_res/partnerdetail.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	arrow = { 332, 212, 76, 56, 0, 0, },
+	
+	debris = { 606, 212, 36, 36, 0, 0, },
+	
+	exp_use = { 646, 212, 39, 26, 0, 0, },
+	
+	fbframe = { 412, 212, 64, 49, 0, 0, },
+	
+	jiban = { 0, 197, 64, 69, 0, 0, },
+	
+	juanzhou = { 68, 197, 57, 61, 0, 0, },
+	
+	lan = { 480, 212, 38, 38, 0, 0, },
+	
+	little_arrow = { 129, 261, 22, 7, 0, 0, },
+	
+	lv = { 522, 212, 38, 38, 0, 0, },
+	
+	mainskill_bk = { 405, 0, 281, 102, 0, 0, },
+	
+	scope = { 0, 0, 201, 193, 0, 0, },
+	
+	scope1 = { 205, 0, 196, 188, 0, 0, },
+	
+	shuxing = { 277, 192, 51, 72, 0, 0, },
+	
+	skill_add = { 129, 197, 60, 60, 0, 0, },
+	
+	skill_frame = { 405, 106, 281, 102, 0, 0, },
+	
+	starup_line = { 193, 197, 6, 22, 0, 0, },
+	
+	tujian = { 205, 192, 68, 76, 0, 0, },
+	
+	zi = { 564, 212, 38, 38, 0, 0, },
+}
+

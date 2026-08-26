@@ -1,0 +1,32 @@
+
+
+GameConfig.ResCompose.Ui_Res_Singlepic=
+{
+	Path = "resource/ui_res/singlepic.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	beijing = { 0, 1872, 394, 383, 0, 0, },
+	
+	beijing2 = { 398, 1872, 391, 380, 0, 0, },
+	
+	bgjiaoyin = { 1414, 1258, 113, 84, 0, 0, },
+	
+	bj_tanbao = { 0, 1288, 880, 580, 0, 0, },
+	
+	bk = { 884, 1785, 772, 481, 0, 0, },
+	
+	bk_chunjie = { 1284, 0, 407, 438, 0, 0, },
+	
+	bk_tangyuan = { 1284, 442, 549, 430, 0, 0, },
+	
+	captainshow_bk = { 1284, 876, 270, 378, 0, 0, },
+	
+	heianshij2 = { 0, 0, 1280, 640, 0, 0, },
+	
+	heianshijiebeijing = { 0, 644, 1280, 640, 0, 0, },
+	
+	hybj = { 884, 1288, 526, 493, 0, 0, },
+}
+

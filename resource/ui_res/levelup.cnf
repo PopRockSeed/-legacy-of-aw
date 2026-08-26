@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Levelup=
+{
+	Path = "resource/ui_res/levelup.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bk = { 0, 0, 50, 50, 0, 0, },
+	
+	light = { 0, 54, 75, 27, 0, 0, },
+}
+

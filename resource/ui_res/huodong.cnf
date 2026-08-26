@@ -1,0 +1,22 @@
+
+
+GameConfig.ResCompose.Ui_Res_Huodong=
+{
+	Path = "resource/ui_res/huodong.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	c2 = { 0, 276, 109, 136, 0, 0, },
+	
+	c3 = { 113, 276, 109, 136, 0, 0, },
+	
+	c4 = { 226, 276, 109, 136, 0, 0, },
+	
+	c5 = { 246, 0, 109, 136, 0, 0, },
+	
+	dazhe1 = { 0, 0, 242, 272, 0, 0, },
+	
+	got = { 246, 140, 70, 60, 0, 0, },
+}
+

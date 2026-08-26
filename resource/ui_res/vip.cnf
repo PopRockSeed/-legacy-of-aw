@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Vip=
+{
+	Path = "resource/ui_res/vip.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	box = { 0, 244, 146, 130, 0, 0, },
+	
+	btn_yellow = { 0, 378, 202, 63, 0, 0, },
+	
+	role_label = { 0, 0, 241, 240, 0, 0, },
+	
+	text_title = { 150, 244, 47, 29, 0, 0, },
+}
+

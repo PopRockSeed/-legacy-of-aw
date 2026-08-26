@@ -1,0 +1,12 @@
+
+
+GameConfig.ResCompose.Ui_Res_Dianqiu=
+{
+	Path = "resource/ui_res/dianqiu.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	football = { 0, 0, 39, 39, 0, 0, },
+}
+

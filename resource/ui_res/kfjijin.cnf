@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Kfjijin=
+{
+	Path = "resource/ui_res/kfjijin.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	di = { 0, 76, 248, 39, 0, 0, },
+	
+	fuli = { 0, 0, 72, 72, 0, 0, },
+	
+	ten = { 76, 0, 72, 72, 0, 0, },
+}
+

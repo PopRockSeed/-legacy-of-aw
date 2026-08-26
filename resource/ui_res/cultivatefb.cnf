@@ -1,0 +1,12 @@
+
+
+GameConfig.ResCompose.Ui_Res_Cultivatefb=
+{
+	Path = "resource/ui_res/cultivatefb.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	title_bk = { 0, 0, 345, 78, 0, 0, },
+}
+

@@ -1,0 +1,30 @@
+
+
+GameConfig.ResCompose.Ui_Res_System=
+{
+	Path = "resource/ui_res/system.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	account = { 306, 0, 26, 40, 0, 0, },
+	
+	contact = { 336, 36, 28, 31, 0, 0, },
+	
+	hideplayer = { 579, 0, 31, 21, 0, 0, },
+	
+	namebk = { 336, 0, 239, 32, 0, 0, },
+	
+	selected = { 0, 0, 136, 66, 0, 0, },
+	
+	soundbtn = { 368, 36, 20, 29, 0, 0, },
+	
+	unselected = { 140, 0, 125, 66, 0, 0, },
+	
+	voice_bk = { 392, 36, 336, 25, 0, 0, },
+	
+	voice_drag = { 269, 0, 33, 47, 0, 0, },
+	
+	voice_top = { 614, 0, 332, 21, 0, 0, },
+}
+

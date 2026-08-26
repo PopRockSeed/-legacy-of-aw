@@ -1,0 +1,24 @@
+
+
+GameConfig.ResCompose.Ui_Res_Partnerframe=
+{
+	Path = "resource/ui_res/partnerframe.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	blue = { 0, 0, 111, 111, 0, 0, },
+	
+	golden = { 115, 0, 111, 111, 0, 0, },
+	
+	green = { 230, 0, 111, 111, 0, 0, },
+	
+	orange = { 345, 0, 111, 111, 0, 0, },
+	
+	purple = { 460, 0, 111, 111, 0, 0, },
+	
+	red = { 575, 0, 111, 111, 0, 0, },
+	
+	white = { 690, 0, 111, 111, 0, 0, },
+}
+

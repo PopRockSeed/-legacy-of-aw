@@ -1,0 +1,22 @@
+
+
+GameConfig.ResCompose.Ui_Res_Chouka=
+{
+	Path = "resource/ui_res/chouka.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	effect1  = { 0, 0, 198, 190, 0, 0, },
+	
+	info_bk = { 202, 0, 34, 148, 0, 0, },
+	
+	liquannew = { 80, 194, 44, 43, 0, 0, },
+	
+	look = { 0, 194, 76, 76, 0, 0, },
+	
+	name_bk = { 80, 241, 106, 28, 0, 0, },
+	
+	text_bk = { 128, 194, 77, 39, 0, 0, },
+}
+

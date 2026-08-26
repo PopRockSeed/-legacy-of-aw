@@ -1,0 +1,32 @@
+
+
+GameConfig.ResCompose.Ui_Res_Huishou=
+{
+	Path = "resource/ui_res/huishou.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	choice = { 0, 0, 225, 106, 0, 0, },
+	
+	gedang = { 0, 110, 88, 88, 0, 0, },
+	
+	gongji = { 92, 110, 88, 88, 0, 0, },
+	
+	lianji = { 184, 110, 88, 88, 0, 0, },
+	
+	nianya = { 229, 0, 88, 88, 0, 0, },
+	
+	shanbi = { 276, 92, 88, 88, 0, 0, },
+	
+	shanghaijiashen = { 321, 0, 88, 88, 0, 0, },
+	
+	shengming = { 368, 92, 88, 88, 0, 0, },
+	
+	substract = { 460, 92, 29, 29, 0, 0, },
+	
+	thing_bk = { 229, 92, 17, 12, 0, 0, },
+	
+	zhaojia = { 413, 0, 88, 88, 0, 0, },
+}
+

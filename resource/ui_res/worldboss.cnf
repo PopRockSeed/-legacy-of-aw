@@ -1,0 +1,34 @@
+
+
+GameConfig.ResCompose.Ui_Res_Worldboss=
+{
+	Path = "resource/ui_res/worldboss.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	anniu = { 650, 90, 142, 60, 0, 0, },
+	
+	bk = { 774, 154, 58, 58, 0, 0, },
+	
+	double = { 546, 181, 224, 96, 0, 0, },
+	
+	half = { 546, 281, 224, 96, 0, 0, },
+	
+	piece = { 774, 216, 45, 46, 0, 0, },
+	
+	play = { 574, 90, 72, 62, 0, 0, },
+	
+	pointer = { 424, 0, 146, 177, 0, 0, },
+	
+	quan = { 774, 266, 45, 46, 0, 0, },
+	
+	shield = { 424, 181, 118, 118, 0, 0, },
+	
+	sword = { 424, 303, 118, 118, 0, 0, },
+	
+	turntable = { 0, 0, 420, 420, 0, 0, },
+	
+	turntablebottom = { 574, 0, 302, 86, 0, 0, },
+}
+

@@ -1,0 +1,30 @@
+
+
+GameConfig.ResCompose.Ui_Res_Darkworld=
+{
+	Path = "resource/ui_res/darkworld.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	di = { 190, 406, 197, 194, 0, 0, },
+	
+	ditu = { 0, 0, 491, 402, 0, 0, },
+	
+	event1 = { 278, 604, 82, 82, 0, 0, },
+	
+	event2 = { 190, 604, 84, 83, 0, 0, },
+	
+	event3 = { 472, 514, 61, 69, 0, 0, },
+	
+	event4 = { 446, 595, 74, 71, 0, 0, },
+	
+	event5 = { 391, 514, 77, 77, 0, 0, },
+	
+	event6 = { 364, 604, 78, 78, 0, 0, },
+	
+	kapai = { 0, 406, 186, 277, 0, 0, },
+	
+	select = { 391, 406, 104, 104, 0, 0, },
+}
+

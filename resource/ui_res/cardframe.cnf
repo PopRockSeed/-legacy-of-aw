@@ -1,0 +1,24 @@
+
+
+GameConfig.ResCompose.Ui_Res_Cardframe=
+{
+	Path = "resource/ui_res/cardframe.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	blue = { 0, 0, 133, 132, 0, 0, },
+	
+	golden = { 137, 0, 133, 132, 0, 0, },
+	
+	green = { 274, 0, 133, 132, 0, 0, },
+	
+	orange = { 411, 0, 133, 132, 0, 0, },
+	
+	purple = { 548, 0, 133, 132, 0, 0, },
+	
+	red = { 685, 0, 133, 132, 0, 0, },
+	
+	white = { 822, 0, 133, 132, 0, 0, },
+}
+

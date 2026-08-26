@@ -1,0 +1,22 @@
+
+
+GameConfig.ResCompose.Ui_Res_Nameframe=
+{
+	Path = "resource/ui_res/nameframe.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	blue = { 0, 0, 174, 42, 0, 0, },
+	
+	golden = { 534, 0, 172, 41, 0, 0, },
+	
+	green = { 178, 0, 174, 42, 0, 0, },
+	
+	orange = { 710, 0, 172, 41, 0, 0, },
+	
+	purple = { 356, 0, 174, 42, 0, 0, },
+	
+	white = { 886, 0, 172, 41, 0, 0, },
+}
+

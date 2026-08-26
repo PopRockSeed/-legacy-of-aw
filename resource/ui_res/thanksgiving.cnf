@@ -1,0 +1,20 @@
+
+
+GameConfig.ResCompose.Ui_Res_Thanksgiving=
+{
+	Path = "resource/ui_res/thanksgiving.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	dcr = { 242, 0, 188, 277, 0, 0, },
+	
+	huoji = { 0, 0, 238, 297, 0, 0, },
+	
+	maiyou = { 434, 0, 421, 198, 0, 0, },
+	
+	maizuo = { 859, 0, 421, 198, 0, 0, },
+	
+	taitou = { 434, 202, 552, 176, 0, 0, },
+}
+

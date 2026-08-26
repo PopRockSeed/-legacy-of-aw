@@ -1,0 +1,28 @@
+
+
+GameConfig.ResCompose.Ui_Res_Zhuanpan=
+{
+	Path = "resource/ui_res/zhuanpan.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	button = { 582, 379, 145, 148, 0, 0, },
+	
+	diamond1 = { 422, 192, 139, 183, 0, 0, },
+	
+	diamond2 = { 565, 192, 139, 183, 0, 0, },
+	
+	diamond3 = { 569, 0, 159, 183, 0, 0, },
+	
+	diamond4 = { 422, 379, 156, 158, 0, 0, },
+	
+	icon = { 306, 422, 88, 69, 0, 0, },
+	
+	select = { 422, 0, 143, 188, 0, 0, },
+	
+	turntable = { 0, 0, 418, 418, 0, 0, },
+	
+	turntablebottom = { 0, 422, 302, 86, 0, 0, },
+}
+

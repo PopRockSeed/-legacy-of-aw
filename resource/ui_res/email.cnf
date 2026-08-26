@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Email=
+{
+	Path = "resource/ui_res/email.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bk_line = { 0, 0, 738, 464, 0, 0, },
+	
+	bookmark = { 742, 130, 35, 49, 0, 0, },
+	
+	email_icon = { 742, 75, 75, 51, 0, 0, },
+	
+	email_read = { 742, 0, 75, 71, 0, 0, },
+}
+

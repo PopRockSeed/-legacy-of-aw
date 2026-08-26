@@ -1,0 +1,22 @@
+
+
+GameConfig.ResCompose.Ui_Res_Sendvip=
+{
+	Path = "resource/ui_res/sendvip.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	button1 = { 0, 126, 235, 89, 0, 0, },
+	
+	button2 = { 144, 0, 76, 50, 0, 0, },
+	
+	face1 = { 0, 219, 116, 73, 0, 0, },
+	
+	face2 = { 120, 219, 129, 73, 0, 0, },
+	
+	vip = { 144, 54, 104, 49, 0, 0, },
+	
+	vip3 = { 0, 0, 140, 122, 0, 0, },
+}
+

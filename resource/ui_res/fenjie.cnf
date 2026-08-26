@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Fenjie=
+{
+	Path = "resource/ui_res/fenjie.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	add = { 228, 0, 66, 67, 0, 0, },
+	
+	cc = { 228, 71, 66, 61, 0, 0, },
+	
+	fazhen = { 0, 0, 224, 222, 0, 0, },
+}
+

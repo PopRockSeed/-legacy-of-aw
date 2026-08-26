@@ -1,0 +1,24 @@
+
+
+GameConfig.ResCompose.Ui_Res_Dianfeng=
+{
+	Path = "resource/ui_res/dianfeng.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	box = { 282, 154, 106, 95, 0, 0, },
+	
+	ccy = { 0, 154, 278, 102, 0, 0, },
+	
+	mz0 = { 474, 112, 24, 24, 0, 0, },
+	
+	mz1 = { 474, 83, 25, 25, 0, 0, },
+	
+	side = { 0, 0, 470, 150, 0, 0, },
+	
+	star1 = { 474, 0, 83, 79, 0, 0, },
+	
+	star1_bk = { 392, 154, 95, 90, 0, 0, },
+}
+

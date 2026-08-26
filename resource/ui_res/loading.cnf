@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Loading=
+{
+	Path = "resource/ui_res/loading.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	progress = { 0, 33, 445, 20, 0, 0, },
+	
+	progressbk = { 0, 0, 454, 29, 0, 0, },
+}
+

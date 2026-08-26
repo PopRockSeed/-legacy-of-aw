@@ -1,0 +1,20 @@
+
+
+GameConfig.ResCompose.Ui_Res_Xunbao=
+{
+	Path = "resource/ui_res/xunbao.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	dz = { 120, 106, 34, 34, 0, 0, },
+	
+	purple = { 0, 0, 116, 116, 0, 0, },
+	
+	xz1 = { 225, 0, 113, 71, 0, 0, },
+	
+	xz2 = { 225, 75, 113, 71, 0, 0, },
+	
+	xzzt = { 120, 0, 101, 102, 0, 0, },
+}
+

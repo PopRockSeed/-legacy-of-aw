@@ -1,0 +1,26 @@
+
+
+GameConfig.ResCompose.Ui_Res_Fblist=
+{
+	Path = "resource/ui_res/fblist.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	aperture = { 488, 521, 80, 80, 0, 0, },
+	
+	finger = { 697, 521, 50, 51, 0, 0, },
+	
+	jy_btn = { 572, 521, 121, 60, 0, 0, },
+	
+	jy_frame = { 0, 0, 908, 517, 0, 0, },
+	
+	reward_content = { 751, 521, 92, 49, 0, 0, },
+	
+	small_guanqia = { 697, 576, 44, 44, 0, 0, },
+	
+	spindle = { 0, 521, 484, 100, 0, 0, },
+	
+	tollgate = { 745, 576, 44, 44, 0, 0, },
+}
+

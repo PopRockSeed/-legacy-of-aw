@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Chunjie=
+{
+	Path = "resource/ui_res/chunjie.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	zs1 = { 108, 0, 78, 220, 0, 0, },
+	
+	zs2 = { 0, 0, 104, 318, 0, 0, },
+	
+	zs3 = { 108, 224, 70, 63, 0, 0, },
+}
+

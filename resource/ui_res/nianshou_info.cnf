@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Nianshou_Info=
+{
+	Path = "resource/ui_res/nianshou_info.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bianpao = { 160, 252, 137, 79, 0, 0, },
+	
+	hongbao = { 0, 252, 156, 84, 0, 0, },
+	
+	nianshou = { 0, 0, 366, 248, 0, 0, },
+}
+

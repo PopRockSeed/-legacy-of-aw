@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Daily=
+{
+	Path = "resource/ui_res/daily.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	-- 图标框
+	bk1 = { 0, 0, 122, 150, 0, 0, },
+	-- 图标框
+	bk2 = { 126, 0, 122, 150, 0, 0, },
+}
+

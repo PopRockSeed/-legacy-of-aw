@@ -1,0 +1,58 @@
+
+
+GameConfig.ResCompose.Ui_Res_Battleend=
+{
+	Path = "resource/ui_res/battleend.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	angle = { 328, 399, 35, 28, 0, 0, },
+	
+	charge_door = { 0, 573, 101, 105, 0, 0, },
+	
+	cultivate_upgrade = { 206, 399, 118, 139, 0, 0, },
+	
+	huoban_upgrade = { 1356, 129, 121, 124, 0, 0, },
+	
+	huoban_upgrade1 = { 1224, 0, 128, 128, 0, 0, },
+	
+	jewel_upgrade = { 206, 542, 139, 138, 0, 0, },
+	
+	jiejie_upgrade = { 1473, 0, 120, 102, 0, 0, },
+	
+	jineng_upgrade = { 1481, 106, 99, 100, 0, 0, },
+	
+	losetitle = { 399, 313, 774, 296, 0, 0, },
+	
+	losetitle1 = { 1177, 313, 770, 195, 0, 0, },
+	
+	S = { 328, 431, 21, 28, 0, 0, },
+	
+	star = { 1481, 210, 89, 86, 0, 0, },
+	
+	star1 = { 1521, 512, 83, 79, 0, 0, },
+	
+	star1_bk = { 105, 573, 95, 90, 0, 0, },
+	
+	star_upgrade = { 1397, 512, 120, 120, 0, 0, },
+	
+	sword = { 1177, 512, 216, 152, 0, 0, },
+	
+	vs = { 1521, 595, 138, 79, 0, 0, },
+	
+	wing = { 1574, 210, 307, 69, 0, 0, },
+	
+	winlight = { 0, 0, 395, 395, 0, 0, },
+	
+	wintitle = { 399, 0, 821, 309, 0, 0, },
+	
+	wintitle1 = { 349, 613, 765, 75, 0, 0, },
+	
+	win_title_bk = { 0, 399, 202, 170, 0, 0, },
+	
+	xianji_upgrade = { 1356, 0, 113, 125, 0, 0, },
+	
+	zhandui_upgrade = { 1224, 132, 128, 128, 0, 0, },
+}
+

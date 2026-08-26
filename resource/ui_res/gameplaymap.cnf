@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Gameplaymap=
+{
+	Path = "resource/ui_res/gameplaymap.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	lock = { 609, 0, 45, 59, 0, 0, },
+	
+	renzhecun = { 0, 0, 605, 317, 0, 0, },
+}
+

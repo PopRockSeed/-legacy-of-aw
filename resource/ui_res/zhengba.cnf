@@ -1,0 +1,32 @@
+
+
+GameConfig.ResCompose.Ui_Res_Zhengba=
+{
+	Path = "resource/ui_res/zhengba.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	buzhen = { 732, 69, 160, 60, 0, 0, },
+	
+	coin = { 426, 83, 46, 46, 0, 0, },
+	
+	gaoji = { 0, 0, 126, 126, 0, 0, },
+	
+	jiandan = { 130, 0, 126, 126, 0, 0, },
+	
+	lose = { 311, 94, 68, 18, 0, 0, },
+	
+	record = { 568, 0, 160, 65, 0, 0, },
+	
+	rule = { 568, 69, 160, 65, 0, 0, },
+	
+	shop = { 732, 0, 160, 65, 0, 0, },
+	
+	vs = { 426, 0, 138, 79, 0, 0, },
+	
+	win = { 260, 94, 47, 20, 0, 0, },
+	
+	zhandou_bk = { 260, 0, 162, 90, 0, 0, },
+}
+

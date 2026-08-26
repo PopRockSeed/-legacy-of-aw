@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Npcdialog=
+{
+	Path = "resource/ui_res/npcdialog.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	guider2 = { 0, 0, 229, 223, 0, 0, },
+	
+	touxiangmiaobian = { 233, 0, 104, 104, 0, 0, },
+}
+

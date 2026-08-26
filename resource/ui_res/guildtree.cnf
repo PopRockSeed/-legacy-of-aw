@@ -1,0 +1,28 @@
+
+
+GameConfig.ResCompose.Ui_Res_Guildtree=
+{
+	Path = "resource/ui_res/guildtree.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bag = { 358, 104, 43, 49, 0, 0, },
+	
+	bg1 = { 279, 0, 75, 100, 0, 0, },
+	
+	bg2 = { 279, 104, 75, 100, 0, 0, },
+	
+	bg3 = { 358, 0, 75, 100, 0, 0, },
+	
+	bgbottle = { 0, 0, 275, 122, 0, 0, },
+	
+	bottle1 = { 0, 126, 80, 80, 0, 0, },
+	
+	bottle2 = { 84, 126, 80, 80, 0, 0, },
+	
+	bottle3 = { 168, 126, 80, 80, 0, 0, },
+	
+	rope = { 252, 126, 21, 51, 0, 0, },
+}
+

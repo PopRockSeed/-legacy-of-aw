@@ -1,0 +1,32 @@
+
+
+GameConfig.ResCompose.Ui_Res_Adventurefb=
+{
+	Path = "resource/ui_res/adventurefb.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	blue = { 359, 577, 60, 17, 0, 0, },
+	
+	box_bk = { 503, 519, 71, 38, 0, 0, },
+	
+	gold = { 423, 577, 59, 17, 0, 0, },
+	
+	green = { 486, 577, 60, 17, 0, 0, },
+	
+	icon = { 320, 577, 35, 36, 0, 0, },
+	
+	kuang = { 0, 0, 910, 515, 0, 0, },
+	
+	orange = { 550, 561, 60, 17, 0, 0, },
+	
+	purple = { 550, 582, 60, 17, 0, 0, },
+	
+	smalltitle = { 320, 519, 179, 54, 0, 0, },
+	
+	title = { 0, 519, 316, 95, 0, 0, },
+	
+	white = { 578, 519, 60, 17, 0, 0, },
+}
+

@@ -1,0 +1,80 @@
+
+
+GameConfig.ResCompose.Ui_Res_Battle=
+{
+	Path = "resource/ui_res/battle.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	box_icon = { 854, 69, 47, 42, 0, 0, },
+	
+	box_light = { 0, 0, 115, 115, 0, 0, },
+	
+	di = { 812, 0, 271, 65, 0, 0, },
+	
+	di2 = { 119, 100, 158, 16, 0, 0, },
+	
+	di3 = { 119, 0, 298, 96, 0, 0, },
+	
+	hp1 = { 588, 85, 43, 26, 0, 0, },
+	
+	hp2 = { 446, 92, 19, 20, 0, 0, },
+	
+	huaibiao = { 587, 0, 66, 81, 0, 0, },
+	
+	kounengliang = { 281, 100, 10, 16, 0, 0, },
+	
+	kouxue = { 295, 100, 10, 16, 0, 0, },
+	
+	light = { 509, 87, 75, 27, 0, 0, },
+	
+	linshixueliang = { 407, 100, 10, 8, 0, 0, },
+	
+	linshixueliangdi = { 469, 92, 10, 8, 0, 0, },
+	
+	next = { 1155, 0, 65, 60, 0, 0, },
+	
+	pause = { 1087, 0, 64, 64, 0, 0, },
+	
+	progress_bar = { 905, 91, 275, 8, 0, 0, },
+	
+	progress_bar_bk = { 905, 69, 285, 18, 0, 0, },
+	
+	progress_bar_bk2 = { 309, 100, 10, 16, 0, 0, },
+	
+	progress_bar_green = { 323, 100, 10, 16, 0, 0, },
+	
+	progress_bar_lite_bk = { 351, 100, 10, 9, 0, 0, },
+	
+	progress_bar_lite_green = { 365, 100, 10, 9, 0, 0, },
+	
+	progress_bar_lite_red = { 379, 100, 10, 9, 0, 0, },
+	
+	progress_bar_yellow = { 337, 100, 10, 16, 0, 0, },
+	
+	progress_cursor = { 490, 87, 15, 28, 0, 0, },
+	
+	progress_tick = { 421, 92, 21, 24, 0, 0, },
+	
+	sand_clock = { 812, 69, 38, 46, 0, 0, },
+	
+	shijian = { 635, 85, 32, 26, 0, 0, },
+	
+	shijian2 = { 671, 83, 32, 26, 0, 0, },
+	
+	time = { 490, 0, 93, 83, 0, 0, },
+	
+	vs = { 657, 0, 138, 79, 0, 0, },
+	
+	wupindi = { 421, 0, 65, 88, 0, 0, },
+	
+	wupindi2 = { 799, 0, 9, 79, 0, 0, },
+	
+	zhandoukouxue = { 393, 100, 10, 9, 0, 0, },
+	
+	zhandoulinshixueliang = { 469, 104, 10, 7, 0, 0, },
+	
+	zhandoulinshixueliangdi = { 707, 83, 10, 7, 0, 0, },
+}
+

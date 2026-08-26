@@ -1,0 +1,40 @@
+
+
+GameConfig.ResCompose.Ui_Res_Newguide=
+{
+	Path = "resource/ui_res/newguide.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	arrow = { 317, 120, 46, 52, 0, 0, },
+	
+	bianyuan = { 258, 123, 55, 55, 0, 0, },
+	
+	circle = { 409, 0, 112, 111, 0, 0, },
+	
+	dialog = { 639, 0, 97, 106, 0, 0, },
+	
+	dialog2 = { 0, 0, 202, 144, 0, 0, },
+	
+	dou = { 109, 148, 36, 29, 0, 0, },
+	
+	finger = { 206, 123, 48, 59, 0, 0, },
+	
+	flag = { 206, 0, 79, 119, 0, 0, },
+	
+	icon_tip = { 639, 110, 76, 76, 0, 0, },
+	
+	next_blue = { 0, 148, 52, 38, 0, 0, },
+	
+	next_purple = { 56, 148, 49, 35, 0, 0, },
+	
+	nvshenname_bk = { 458, 115, 136, 49, 0, 0, },
+	
+	red = { 289, 0, 116, 116, 0, 0, },
+	
+	story_dialog = { 367, 120, 87, 51, 0, 0, },
+	
+	zhi_jewel = { 525, 0, 110, 110, 0, 0, },
+}
+

@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Heka2=
+{
+	Path = "resource/ui_res/heka2.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	heka1 = { 0, 0, 769, 570, 0, 0, },
+	
+	lv1 = { 773, 0, 680, 172, 0, 0, },
+	
+	lv2 = { 773, 176, 680, 172, 0, 0, },
+	
+	lv3 = { 773, 352, 680, 172, 0, 0, },
+}
+

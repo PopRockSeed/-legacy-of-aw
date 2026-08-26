@@ -1,0 +1,18 @@
+
+
+GameConfig.ResCompose.Ui_Res_Worldmap=
+{
+	Path = "resource/ui_res/worldmap.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	kuang = { 0, 0, 98, 116, 0, 0, },
+	
+	name_kuang = { 0, 120, 131, 60, 0, 0, },
+	
+	path_light1 = { 102, 0, 25, 23, 0, 0, },
+	
+	path_light2 = { 102, 27, 25, 23, 0, 0, },
+}
+

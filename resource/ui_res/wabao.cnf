@@ -1,0 +1,22 @@
+
+
+GameConfig.ResCompose.Ui_Res_Wabao=
+{
+	Path = "resource/ui_res/wabao.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	cartoon_frame = { 149, 0, 37, 34, 0, 0, },
+	
+	leftdown_bk = { 149, 38, 33, 27, 0, 0, },
+	
+	line = { 0, 44, 66, 24, 0, 0, },
+	
+	news_bk = { 0, 0, 145, 40, 0, 0, },
+	
+	rightup_bk = { 70, 44, 25, 21, 0, 0, },
+	
+	vip = { 99, 44, 33, 19, 0, 0, },
+}
+

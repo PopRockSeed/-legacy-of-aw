@@ -1,0 +1,28 @@
+
+
+GameConfig.ResCompose.Ui_Res_Specialfb=
+{
+	Path = "resource/ui_res/specialfb.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bottombk = { 494, 194, 100, 32, 0, 0, },
+	
+	lufei = { 0, 0, 165, 177, 0, 0, },
+	
+	mingren = { 460, 0, 172, 152, 0, 0, },
+	
+	title = { 231, 164, 179, 54, 0, 0, },
+	
+	title_bottom_bk = { 414, 164, 76, 53, 0, 0, },
+	
+	title_top_bk = { 0, 181, 109, 42, 0, 0, },
+	
+	topbk = { 494, 156, 100, 34, 0, 0, },
+	
+	wordbk = { 169, 164, 58, 56, 0, 0, },
+	
+	wordkuang = { 169, 0, 287, 160, 0, 0, },
+}
+

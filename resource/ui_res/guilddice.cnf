@@ -1,0 +1,28 @@
+
+
+GameConfig.ResCompose.Ui_Res_Guilddice=
+{
+	Path = "resource/ui_res/guilddice.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	account = { 0, 0, 360, 339, 0, 0, },
+	
+	dice = { 0, 343, 83, 87, 0, 0, },
+	
+	muye = { 87, 393, 32, 32, 0, 0, },
+	
+	sha = { 123, 393, 32, 32, 0, 0, },
+	
+	shadow = { 87, 343, 100, 46, 0, 0, },
+	
+	wu = { 159, 393, 32, 32, 0, 0, },
+	
+	yan = { 191, 343, 32, 32, 0, 0, },
+	
+	yin = { 195, 379, 32, 32, 0, 0, },
+	
+	yun = { 227, 343, 32, 32, 0, 0, },
+}
+

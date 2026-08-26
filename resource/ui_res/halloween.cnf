@@ -1,0 +1,24 @@
+
+
+GameConfig.ResCompose.Ui_Res_Halloween=
+{
+	Path = "resource/ui_res/halloween.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bianfu = { 680, 180, 163, 112, 0, 0, },
+	
+	di = { 244, 301, 960, 294, 0, 0, },
+	
+	left = { 0, 0, 240, 319, 0, 0, },
+	
+	ngr = { 244, 0, 168, 297, 0, 0, },
+	
+	right = { 0, 323, 240, 319, 0, 0, },
+	
+	sg = { 416, 0, 260, 275, 0, 0, },
+	
+	title = { 680, 0, 552, 176, 0, 0, },
+}
+
