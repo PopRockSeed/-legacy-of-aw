@@ -1,0 +1,9 @@
+Config = Config or {}
+Config.cnfinvitecommon = {
+		[1] = {
+			item_id = 4001,
+			max_friend = 20,
+			rule = [[<COLOR VALUE=FFFFFFFF>1、once invitee input the code from inviter,invitee can get the reward when he reach the particular level<BR> <BR>2、the invitee can only input the invite code once in your same server.<BR> <BR>3、One player only can invite 20 players<BR> <BR>4、if the invitee exceeds the required level when you invite him/her. you cannot get the reward.<BR> <BR>5、the relationship between the inviter and invitee cannot be terminated once established.<BR> <BR></COLOR>
+]],
+		},
+}

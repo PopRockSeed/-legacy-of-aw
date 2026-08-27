@@ -1,0 +1,178 @@
+Config = Config or {}
+Config.cnfpanelsound = {
+		[1] = {
+			id = 1,
+			name = "Chat Interface",
+			res_id = 102,
+		},
+		[2] = {
+			id = 2,
+			name = "Task Page",
+			res_id = 102,
+		},
+		[3] = {
+			id = 3,
+			name = "NPC Chat Panel",
+			res_id = 102,
+		},
+		[4] = {
+			id = 4,
+			name = "World Map",
+			res_id = 102,
+		},
+		[5] = {
+			id = 5,
+			name = "Setting",
+			res_id = 102,
+		},
+		[7] = {
+			id = 7,
+			name = "Helper",
+			res_id = 102,
+		},
+		[10] = {
+			id = 10,
+			name = "Opinions",
+			res_id = 102,
+		},
+		[11] = {
+			id = 11,
+			name = "Mail Panel ",
+			res_id = 102,
+		},
+		[21] = {
+			id = 21,
+			name = "GM Command",
+			res_id = 102,
+		},
+		[22] = {
+			id = 22,
+			name = "Instance Details",
+			res_id = 102,
+		},
+		[23] = {
+			id = 23,
+			name = "Lineup Page",
+			res_id = 102,
+		},
+		[24] = {
+			id = 24,
+			name = "Instance UI Interface",
+			res_id = 102,
+		},
+		[25] = {
+			id = 25,
+			name = "Ward Panel ",
+			res_id = 102,
+		},
+		[26] = {
+			id = 26,
+			name = "Bag ",
+			res_id = 102,
+		},
+		[27] = {
+			id = 27,
+			name = "Test Spine",
+			res_id = 102,
+		},
+		[28] = {
+			id = 28,
+			name = "Interface For Leader Setting",
+			res_id = 102,
+		},
+		[29] = {
+			id = 29,
+			name = "Draw Interface ",
+			res_id = 102,
+		},
+		[30] = {
+			id = 30,
+			name = "Fellow Page ",
+			res_id = 102,
+		},
+		[31] = {
+			id = 31,
+			name = "Fellow Details Panel ",
+			res_id = 102,
+		},
+		[32] = {
+			id = 32,
+			name = "Dig Page ",
+			res_id = 102,
+		},
+		[33] = {
+			id = 33,
+			name = "Item List Panel",
+			res_id = 104,
+		},
+		[34] = {
+			id = 34,
+			name = "Drop Stage Panel",
+			res_id = 102,
+		},
+		[35] = {
+			id = 35,
+			name = "Shop Panel ",
+			res_id = 102,
+		},
+		[36] = {
+			id = 36,
+			name = "Special Instance Page",
+			res_id = 102,
+		},
+		[37] = {
+			id = 37,
+			name = "VIP Page",
+			res_id = 102,
+		},
+		[38] = {
+			id = 38,
+			name = "Adventure",
+			res_id = 102,
+		},
+		[39] = {
+			id = 39,
+			name = "Normal Way",
+			res_id = 102,
+		},
+		[40] = {
+			id = 40,
+			name = "Arena",
+			res_id = 102,
+		},
+		[41] = {
+			id = 41,
+			name = "Arena Record",
+			res_id = 102,
+		},
+		[42] = {
+			id = 42,
+			name = "Charge Page",
+			res_id = 102,
+		},
+		[43] = {
+			id = 43,
+			name = "Testing Activity",
+			res_id = 102,
+		},
+		[44] = {
+			id = 44,
+			name = "Continuous Login",
+			res_id = 102,
+		},
+		[45] = {
+			id = 45,
+			name = "Joint ATK",
+			res_id = 102,
+		},
+		[47] = {
+			id = 47,
+			name = "Online",
+			res_id = 102,
+		},
+		[48] = {
+			id = 48,
+			name = "New Draw Interface",
+			res_id = 102,
+		},
+}

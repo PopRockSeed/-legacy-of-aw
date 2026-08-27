@@ -1,0 +1,43 @@
+Config = Config or {}
+Config.cnfguilddicegold = {
+		[1] = {
+			num = 1,
+			gold = 5,
+		},
+		[2] = {
+			num = 2,
+			gold = 5,
+		},
+		[3] = {
+			num = 3,
+			gold = 10,
+		},
+		[4] = {
+			num = 4,
+			gold = 10,
+		},
+		[5] = {
+			num = 5,
+			gold = 20,
+		},
+		[6] = {
+			num = 6,
+			gold = 20,
+		},
+		[7] = {
+			num = 7,
+			gold = 40,
+		},
+		[8] = {
+			num = 8,
+			gold = 40,
+		},
+		[9] = {
+			num = 9,
+			gold = 80,
+		},
+		[10] = {
+			num = 10,
+			gold = 80,
+		},
+}

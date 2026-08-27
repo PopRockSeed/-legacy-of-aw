@@ -1,0 +1,9 @@
+Config = Config or {}
+Config.cnfgoddesswelfareinfo = {
+		[1] = {
+			once_gold = 68,
+			get_all_gold = 150,
+			goddess_level = {{0,1,},{50,2,},{200,3,},{900,4,},},
+			goddess_tips = {[[With Hearts, Our Amity Will Increase~]],[[With Certain Amity, Rewards Will Double~]],[[You Can Get 4-Fold Rewards Mostly. Keep Fighting~]],[[Rewards Shown On The Interface Are The Final Rewards~]],},
+		},
+}

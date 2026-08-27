@@ -1,0 +1,39 @@
+Config = Config or {}
+Config.cnfkfjijinshibei = {
+		[1] = {
+			idx = 1,
+			condition = 10,
+			reward_id = 11101,
+			title_describe = [[Team Lv. Reaches Lv.10 And Get: ]],
+		},
+		[2] = {
+			idx = 2,
+			condition = 25,
+			reward_id = 11102,
+			title_describe = [[Team Lv. Reaches Lv.25 And Get:]],
+		},
+		[3] = {
+			idx = 3,
+			condition = 35,
+			reward_id = 11103,
+			title_describe = [[Team Lv. Reaches Lv.35, And Get:]],
+		},
+		[4] = {
+			idx = 4,
+			condition = 45,
+			reward_id = 11104,
+			title_describe = [[Team Lv. Reaches Lv.45 And Get:]],
+		},
+		[5] = {
+			idx = 5,
+			condition = 55,
+			reward_id = 11105,
+			title_describe = [[Team Lv. Reaches Lv.55 And Get:]],
+		},
+		[6] = {
+			idx = 6,
+			condition = 60,
+			reward_id = 11106,
+			title_describe = [[Team Lv. Reached 60 And Get:]],
+		},
+}

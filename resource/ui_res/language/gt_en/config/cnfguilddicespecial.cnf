@@ -1,0 +1,23 @@
+Config = Config or {}
+Config.cnfguilddicespecial = {
+		[2] = {
+			num = 2,
+			score = 1000,
+		},
+		[3] = {
+			num = 3,
+			score = 2000,
+		},
+		[4] = {
+			num = 4,
+			score = 3000,
+		},
+		[5] = {
+			num = 5,
+			score = 4000,
+		},
+		[6] = {
+			num = 6,
+			score = 6000,
+		},
+}

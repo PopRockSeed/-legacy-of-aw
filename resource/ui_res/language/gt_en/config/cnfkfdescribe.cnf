@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnfkfdescribe = {
+		[1] = {
+			exchange_describe = [[<COLOR VALUE=FFFF0000>Activity:</COLOR><COLOR VALUE=FF442c20>Start From New Server Opening To No Gift Activation Codes</COLOR><BR><COLOR VALUE=FFFF0000>Detail:</COLOR><COLOR VALUE=FF442c20>After New Server Opens, All Players Can Get A Newbie Gift Worth <COLOR VALUE=FF00BFFF OUTLINE=FFF5F5F5>200 Diamonds </COLOR>From Forum, Media Area And So On. </COLOR>]],
+		},
+}

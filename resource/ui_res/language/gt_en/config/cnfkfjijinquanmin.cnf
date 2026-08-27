@@ -1,0 +1,75 @@
+Config = Config or {}
+Config.cnfkfjijinquanmin = {
+		[1] = {
+			idx = 1,
+			condition = 10,
+			reward_id = 11201,
+			title_describe = [[Fund Buyer Reaches 10 And Get:]],
+		},
+		[2] = {
+			idx = 2,
+			condition = 30,
+			reward_id = 11202,
+			title_describe = [[Fund Buyer Reaches 30 And Get:]],
+		},
+		[3] = {
+			idx = 3,
+			condition = 50,
+			reward_id = 11203,
+			title_describe = [[Fund Buyer Reaches 50 And Get:]],
+		},
+		[4] = {
+			idx = 4,
+			condition = 100,
+			reward_id = 11204,
+			title_describe = [[Fund Buyer Reaches 100 And Get: ]],
+		},
+		[5] = {
+			idx = 5,
+			condition = 200,
+			reward_id = 11205,
+			title_describe = [[Fund Buyer Reaches 200 And Get:]],
+		},
+		[6] = {
+			idx = 6,
+			condition = 300,
+			reward_id = 11206,
+			title_describe = [[Fund Buyer Reaches 300 And Get:]],
+		},
+		[7] = {
+			idx = 7,
+			condition = 500,
+			reward_id = 11207,
+			title_describe = [[Fund Buyer Reaches 500 And Get:]],
+		},
+		[8] = {
+			idx = 8,
+			condition = 1000,
+			reward_id = 11208,
+			title_describe = [[Fund Buyer Reaches 1000 And Get:]],
+		},
+		[9] = {
+			idx = 9,
+			condition = 1500,
+			reward_id = 11209,
+			title_describe = [[Fund Buyer Reaches 1500 And Get:]],
+		},
+		[10] = {
+			idx = 10,
+			condition = 2000,
+			reward_id = 11210,
+			title_describe = [[Fund Buyer Reaches 2000 And Get : ]],
+		},
+		[11] = {
+			idx = 11,
+			condition = 3000,
+			reward_id = 11211,
+			title_describe = [[Fund Buyer Reaches 3000 And Get:]],
+		},
+		[12] = {
+			idx = 12,
+			condition = 5000,
+			reward_id = 11212,
+			title_describe = [[Fund Buyer Reaches 5000 And Get:]],
+		},
+}

@@ -1,0 +1,29 @@
+Config = Config or {}
+Config.cnffestivalfbinfo = {
+		[1] = {
+			fb_type = 1,
+			cool_time = 0,
+			tili = 10,
+			prop_id = 3761,
+			skill_cool_time = 8,
+			skill_id = 207500,
+			reward_res = [[sdanwa]],
+			reward_id = 3762,
+			explain = [[At Xmas Eve, Xmas Girl Prepared Many Socks For You But Was Looted By Snowmob! Recapture Our Socks!<BR SPACING=10>1, Snowmob Is Good At Spells Like Freeze, SPD Down, Strengthen. It Can Increase Self ATK And Rebound DMG, Being Invincible In Frozen State;<BR SPACING=10>2, You Can Use Match To Clear The Strengthen And Invincible Buff Of Snowmob And Remove Debuff From Fellows. It Can Also Recover Fellow HP~]],
+			tweet = {[[Eat An Ice Sucker?]],[[Take The Match Away!]],[[Xmas Socks Are Mine!]],[[Ah~ Sweet Matches~]],},
+			goddess_tips = [[You Can Get Matches From Xmas Activity!]],
+		},
+		[2] = {
+			fb_type = 2,
+			cool_time = 0,
+			tili = 10,
+			prop_id = 3754,
+			skill_cool_time = 8,
+			skill_id = 207600,
+			reward_res = [[box]],
+			reward_id = 4087,
+			explain = [[1. The Nian Beast could petrify, stun, apply enhanced magic, increase attack and rebound damage. <BR SPACING=10>2. You could use Firecrackers to steal physical strength, remove debuffs and grant HP~]],
+			tweet = {[[It's spring festival! Time to have some fun!]], [[I also want to have some fun! Cut me lose!]], [[If you want to defeat me, you must work really hard!]], },
+			goddess_tips = [[Firecrackers are available in dungeon!]],
+		},
+}

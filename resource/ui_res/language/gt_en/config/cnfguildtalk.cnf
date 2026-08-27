@@ -1,0 +1,23 @@
+Config = Config or {}
+Config.CnfGuildTalk = {
+		[1] = {
+			explain = [[<COLOR VALUE=0xff442c0c> Liveness On That Day Reaches 250 Can Cast Once, Liveness Comes From VIT Consume. </COLOR>]],
+			start_time = 0,
+			end_time = 6,
+		},
+		[2] = {
+			explain = [[<COLOR VALUE=0xff442c0c>Only Highest Score Is In Rank. Rewards Are Counted And Sent By Email Every Sunday. </COLOR>]],
+			start_time = 6,
+			end_time = 12,
+		},
+		[3] = {
+			explain = [[<COLOR VALUE=0xff442c0c>Every Image Has Its Matching Score. Throw Special Setting And Get Extra Score. </COLOR>]],
+			start_time = 12,
+			end_time = 18,
+		},
+		[4] = {
+			explain = [[<COLOR VALUE=0xff442c0c>System Settles Rewards According To Scores Of Rank.</COLOR>]],
+			start_time = 18,
+			end_time = 24,
+		},
+}

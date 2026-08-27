@@ -1,0 +1,7 @@
+Config = Config or {}
+Config.cnfguildminecommon = {
+		[1] = {
+			roll_cost = {0,30,30,50,50,50,80,80,80,80,},
+			rule = [[1.Roll The Dice To Get Move Steps;<BR SPACING=10>2.Move To A Certain Grid And Trigger An Event;<BR SPACING=10>3.Guild Members Can Get Public Rewards Next Day;<BR SPACING=10>4.You Cannot Get Yesterday Reward On The Day When You Join The Guild;]],
+		},
+}

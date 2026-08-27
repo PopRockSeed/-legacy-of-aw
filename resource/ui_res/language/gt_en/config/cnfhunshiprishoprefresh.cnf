@@ -1,0 +1,39 @@
+Config = Config or {}
+Config.cnfhunshiprishoprefresh = {
+		[1] = {
+			count = 1,
+			consume = 20,
+		},
+		[2] = {
+			count = 2,
+			consume = 30,
+		},
+		[3] = {
+			count = 3,
+			consume = 40,
+		},
+		[4] = {
+			count = 4,
+			consume = 50,
+		},
+		[5] = {
+			count = 5,
+			consume = 60,
+		},
+		[6] = {
+			count = 6,
+			consume = 70,
+		},
+		[7] = {
+			count = 7,
+			consume = 80,
+		},
+		[8] = {
+			count = 8,
+			consume = 90,
+		},
+		[9] = {
+			count = 9,
+			consume = 100,
+		},
+}

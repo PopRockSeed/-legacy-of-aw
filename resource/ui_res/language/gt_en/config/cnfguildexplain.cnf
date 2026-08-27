@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnfguildexplain = {
+		[1] = {
+			explain = [[<COLOR VALUE=442c0c>1.Players Make Contributions To Guild And Guild Will Award Players With Some Dice Chances. Every 250 Daily Guild Contributions Can Exchange 1 Dice Chance, 4 Chances Most.<BR> <BR>2.No Matter How Many Times Players Dice, System Only Records The Highest Score. It Settles At 5:00 On Sundays And Sends Rewards Via Mail (Coins, Guild Honor) Based On Guild Score Ranking.<BR> <BR>3.If Not Satisfied With The Result, VIP Can Consume A Few Diamonds But Not Dice Chances To Dice Again.<BR> <BR>4.Various Patterns Appear After You Dice: Sand Ninja: 100 Scores, Rain Ninja: 150 Scores, Sound Ninja: 200 Scores, Rock Ninja: 250 Scores, Mist Ninja: 300 Scores, Konoha: 450 Scores.<BR> <BR>5.Special Set Earns You Extra Scores: 2 Same Patterns+1000 Scores, 3 Same Patterns+2000 Scores, 4 Same Patterns+3000 Scores, 5 Same Patterns+4000 Scores, 6 Same Patterns+5000 Scores, 2 Same And 2 Same +1000 Scores, 3 Same And 2 Same+2000 Scores, 4 Same And 2 Same+4000 Scores, 3 Same And 3 Same+5000 Scores.<BR> <BR>6.Red Konoha Ninja Is Special Pattern. With Many Konoha Patterns, You Get Extra Scores: 2 Konoha Patterns+1000 Scores, 3 Konoha Patterns+2000 Scores, 4 Konoha Patterns+3000 Scores, 5 Konoha Patterns+4000 Scores, 6 Konoha Patterns+6000 Scores.<BR> <BR> <BR>]],
+		},
+}

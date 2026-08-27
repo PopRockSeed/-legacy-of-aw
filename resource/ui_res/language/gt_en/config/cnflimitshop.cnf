@@ -1,0 +1,13 @@
+Config = Config or {}
+Config.cnflimitshop = {
+		[1] = {
+			jinghun_limit_level = 26,
+			gem_limit_level = 30,
+			peas_limit_level = 20,
+			material_limit_level = 20,
+			vip_limit_level = 1,
+			refresh_time = 7200,
+			refresh_num = 8,
+			hunshi_refresh_num = 6,
+		},
+}

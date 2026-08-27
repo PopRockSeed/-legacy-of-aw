@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfheapsignin = {
+		[1] = {
+			reward_id = 10901,
+			heap_day = 5,
+		},
+		[2] = {
+			reward_id = 10902,
+			heap_day = 7,
+		},
+		[3] = {
+			reward_id = 10903,
+			heap_day = 10,
+		},
+}

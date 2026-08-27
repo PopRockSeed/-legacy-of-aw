@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnfguildtreemisc = {
+		[1] = {
+			help_text = [[1.Each Player Can Train Tree Once Daily; <BR SPACING=10>2.Training Can Get Rewards And Upgrade Tree; <BR SPACING=10>3.Tree At Certain Level Can Get Rewards;<BR SPACING=10>4.Tree Resets At 5am(UTC+8) Daily; <BR SPACING=10>5.Only Those Who Train In Guild That Day Can Get Rewards;]],
+		},
+}

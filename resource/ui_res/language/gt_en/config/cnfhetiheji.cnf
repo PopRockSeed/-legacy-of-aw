@@ -1,0 +1,9 @@
+Config = Config or {}
+Config.cnfhetiheji = {
+		[1] = {
+			heti_list = {{1041,1017,1054,5904,1,},{1005,1019,1055,5907,10,},{1012,1034,1053,5905,20,},{1033,1026,1056,5906,30,},{1064,1065,1066,5908,40,},{1061,1028,1089,5911,45,},},
+			heji_list = {{1042,1011,10425,[[<COLOR VALUE=ff422c0c>Strawhat Inhales Plenty Air And Becomes Bigger, Then Lit By His Brother, Finally Triggering Remarkable Joint Combo Skill. Is That Blood Brother?]],1,},{1014,1039,10145,[[<COLOR VALUE=ff422c0c> With A Powerful Tube, You Can Be Melted By Love.]],10,},{1009,1010,10095,[[<COLOR VALUE=ff422c0c> Selected Perfect Bone Thorn Roasted By Manda Smoke Causes Endless Pain. That Feeling Is Beyond Expression!]],20,},{1029,1051,10295,[[<COLOR VALUE=ff422c0c> Opponents Can Be Friends, Too. Eight Gates And Sand Waterfall, Perfect Combination, Flawless Attack. BTW, When Did You Stay Together?]],30,},{1068,1067,10687,[[<COLOR VALUE=ff422c0c>Lucy Chants And Summon Dragon Flame In Salamander Blood To Devour Everything. That Is Amazing!]],40,},},
+			heti_desc = [[<COLOR VALUE=0xff442c20>Note: Joint Skill Lv.=Half Of the Sum Of Two Roles' Corresponding Skills Lv. (Round Down)]],
+			heji_desc = [[<COLOR VALUE=0xff442c20>Detail: Joint ATK Lv. Is Avg Of Corresponding Skills Of Two Roles. (Round Down)]],
+		},
+}

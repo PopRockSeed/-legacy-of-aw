@@ -1,0 +1,9 @@
+Config = Config or {}
+Config.cnfguildfbinfo = {
+		[1] = {
+			day_count = 2,
+			cd_time = 300,
+			max_battle_time = 300,
+			describe = [[1.Guild Instance Needs Guild Liveness To Reset Before Challenging; <BR>2.HP Of All Mobs Will Be Reset After Resetting Instance. Only Leader Or Vice Leader Of Guild Can Reset Instance; <BR>3. Next Guild Instance Can Be Reset After The Prior Chapter Is Passed; <BR>4. Guild Members Can Challenge Same Instance In Turn. HP Of Mobs Will Not Recover; <BR>5. Every Member Can Challenge 2 Times In Every Chapter Of Guild Instance; <BR>6. Every Challenge Is No Longer Than 3 Min; <BR>7. When Passing Stage Or Chapter, All Members Can Get Rewards; <BR>8.When Passing Stage, Rewards Will Drop. It Belongs To Guild. Member Can Get Them By Application; <BR>9. When More Than 1 Member Apply One Reward, The Member With Higher DMG In Chapter Can Get; <BR>10. Every Member Can Apply For Only 1 Reward Every Day; <BR>11. Reward Can Be Distributed At 5am Every Day; <BR>12. Rewards Are Sent By Email; ]],
+		},
+}

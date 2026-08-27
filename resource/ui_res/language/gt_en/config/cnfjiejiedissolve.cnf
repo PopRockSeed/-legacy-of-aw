@@ -1,0 +1,7 @@
+Config = Config or {}
+Config.cnfjiejiedissolve = {
+		[1] = {
+			describe_dissolve = [[1.Please Pay Attention That Ward Stuff Will Disappear After Melting;<BR SPACING=10>2. The Rarer Stuff, The Higher God Power To Get After Melting;]],
+			open_level = 60,
+		},
+}

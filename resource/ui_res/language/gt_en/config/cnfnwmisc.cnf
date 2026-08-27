@@ -1,0 +1,14 @@
+Config = Config or {}
+Config.cnfnwmisc = {
+		[1] = {
+			music_id = {1,0,0,},
+			resource_id = {1071,1071,},
+			describe = [[<COLOR VALUE=442c0c>1.You Can Dig Several Treasures, Or Search And Loot Others’ Treasures.</COLOR><BR><COLOR VALUE=442c0c>2.Set Up A Squad To Dig Treasures. The Higher Power The Squad Has, The Higher Speed The Digging Has.</COLOR><BR><COLOR VALUE=442c0c>3.Each Treasure Can Only Be Defended By 3 Squads. You Can Invite Guild Members To Help You.</COLOR><BR><COLOR VALUE=442c0c>4.You Can Change Squad Members Anytime.</COLOR><BR><COLOR VALUE=442c0c>5. Different Types Of Treasures Will Take 1/3/10 Hours To Dig. After The Digging, Members Will Carry The Remaining Resources Back To The Depot, And Defensive Members Can Share Part Of Them.</COLOR><BR><COLOR VALUE=442c0c>6.After All The Treasures Are Dug, You May Find Some Diamond Mines.</COLOR><BR><COLOR VALUE=442c0c>7.In The Case Of Looting, If You Defeat All The Defenders Within The Limited Time, You Can Loot Part Of Resources They Have Dug Out.</COLOR><BR><COLOR VALUE=442c0c>8.If You Suffer Attacks And Fail To Defend The Treasure During Digging, You Will Lose Part Of Resources You Have Dug Out But The Treasure Will Still Be Yours.</COLOR><BR><COLOR VALUE=442c0c>9.The Treasure Looted By Enemies Will Get Protection For A Period, During Which Other Players Cannot Search And Attack It.</COLOR><BR><COLOR VALUE=442c0c>10.It Takes 2 Bento To Attack Others Each Time. Bento Will Be Regained As Time Goes By.</COLOR><BR><COLOR VALUE=442c0c>11.Seal Stone Treasure And Evolve Stone Treasure Can Only Be Dug For 10 Hours (1 Or 3 Hours Are Unavailable) Due To Their Low Output Per Hour. Besides, You Cannot Search Squads Which Are Digging Them.</COLOR><BR>]],
+			partner_lv_limit = 30,
+			exp_item_id = 3702,
+			seal_item_id = 3907,
+			evolution_item_id = 3904,
+			mine_size_time = {3600,10800,36000,},
+			open_level = {0,0,40,50,},
+		},
+}

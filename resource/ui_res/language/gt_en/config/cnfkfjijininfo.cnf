@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnfkfjijininfo = {
+		[1] = {
+			description = [[Buy Open-server Fund And Get 10，10000 diamonds in total！<BR>10 times welfare：<BR>1.after reach VIP3，player can buy Open-server Fund with 1000 diamonds。<BR>2.after buy Open-server Fund, can get diamonds rewards when team reach certain level<BR>General Bonus：<BR>1. Open-server buyers reach a certain amount,all server player can get reward<BR>]],
+		},
+}
