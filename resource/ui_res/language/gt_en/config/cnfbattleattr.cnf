@@ -1,0 +1,301 @@
+Config = Config or {}
+Config.cnfbattleattr = {
+		[1] = {
+			attr_type = 1,
+			attr_name = "Power",
+		},
+		[2] = {
+			attr_type = 2,
+			attr_name = "DEX",
+		},
+		[3] = {
+			attr_type = 3,
+			attr_name = "INT",
+			attr_name_res = "",
+		},
+		[4] = {
+			attr_type = 4,
+			attr_name = " Vigour ",
+			attr_name_res = "",
+		},
+		[5] = {
+			attr_type = 5,
+			attr_name = "PHY Strength ",
+			attr_name_res = "moqiang",
+		},
+		[6] = {
+			attr_type = 6,
+			attr_name = "MAG Strength ",
+			attr_name_res = "wuqiang",
+		},
+		[7] = {
+			attr_type = 7,
+			attr_name = "PHY Resist ",
+			attr_name_res = "",
+		},
+		[8] = {
+			attr_type = 8,
+			attr_name = "MAG Resist ",
+			attr_name_res = "",
+		},
+		[9] = {
+			attr_type = 9,
+			attr_name = "PHY Armor",
+			attr_name_res = "wujia",
+		},
+		[10] = {
+			attr_type = 10,
+			attr_name = "MAG Armor ",
+			attr_name_res = "mojia",
+		},
+		[11] = {
+			attr_type = 11,
+			attr_name = "PHY Resist Pierce",
+			attr_name_res = "wuchuan",
+		},
+		[12] = {
+			attr_type = 12,
+			attr_name = "MAG Resist Pierce",
+			attr_name_res = "mochuan",
+		},
+		[13] = {
+			attr_type = 13,
+			attr_name = "PHY Armor Pierce ",
+			attr_name_res = "wuchuan",
+		},
+		[14] = {
+			attr_type = 14,
+			attr_name = "MAG Armor Pierce ",
+			attr_name_res = "mochuan",
+		},
+		[15] = {
+			attr_type = 15,
+			attr_name = "Hit",
+			attr_name_res = "",
+		},
+		[16] = {
+			attr_type = 16,
+			attr_name = "Dodge",
+			attr_name_res = "",
+		},
+		[17] = {
+			attr_type = 17,
+			attr_name = "Parry",
+			attr_name_res = "",
+		},
+		[18] = {
+			attr_type = 18,
+			attr_name = "Block ",
+			attr_name_res = "",
+		},
+		[19] = {
+			attr_type = 19,
+			attr_name = "Combo",
+			attr_name_res = "",
+		},
+		[20] = {
+			attr_type = 20,
+			attr_name = " Grind",
+			attr_name_res = "",
+		},
+		[21] = {
+			attr_type = 21,
+			attr_name = "PHY Crit ",
+			attr_name_res = "",
+		},
+		[22] = {
+			attr_type = 22,
+			attr_name = "MAG Crit",
+			attr_name_res = "",
+		},
+		[23] = {
+			attr_type = 23,
+			attr_name = "Crit DMG",
+			attr_name_res = "",
+		},
+		[24] = {
+			attr_type = 24,
+			attr_name = "TOU",
+			attr_name_res = "",
+		},
+		[25] = {
+			attr_type = 25,
+			attr_name = "DMG Rate ",
+			attr_name_res = "",
+		},
+		[26] = {
+			attr_type = 26,
+			attr_name = "Dodge Odds",
+			attr_name_res = "",
+		},
+		[27] = {
+			attr_type = 27,
+			attr_name = "PHY Crit Odds",
+			attr_name_res = "",
+		},
+		[28] = {
+			attr_type = 28,
+			attr_name = "MAG Crit Odds",
+			attr_name_res = "",
+		},
+		[29] = {
+			attr_type = 29,
+			attr_name = "Crit Rate ",
+			attr_name_res = "",
+		},
+		[30] = {
+			attr_type = 30,
+			attr_name = "TOU Rate ",
+			attr_name_res = "",
+		},
+		[31] = {
+			attr_type = 31,
+			attr_name = "Parry Rate ",
+			attr_name_res = "",
+		},
+		[32] = {
+			attr_type = 32,
+			attr_name = "Parry Odds",
+			attr_name_res = "",
+		},
+		[33] = {
+			attr_type = 33,
+			attr_name = "Combo Rate ",
+			attr_name_res = "",
+		},
+		[34] = {
+			attr_type = 34,
+			attr_name = "Crush Odds",
+			attr_name_res = "",
+		},
+		[35] = {
+			attr_type = 35,
+			attr_name = "Hit Odds",
+			attr_name_res = "",
+		},
+		[36] = {
+			attr_type = 36,
+			attr_name = "ATK Speed Rate ",
+			attr_name_res = "",
+		},
+		[37] = {
+			attr_type = 37,
+			attr_name = "Dodge Zoom",
+			attr_name_res = "",
+		},
+		[38] = {
+			attr_type = 38,
+			attr_name = "PHY Crit Zoom ",
+			attr_name_res = "",
+		},
+		[39] = {
+			attr_type = 39,
+			attr_name = "MAG Crit Zoom ",
+			attr_name_res = "",
+		},
+		[40] = {
+			attr_type = 40,
+			attr_name = "Crit DMG Zoom",
+			attr_name_res = "",
+		},
+		[41] = {
+			attr_type = 41,
+			attr_name = "TOU Zoom",
+			attr_name_res = "",
+		},
+		[42] = {
+			attr_type = 42,
+			attr_name = "Parry Zoom",
+			attr_name_res = "",
+		},
+		[43] = {
+			attr_type = 43,
+			attr_name = "Parry Zoom",
+			attr_name_res = "",
+		},
+		[44] = {
+			attr_type = 44,
+			attr_name = "Combo Zoom",
+			attr_name_res = "",
+		},
+		[45] = {
+			attr_type = 45,
+			attr_name = "Crush Zoom",
+			attr_name_res = "",
+		},
+		[46] = {
+			attr_type = 46,
+			attr_name = "Hit Zoom ",
+			attr_name_res = "",
+		},
+		[47] = {
+			attr_type = 47,
+			attr_name = "ATK Speed Zoom ",
+			attr_name_res = "",
+		},
+		[48] = {
+			attr_type = 48,
+			attr_name = "ATK Speed Buff ",
+			attr_name_res = "gongsu",
+		},
+		[49] = {
+			attr_type = 49,
+			attr_name = "Recover",
+			attr_name_res = "huifu",
+		},
+		[50] = {
+			attr_type = 50,
+			attr_name = "Anger Regen",
+			attr_name_res = "nuqihuifu",
+		},
+		[51] = {
+			attr_type = 51,
+			attr_name = "Most HP",
+			attr_name_res = "zuidashengming",
+		},
+		[52] = {
+			attr_type = 52,
+			attr_name = " Speed",
+			attr_name_res = "",
+		},
+		[53] = {
+			attr_type = 53,
+			attr_name = "ATK Speed ",
+			attr_name_res = "",
+		},
+		[54] = {
+			attr_type = 54,
+			attr_name = "Panel Accelerate ",
+			attr_name_res = "",
+		},
+		[55] = {
+			attr_type = 55,
+			attr_name = "ATK Interval",
+			attr_name_res = "",
+		},
+		[62] = {
+			attr_type = 62,
+			attr_name = "LS",
+			attr_name_res = "",
+		},
+		[63] = {
+			attr_type = 63,
+			attr_name = " Avoidance Rate ",
+			attr_name_res = "",
+		},
+		[66] = {
+			attr_type = 66,
+			attr_name = "DMG+",
+			attr_name_res = "",
+		},
+		[67] = {
+			attr_type = 67,
+			attr_name = "ATK Speed Punish ",
+			attr_name_res = "",
+		},
+		[68] = {
+			attr_type = 68,
+			attr_name = "Basic AS ",
+			attr_name_res = "",
+		},
+}

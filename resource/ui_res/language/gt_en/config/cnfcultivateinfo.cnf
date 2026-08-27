@@ -1,0 +1,24 @@
+Config = Config or {}
+Config.cnfcultivateinfo = {
+		[1] = {
+			index = 1,
+			cost_gold = 0,
+			cost_coin = 0,
+			cost_lilian = 100,
+			cost_item = {3716,5,},
+		},
+		[2] = {
+			index = 2,
+			cost_gold = 0,
+			cost_coin = 30000,
+			cost_lilian = 0,
+			cost_item = {3716,4,},
+		},
+		[3] = {
+			index = 3,
+			cost_gold = 15,
+			cost_coin = 0,
+			cost_lilian = 0,
+			cost_item = {3716,3,},
+		},
+}

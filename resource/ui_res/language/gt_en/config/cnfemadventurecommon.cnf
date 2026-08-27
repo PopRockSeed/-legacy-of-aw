@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfemadventurecommon = {
+		[1] = {
+			free_time = 10,
+			reset_time = {5,0,},
+			challenge_cost = {{50,50,100,100,150,150,200,200,300,300,},{50,50,100,100,150,150,200,200,300,300,},{50,50,100,100,150,150,200,200,300,300,},{50,50,100,100,150,150,200,200,300,300,},{50,50,100,100,150,150,200,200,300,300,},{50,50,100,100,150,150,200,200,300,300,},{50,50,100,100,150,150,200,200,300,300,},},
+			challenge_add = 5,
+			rule = "<COLOR VALUE=FFFFFFFF>1.Daily 10 Free Chances To Attack. Reset At 5am (UTC+8);<BR> <BR>2.Pass Nightmare Land To Get Voyage Scores And Dream Debris;<BR> <BR>3.Based On Daily Rank And Weekly Rank Of Voyage Scores, You Will Be Rewarded With Grand Dream Debris;<BR> <BR>4.Inviting Friends For Inspiration Can Add Battle Damage And HP. Inspiration Buff Will Be Reset Once Per Week. </COLOR>",
+			world_invite_cd = 600,
+			inspire_diamond = 10,
+			friend_inspire_diamond = 10,
+			friend_inspire_reward = 10461,
+			partner_num = 5,
+		},
+}

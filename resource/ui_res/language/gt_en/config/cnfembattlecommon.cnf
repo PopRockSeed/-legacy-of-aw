@@ -1,0 +1,8 @@
+Config = Config or {}
+Config.cnfembattlecommon = {
+		[1] = {
+			huyou_open_level = 50,
+			huyou_item_id = {3785,3786,3787,},
+			huyou_rule = "1. Drag A Pet To A Warden Spot And It Becomes A Warden;<BR SPACING=10>2. Attr. Of Wardens Will Be Attached To All Fellows Via Warden Spar;<BR SPACING=10>3. One Warden Spot Can Only Transform One Type Of Attr;<BR SPACING=10>4. The Better The Warden Spar, The Higher The Transformation Rate;",
+		},
+}

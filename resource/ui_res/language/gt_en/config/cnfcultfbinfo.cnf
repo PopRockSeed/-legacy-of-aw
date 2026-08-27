@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfcultfbinfo = {
+		[1] = {
+			record_id = 10150,
+			cool_time = 600,
+			team_level = 35,
+			day_count = 2,
+			tili = 10,
+			double_gold = 50,
+			boss_adv = [[[Strong Boss, Good At AOE , Hold, Make Sure To Hold!!]],
+			suggest_strate = [[Needs Persistent Front With High DEF, Dodge Or High HP. Bring A Healer Girl!]],
+			recommend_hero = {1012,1027,1015,1046,1043,1049,1037,1018,1030,},
+			tweet = {[[You are Nothing Without Healer]],[[Only 30 S! Are You A Man?]],[[Heard You Can’t Hold Long]],[[Receive My 360 Degree Twist Armstrong Bomb!]],},
+		},
+}

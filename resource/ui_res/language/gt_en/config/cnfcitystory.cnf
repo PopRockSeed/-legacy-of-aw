@@ -1,0 +1,33 @@
+Config = Config or {}
+Config.cnfcitystory = {
+		[1] = {
+			story_id = 1,
+			condition = {{4,1,},{4,-2,},{1,-5001,},},
+			step = {{1,0,1001,1001,[[(Spit Blood)We Have Not Seen For Years. How Can Dark Cthulhu Become So Powerful... I Tried So Hard To Escape To Church But Badly Wounded. I Am Afraid……]],0.1,},{1,1,1042,1042,[[ How Dare Cthulhu Control My Friend And Hurt My Goddess! I Must Teach Him A Lesson! Where Is My Bro!]],0.1,},{1,0,1001,1001,[[Er, You Mean The Guy With Fire In Hand? I Failed To Take His Hand To Fly Because He Was So Hot……]],0.1,},{1,1,1042,1042,[[What! Find Him Right Now!]],0.1,},},
+		},
+		[2] = {
+			story_id = 2,
+			condition = {{2,1011,},{1,-5002,},},
+			step = {{1,0,1011,1011,[[The Two Yellow Hairs Are Cartoon Roles.Are They Playing Cosplay?]],0.1,},{1,1,1042,1042,[[Yes, I See A Doraemon Just Now. Is There A Cartoon Display In Temple?]],0.1,},{1,0,1001,1001,[[No Cartoon Display. Evil Broke Space Barrier And Many People From Other World Were Dragged Into This World. If Evil Continues Breaking Space Barrier, Ancient Demons Will Invade Our World And We Will Be Killed At That Time.]],0.1,},{1,1,1042,1042,[[Huh! I’m The Future Pirate King! I Will Defeat The Evil And Return To My Original Space.]],0.1,},},
+		},
+		[3] = {
+			story_id = 3,
+			condition = {{2,1004,},{1,-5003,},},
+			step = {{1,1,1004,1004,[[Huh, I Will Not Believe What You Said! ]],0.1,},{1,0,1001,1001,[[Facts Speak Louder Than Words. Just Have A Look.]],0.1,},},
+		},
+		[4] = {
+			story_id = 4,
+			condition = {{1,5013,},{1,-5014,},{6,3022,},},
+			step = {{1,1,1042,1042,[[Too Hard! I Cannot Knock It Out! ]],0.1,},{1,0,1001,1001,[[It Is Time To Teach You To Upgrade Skills!]],0.1,},},
+		},
+		[5] = {
+			story_id = 5,
+			condition = {{6,3019,},{2,1036,},{1,-5006,},},
+			step = {{1,0,1036,1036,[[Ahahah~ Eat Lots Of Bananas, Feel Good Now!]],0.1,},{1,1,1042,1042,[[?-?-Eat Banana Can Up Parterners?ˉ Lv, It?ˉS The Fast Way To Train New Roles.]],0.1,},},
+		},
+		[6] = {
+			story_id = 6,
+			condition = {{1,5007,},{1,-5008,},{6,4001,},},
+			step = {{1,1,1042,1042,[[Without The Front Ward, I Would Be Killed By Kaka! But Urukiora Was Not So Lucky!]],0.1,},{1,0,1001,1001,[[Now You Know How Important The Ward is! We Collect Some Stuff To Intensify Mid Ward. Protect Urukiora! ]],0.1,},},
+		},
+}

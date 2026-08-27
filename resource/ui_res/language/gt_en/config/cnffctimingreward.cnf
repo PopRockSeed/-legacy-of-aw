@@ -1,0 +1,17 @@
+Config = Config or {}
+Config.cnffctimingreward = {
+		[1] = {
+			begin_time = 43200,
+			last_time = 7200,
+			describe = [[Get 500 Free Diamonds During 12:00-14:00 Per Day]],
+			reward_id = 6010,
+			record_id = 5001,
+		},
+		[2] = {
+			begin_time = 64800,
+			last_time = 7200,
+			describe = [[Get 500 Diamonds At 18:00-20:00 Each Day.]],
+			reward_id = 6011,
+			record_id = 5002,
+		},
+}

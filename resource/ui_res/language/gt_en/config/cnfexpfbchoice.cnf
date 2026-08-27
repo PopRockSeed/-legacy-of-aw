@@ -1,0 +1,21 @@
+Config = Config or {}
+Config.cnfexpfbchoice = {
+		[1] = {
+			type = 1,
+			describe = [[Lowest DC. Defeat Enemies Without Difficulty. But Quality And Quantity Of Stones Are So-So.]],
+			zhanli = 6.5,
+			output = {3721,},
+		},
+		[2] = {
+			type = 2,
+			describe = [[Normal. You Can Fully Enjoy The Joy. Get Plenty Of Stones After Win.]],
+			zhanli = 7,
+			output = {3722,},
+		},
+		[3] = {
+			type = 3,
+			describe = [[Gosh...You Gonna Challenge This? It's Said That Only Super Player Dare To Challenge This. The Stone You Get From This Will Definitely Surprise You.]],
+			zhanli = 7,
+			output = {3723,},
+		},
+}

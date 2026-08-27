@@ -1,0 +1,13 @@
+Config = Config or {}
+Config.cnfchristmastreeinfo = {
+		[1] = {
+			one_price = 136,
+			ten_price = 1224,
+			every_time_score = 1,
+			reward_delay_time = 1,
+			tree_score = {0,500,1000,},
+			deposit_num = 100,
+			description = [[1.Each player will have a free chance to make wish；<BR SPACING=10>2.Each wish grants 1 point；<BR SPACING=10>3.After the event, the top 10 players in the rank will get super rewards；<BR SPACING=10>4.Gifts will be dropped off every 1 hour from the ；<BR SPACING=10>5.The event item will be kept in the gift box. You need to claim and transfer all the items to the bag；<BR SPACING=10>6.After the event finished, all the items in the gift box will be transferred to the bag automatically.]],
+			rand_desc = [[No.1：Meliodas Stone*20、Xmas Snowflake*800、Xmas Bell*100、Xmas Candy*100<BR SPACING=10>No.2：Meliodas Stone*15、Xmas Snowflake*500、Xmas Bell*80、Xmas Candy*80<BR SPACING=10>No.3：Meliodas Stone*10、Xmas Snowflake*400、Xmas Bell*80<BR SPACING=10>No.4：Santa Girl Stone*15、Xmas Snowflake*300、Xmas Bell*50<BR SPACING=10>No.5：Santa Girl Stone*12、Xmas Snowflake*200<BR SPACING=10>No.6：Santa Girl Stone*10、Xmas Snowflake*100<BR SPACING=10>No.7：Xmas Chopper Stone*10<BR SPACING=10>No.8：Xmas Chopper Stone*5<BR SPACING=10>No.9：God Power Sack*20<BR SPACING=10>No.10：God Power Sack*15]],
+		},
+}

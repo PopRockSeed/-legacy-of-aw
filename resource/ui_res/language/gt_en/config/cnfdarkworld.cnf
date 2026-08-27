@@ -1,0 +1,20 @@
+Config = Config or {}
+Config.cnfdarkworld = {
+		[1] = {
+			max_durable = 50,
+			durable_recover = 1800,
+			all_lottery_gold = 250,
+			monster_gold = 10,
+			mine_gold = 10,
+			refresh_gold = 100,
+			detect_gold = 100,
+			main_desc_simple = [[Dark World Has Top Fellow Stones. Come On! Find Boxes!]],
+			main_desc = [[1.Refresh Entry At Main Interface And Defeat Boss Before Digging.<BR> <BR>2.Digging Reduces Hoe Durability. Use Exploration For Better Efficiency!<BR> <BR>3.Each Mine Has Exclusive Hoe Durability, Buying Times, VIP Buying Times, Etc.<BR> <BR>4.All Progress Will Be Cleared At 5:00 (UTC+8), Sun.<BR> <BR>]],
+			draw_talk = {[[Choose All, Take All!]],[[Click Card, Now Draw!]],[[Taking All Or Draw Once?]],[[Click Confirm After Draw And Return To Instance]],},
+			fb_talk = {[[You Can Raid Mobs Whose POW Is Lower Than Yours~]],[[You Can Use Amulet Or Diamond To Raid Mobs Whose POW Is Higher Than Yours]],[[Mobs Will Be Upgraded Once Killed]],[[Each Mob You Dig Out Will Reduce 1 Durability]],},
+			min_fb_level = 45,
+			max_fb_level = 95,
+			monster_tili = 5,
+			open_tili = 10,
+		},
+}

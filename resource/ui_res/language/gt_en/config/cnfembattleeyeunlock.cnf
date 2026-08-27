@@ -1,0 +1,48 @@
+Config = Config or {}
+Config.cnfembattleeyeunlock = {
+		[1] = {
+			id = 1,
+			name = "Lin ",
+			require_team_lv = 2,
+		},
+		[2] = {
+			id = 2,
+			name = "Bing",
+			require_team_lv = 1,
+		},
+		[3] = {
+			id = 3,
+			name = "Dou",
+			require_team_lv = 3,
+		},
+		[4] = {
+			id = 4,
+			name = "Zhe",
+			require_team_lv = 7,
+		},
+		[5] = {
+			id = 5,
+			name = "Jie",
+			require_team_lv = 1,
+		},
+		[6] = {
+			id = 6,
+			name = "Zhen",
+			require_team_lv = 10,
+		},
+		[7] = {
+			id = 7,
+			name = "Lie",
+			require_team_lv = 3,
+		},
+		[8] = {
+			id = 8,
+			name = "Zai",
+			require_team_lv = 1,
+		},
+		[9] = {
+			id = 9,
+			name = "Qian ",
+			require_team_lv = 2,
+		},
+}

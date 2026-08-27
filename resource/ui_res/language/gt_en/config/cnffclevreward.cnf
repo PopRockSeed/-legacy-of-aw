@@ -1,0 +1,23 @@
+Config = Config or {}
+Config.cnffclevreward = {
+		[1] = {
+			lev = 15,
+			reward_id = 6020,
+		},
+		[2] = {
+			lev = 25,
+			reward_id = 6021,
+		},
+		[3] = {
+			lev = 30,
+			reward_id = 6022,
+		},
+		[4] = {
+			lev = 35,
+			reward_id = 6023,
+		},
+		[5] = {
+			lev = 40,
+			reward_id = 6024,
+		},
+}

@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfexpfbtheme = {
+		[1] = {
+			boss_adv = [[Strong Boss. ATK Tank. Release Dogs in A Time. May Seckill Enemy But Is Easy To Be Affected By Negative Status.]],
+			suggest_strate = [[Need Persist Front with High Defense/Dodge/Hp. Use High ATK Kill Puppy When It Appears. Control In Back. Stun, Silence, Trap, Slow Down And Still Him When He Releases Pineapple!]],
+			recommend_hero = {1012,1027,1015,1046,1043,1049,1037,1018,1030,},
+			tweet = {[[Can You Hit Harder?]],[[Hit Me If You Want Stones!]],[[I Own All Stones!]],[[Longer You Insist, More Stones You Get!]],[[Stun Me! Mute Me! Still Me!]],},
+		},
+		[2] = {
+			boss_adv = [[Boss Good At MAG ATK. Smelly Mouth & Smell Of Cigarette Reduce Our HP. Summon Spider Discontinuously. High INT. Lucky That Her ATK Is Not High.]],
+			suggest_strate = [[Supports Are Recommended. Take It Easy When Anger Is Full. Use Anger When Spiders Appear!]],
+			recommend_hero = {1032,1027,1015,1046,1004,1039,1044,1030,1048,},
+			tweet = {[[Good Layout, High DMG!]],[[For Longer You Insist, The More Stones You Get!]],[[Amazing Back CC! I'm Afraid!]],[[Be A Man]],[[Can You?]],},
+		},
+}

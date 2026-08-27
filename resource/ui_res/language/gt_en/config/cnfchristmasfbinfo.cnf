@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfchristmasfbinfo = {
+		[1] = {
+			cool_time = 0,
+			team_level = 18,
+			tili = 10,
+			match_id = 3761,
+			explain = [[At Xmas Eve, Xmas Girl Prepared Many Socks For You But Was Looted By Snowmob! Recapture Our Socks!<BR SPACING=10>1, Snowmob Is Good At Spells Like Freeze, SPD Down, Strengthen. It Can Increase Self ATK And Rebound DMG, Being Invincible In Frozen State;<BR SPACING=10>2, You Can Use Match To Clear The Strengthen And Invincible Buff Of Snowmob And Remove Debuff From Fellows. It Can Also Recover Fellow HP~]],
+			tweet = {[[Eat An Ice Sucker?]],[[Take The Match Away!]],[[Xmas Socks Are Mine!]],[[Ah~ Sweet Matches~]],},
+			skill_cool_time = 8,
+			skill_id = 207500,
+			socks_id = 3762,
+			goddess_tips = [[You Can Get Matches From Xmas Activity!]],
+		},
+}

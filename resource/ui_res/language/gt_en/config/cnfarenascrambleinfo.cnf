@@ -1,0 +1,12 @@
+Config = Config or {}
+Config.cnfarenascrambleinfo = {
+		[1] = {
+			challenge_count = 3,
+			buy_scramble_count = 10,
+			win_reward_id = 20520,
+			lost_reward_id = 20521,
+			music_id = {1,0,0,},
+			resource_id = {1071,1071,},
+			arena_explain = [[<COLOR VALUE=442c0c>1. Knockout Contest Will Be Held By Periods. The Next Period Starts At 5 am Monday With Settlement Processed.<BR SPACING=10>2. A Battle Consists Of The Best Of Three Sets. Players Can Send 3 Teams In Fight And Each Team Can Send 3 Heroes At Most. Then Each Team Will Fight Against Each Other In Turn. (If One Team Has Won Two Battles In A Row, It Can Be Exempted From The Third Battle.) <BR SPACING=10>3. Players Can Send No Heroes In Fight But The Winner Will Directly Go To The Team With Heroes In Lineup; If Both Teams Send No Fighting Heroes, Then The Defensive Team Will Be The Winner.<BR SPACING=10>4. The One Who Plays On Defense Can Get Badges Every 10 Mins. Whoever Beat The Defender Can Loot Some Of The Badges From Him/Her.<BR SPACING=10>5. You Can Exchange Badges For Any Rare Items In Exchange Shop.<BR SPACING=10>6. In Exchange Shop, You Will Need Badges And Exchange Times To Exchange For Items. Exchange Times Will Be Regained After A Period.</COLOR><BR SPACING=10>]],
+		},
+}

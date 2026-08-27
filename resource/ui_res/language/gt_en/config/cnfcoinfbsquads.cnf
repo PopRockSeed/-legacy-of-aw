@@ -1,0 +1,11 @@
+Config = Config or {}
+Config.cnfcoinfbsquads = {
+		[1] = {
+			recommend_hero = {1021,1034,1043,1049,},
+			tweet = {[[Fight Hard!]],[[Challenge Me For More Coins!]],[[My Coins Can Buy The World!]],[[Higher DMG, More Coins! ]],[[That Little DMG Is Useless!]],},
+		},
+		[2] = {
+			recommend_hero = {1004,1013,1016,1017,1022,1025,1031,1033,1039,1046,},
+			tweet = {[[Resonable Lineup For High DMG!]],[[High DMG. More Coins!]],[[I'm Afraid Of Mid Carry]],[[What About Your DMG?]],[[How Many Coins Can You Get?]],},
+		},
+}

@@ -1,0 +1,293 @@
+Config = Config or {}
+Config.cnfattrdescribe = {
+		[1] = {
+			id = 1,
+			describe = [[STR: Add PHY Armor. Affect DMG Rate]],
+			property_name = [[STR]],
+		},
+		[2] = {
+			id = 2,
+			describe = [[DEX: Increase Attack Rate And Dodge Rate, Affect DEX Hero's DMG Rate]],
+			property_name = [[DEX]],
+		},
+		[3] = {
+			id = 3,
+			describe = [[INT: Add MAG Armor. Affect INT Hero's DMG Odds]],
+			property_name = [[INT]],
+		},
+		[4] = {
+			id = 4,
+			describe = [[VIT: Affect HP]],
+			property_name = [[VIT]],
+		},
+		[5] = {
+			id = 5,
+			describe = [[PHY POW:Base DMG of Basic ATK]],
+			property_name = [[PHY POW]],
+		},
+		[6] = {
+			id = 6,
+			describe = [[MAG POW: MAG Basic DMG]],
+			property_name = [[MAG POW]],
+		},
+		[7] = {
+			id = 7,
+			describe = [[PHY Resist: Reduce PHY DMG]],
+			property_name = [[PHY Resist]],
+		},
+		[8] = {
+			id = 8,
+			describe = [[MAG Resist: Reduce MAG DMG]],
+			property_name = [[MAG Resist]],
+		},
+		[9] = {
+			id = 9,
+			describe = [[PHY Armor: Reduce PHY DMG]],
+			property_name = [[PHY Armor]],
+		},
+		[10] = {
+			id = 10,
+			describe = [[MAG Armor: Reduce MAG DMG]],
+			property_name = [[MAG Armor]],
+		},
+		[11] = {
+			id = 11,
+			describe = [[PHY Resist Pierce: Offset PHY Resist]],
+			property_name = [[PHY DEF Pierce]],
+		},
+		[12] = {
+			id = 12,
+			describe = [[MAG Resist Pierce: Eliminate MAG Resist]],
+			property_name = [[MAG DEF Pierce]],
+		},
+		[13] = {
+			id = 13,
+			describe = [[PHY Armor Pierce: Reduce PHY Armor]],
+			property_name = [[PHY Armor Pierce]],
+		},
+		[14] = {
+			id = 14,
+			describe = [[MAG Armor Pierce: Offset MAG Armor]],
+			property_name = [[MAG Armor Pierce]],
+		},
+		[15] = {
+			id = 15,
+			describe = [[Hit: Affect ACC]],
+			property_name = [[Hit]],
+		},
+		[16] = {
+			id = 16,
+			describe = [[Dodge: Affect Dodge Rate]],
+			property_name = [[Dodge]],
+		},
+		[17] = {
+			id = 17,
+			describe = [[Reflect: May Reduce Half DMG& Rebound It]],
+			property_name = [[Parry]],
+		},
+		[18] = {
+			id = 18,
+			describe = [[Block: May Reduce Half DMG]],
+			property_name = [[BLK]],
+		},
+		[19] = {
+			id = 19,
+			describe = [[Combo: May ATK For Several Times]],
+			property_name = [[Combo]],
+		},
+		[20] = {
+			id = 20,
+			describe = [[Crash: May Ignore The DEF Of Enemy And Cause 1.5 Times Of DMG]],
+			property_name = [[Crush]],
+		},
+		[21] = {
+			id = 21,
+			describe = [[PHY Crit: May Cause 1.5 Times PHY DMG]],
+			property_name = [[PHY Crit]],
+		},
+		[22] = {
+			id = 22,
+			describe = [[MAG Crit: May Cause 1.5 Times Of MAG DMG.]],
+			property_name = [[MAG Crit]],
+		},
+		[23] = {
+			id = 23,
+			describe = [[Crit DMG: Crit DMG Rate Up]],
+			property_name = [[Crit DMG]],
+		},
+		[24] = {
+			id = 24,
+			describe = [[TOU: Crit DMG Down]],
+			property_name = [[TOU]],
+		},
+		[25] = {
+			id = 25,
+			describe = [[DMG Rate: DMG Rate Up]],
+			property_name = [[DMG Rate]],
+		},
+		[26] = {
+			id = 26,
+			describe = [[Dodge Rate: Rate Of Successful Dodge ]],
+			property_name = [[Dodge Rate]],
+		},
+		[27] = {
+			id = 27,
+			describe = [[PHY Crit Rate: PHY Crit Success Odds]],
+			property_name = [[PHY Crit Rate]],
+		},
+		[28] = {
+			id = 28,
+			describe = [[MAG Crit Odds: MAG Crit Odds ]],
+			property_name = [[MAG Crit Rate]],
+		},
+		[29] = {
+			id = 29,
+			describe = [[Crit DMG Rate: Crit DMG Rate Up]],
+			property_name = [[Crit DMG Rate]],
+		},
+		[30] = {
+			id = 30,
+			describe = [[TOU Rate: Reduce Crit DMG Odds ]],
+			property_name = [[TOU Rate]],
+		},
+		[31] = {
+			id = 31,
+			describe = [[Reflect Rate: Chance To Reduce Half DMG, And Rebound The Rest DMG To The Source]],
+			property_name = [[Parry Rate]],
+		},
+		[32] = {
+			id = 32,
+			describe = [[BLK Rate: May Reduce Half DMG]],
+			property_name = [[BLK Rate]],
+		},
+		[33] = {
+			id = 33,
+			describe = [[Combo Rate: May ATK Continuously]],
+			property_name = [[Combo Rate]],
+		},
+		[34] = {
+			id = 34,
+			describe = [[Crash Rate: May Ignore DEF Of Enemy And Cause 1.5 Times DMG]],
+			property_name = [[Crush Rate]],
+		},
+		[35] = {
+			id = 35,
+			describe = [[Hit Odds: Odds Of Hit]],
+			property_name = [[Hit Rate]],
+		},
+		[36] = {
+			id = 36,
+			describe = [[AS Rate: AS Up]],
+			property_name = [[ASPD Rate]],
+		},
+		[37] = {
+			id = 37,
+			describe = [[Dodge Zoom:Overall Dodge Up]],
+			property_name = [[Dodge Scaling Ratio]],
+		},
+		[38] = {
+			id = 38,
+			describe = [[PHY Crit Rate: Multiplying Of PHY Crit]],
+			property_name = [[PHY Crit Scaling Ratio]],
+		},
+		[39] = {
+			id = 39,
+			describe = [[MAG Crit Zoom: All Members MAG Crit Up]],
+			property_name = [[MAG Crit Scaling Ratio]],
+		},
+		[40] = {
+			id = 40,
+			describe = [[Crit DMG Zoom Rate: Odds That Increases Crit DMG]],
+			property_name = [[Crit DMG Scaling Ratio]],
+		},
+		[41] = {
+			id = 41,
+			describe = [[TOU Zoom Rate: Multiplying Of TOU]],
+			property_name = [[TOU Scaling Ratio]],
+		},
+		[42] = {
+			id = 42,
+			describe = [[Reflect Zoom: Whole Reflect Up]],
+			property_name = [[Parry Scaling Ratio]],
+		},
+		[43] = {
+			id = 43,
+			describe = [[Block Zoom: All Block Up]],
+			property_name = [[BLK Scaling Ratio]],
+		},
+		[44] = {
+			id = 44,
+			describe = [[Combo Zoom: Mass Combo Up]],
+			property_name = [[Combo Scaling Ratio]],
+		},
+		[45] = {
+			id = 45,
+			describe = [[Crash Zoom Rate: Crash Up]],
+			property_name = [[Crush Scaling Ratio]],
+		},
+		[46] = {
+			id = 46,
+			describe = [[ACC Zoom: ACC Up]],
+			property_name = [[Hit Scaling Ratio]],
+		},
+		[47] = {
+			id = 47,
+			describe = [[AS Zoom Rate: AS Up]],
+			property_name = [[ASPD Scaling Ratio]],
+		},
+		[48] = {
+			id = 48,
+			describe = [[AS Buff: AS Buff]],
+			property_name = [[ASPD Buff]],
+		},
+		[49] = {
+			id = 49,
+			describe = [[HP Regen: Life Scene Regen]],
+			property_name = [[HP Back]],
+		},
+		[50] = {
+			id = 50,
+			describe = [[Anger Regen: Anger Scene Regen]],
+			property_name = [[Anger Back]],
+		},
+		[51] = {
+			id = 51,
+			describe = [[Life: HP]],
+			property_name = [[HP]],
+		},
+		[53] = {
+			id = 53,
+			describe = [[Basic Speed: Basic ATK Interval]],
+			property_name = [[Basic SPD]],
+		},
+		[54] = {
+			id = 54,
+			describe = [[Panel Speedup: AS Up]],
+			property_name = [[Interface SPD Up]],
+		},
+		[62] = {
+			id = 62,
+			describe = [[LS: DMG Will Be Turned To HP By Proportion]],
+			property_name = [[LS]],
+		},
+		[63] = {
+			id = 63,
+			describe = [[Avoidance Rate: Times Of Reducting Harm]],
+			property_name = [[DMG Deduct Rate]],
+		},
+		[66] = {
+			id = 66,
+			describe = [[Higher DMG: Higher DMG PCT]],
+			property_name = [[DMG Increase]],
+		},
+		[56] = {
+			id = 56,
+			describe = [[Original Anger : Anger Owned When Fight Begins]],
+			property_name = [[Initial Anger]],
+		},
+		[84] = {
+			id = 84,
+			describe = [[LS Rate: Recover HP By Rate When Attacking]],
+			property_name = [[LS]],
+		},
+}
