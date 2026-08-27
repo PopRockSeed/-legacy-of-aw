@@ -1,0 +1,21 @@
+Config = Config or {}
+Config.cnfsevendayjoyrewarddesc = {
+		[1] = {
+			index = 1,
+			desc = [[1. Players Can Finish The Previous 5-Day Activities In Advance Within 7 Days After The Activities Start. After 7 Days, The Activities Will Be Automatically Closed. <BR> <BR>2. Once Reaching Certain Achievements, Players Should Tap To Claim Rewards In Time Or You May Fail To Claim Them If The Activity Is Over. <BR> <BR>
+3. Ultra Reward Can Only Be Claimed Once Only<BR> <BR>
+]],
+			open_day = 10,
+			end_day = 17,
+			get_rewad_day = 16,
+			start_time = {2017,2,11,5,0,0,},
+			end_time = {2017,2,18,5,0,0,},
+			get_allreward_time = {2017,2,16,23,59,59,},
+			update_time = {2017,3,7,11,0,0,},
+			show_sdknames = {},
+			desc2 = [[1.universal soul only can be obtain in seven day fun which can be accumulated.；<BR>2.the hero stone can only be exchanged during the opening of seven day fun. ；<BR>3.the hero which have been exchanged most will be the popular hero；<BR>4.Orange hero stone box may open 100 pieces of SS hero stone ramdomly.
+]],
+			item_id = 3800,
+			double_price = 300,
+		},
+}

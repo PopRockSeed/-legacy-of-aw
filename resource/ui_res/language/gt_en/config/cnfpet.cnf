@@ -1,0 +1,20 @@
+Config = Config or {}
+Config.cnfpet = {
+		[1] = {
+			fusion_keep_image_cost = 500,
+			fusion_keep_skill_cost = 500,
+			rename_cost = 50,
+			main_rate = 0.6,
+			vice_rate = 0.4,
+			com_item_id = 3901,
+			sup_item_id = 3902,
+			protect_item = {3906,[[bhs]],},
+			com_lx_item = {3907,[[fls]],},
+			sup_lx_item = {3908,[[fls2]],},
+			lx_use_num = 4,
+			describe = [[1.Only Pets Of Same Talent Lv. Can Be Fused;<BR SPACING=10>2. Fusion Can Randomly Change Pet Image And Talent Type, Whose Results Are Affected By Main And Vice Pets;<BR SPACING=10>3.Fusion Can Increase Talent Lv. (Max+5);<BR SPACING=10>4. Fuse At Full Lv. Without Upgrading Talent Lv.;<BR SPACING=10>5. Fuse At Full Lv. And Randomly Change Pet Image And Talent Type;<BR SPACING=10>6. Fused Pet Lv. Will Be The Higher One Of Either Main Or Vice Pet;<BR SPACING=10>7. Fused Pet Growth Will Be The Higher One Of Either Main Or Vice Pet;<BR SPACING=10>8. Fused Pet Smartness Will Be The Higher One Of Either Main Or Vice Pet;]],
+			lv_describe = [[1.Pet Lv. Cannot Exceed Team Lv;<BR SPACING=10>2.Promote Pet Class(Color) To Raise Pet Lv. Limit;]],
+			grow_describe = [[1.The Higher Growth, The Higher Attr. Pet Gets When Leveling Up;<BR SPACING=10>2.Raise Failure Reduces Growth But Ward Stones Can Avoid Reduction;]],
+			lx_describe = [[1.Smartness Affects The Ratio Of Pet Attr. Attaching To Fellow Attr;<BR SPACING=10>2.Refresh To Change Smartness. Once Locked, Smartness Will Not Change And Refreshing Cost Increases;<BR SPACING=10>3.Sr.Seal Stone Offers Higher Chance To Get High Smartness;]],
+		},
+}

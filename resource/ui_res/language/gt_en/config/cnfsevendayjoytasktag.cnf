@@ -1,0 +1,63 @@
+Config = Config or {}
+Config.cnfsevendayjoytasktag = {
+		[1] = {
+			index = 1,
+			name = "Serial Login",
+		},
+		[2] = {
+			index = 2,
+			name = "Cost Coins",
+		},
+		[3] = {
+			index = 3,
+			name = "Instance Challenge",
+		},
+		[4] = {
+			index = 4,
+			name = "Train Pets",
+		},
+		[5] = {
+			index = 5,
+			name = "Hero Training",
+		},
+		[6] = {
+			index = 6,
+			name = "Cost Diamonds",
+		},
+		[7] = {
+			index = 7,
+			name = "Daily Challenge ",
+		},
+		[8] = {
+			index = 8,
+			name = "Arena Challenge ",
+		},
+		[9] = {
+			index = 9,
+			name = "Coin Draw",
+		},
+		[10] = {
+			index = 10,
+			name = "Guild Challenge",
+		},
+		[11] = {
+			index = 11,
+			name = "Elite Challenge",
+		},
+		[12] = {
+			index = 12,
+			name = "Get Coins",
+		},
+		[13] = {
+			index = 13,
+			name = "Diamond Draw",
+		},
+		[14] = {
+			index = 14,
+			name = "Total Charge ",
+		},
+		[15] = {
+			index = 15,
+			name = "Artifact Growth",
+		},
+}

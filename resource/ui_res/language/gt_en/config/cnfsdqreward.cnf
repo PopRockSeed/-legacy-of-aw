@@ -1,0 +1,11 @@
+Config = Config or {}
+Config.cnfsdqreward = {
+		[1] = {
+			sdq_name = [[Get Raid Ticket]],
+			sdq_describe = [[Get Daily Raid Ticket For VIP %d User]],
+			bal_name = [[Raid Ticket Obtain]],
+			bal_describe = [[Raid Tickets Reward Gap From vip%d To vip%d]],
+			resource_id = [[Swept]],
+			seq = 2,
+		},
+}

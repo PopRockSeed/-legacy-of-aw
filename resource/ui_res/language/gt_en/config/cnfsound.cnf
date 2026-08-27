@@ -1,0 +1,283 @@
+Config = Config or {}
+Config.cnfsound = {
+		[1] = {
+			id = 1,
+			name = "Victory Interface ",
+			res_id = 100,
+		},
+		[2] = {
+			id = 2,
+			name = "Failure Scene",
+			res_id = 101,
+		},
+		[3] = {
+			id = 3,
+			name = "Interface With Confirm Button Pop Out (Not Obtaining Interface)",
+			res_id = 102,
+		},
+		[4] = {
+			id = 4,
+			name = "Interface Closed(Not Obtaining Interface)",
+			res_id = 116,
+		},
+		[5] = {
+			id = 5,
+			name = "Rewards Interface Pops Out (Sign In, Get Awards, Article Emails) ",
+			res_id = 102,
+		},
+		[6] = {
+			id = 6,
+			name = "Cheer!! ",
+			res_id = 105,
+		},
+		[7] = {
+			id = 7,
+			name = "Get Box",
+			res_id = 106,
+		},
+		[8] = {
+			id = 8,
+			name = "Voice Of Sell",
+			res_id = 107,
+		},
+		[9] = {
+			id = 9,
+			name = "Role Upgrade",
+			res_id = 109,
+		},
+		[10] = {
+			id = 10,
+			name = "MAG Attached",
+			res_id = 109,
+		},
+		[11] = {
+			id = 11,
+			name = "Forge Item ",
+			res_id = 109,
+		},
+		[12] = {
+			id = 12,
+			name = "Warrior Upgrade",
+			res_id = 109,
+		},
+		[13] = {
+			id = 13,
+			name = "Draw Flash ",
+			res_id = 109,
+		},
+		[14] = {
+			id = 14,
+			name = "Consume EXP Potion/Item",
+			res_id = 110,
+		},
+		[15] = {
+			id = 15,
+			name = "Fighting Button",
+			res_id = 111,
+		},
+		[16] = {
+			id = 16,
+			name = "Click Instance Icon",
+			res_id = 120,
+		},
+		[17] = {
+			id = 17,
+			name = "Click City Map Icon",
+			res_id = 120,
+		},
+		[18] = {
+			id = 18,
+			name = "Add Skill Point ",
+			res_id = 119,
+		},
+		[19] = {
+			id = 19,
+			name = "Common Confirm Button",
+			res_id = 115,
+		},
+		[20] = {
+			id = 20,
+			name = "Cancel Button",
+			res_id = 116,
+		},
+		[21] = {
+			id = 21,
+			name = "Back Button",
+			res_id = 112,
+		},
+		[22] = {
+			id = 22,
+			name = "Close Button",
+			res_id = 116,
+		},
+		[23] = {
+			id = 23,
+			name = "Page Button",
+			res_id = 102,
+		},
+		[24] = {
+			id = 24,
+			name = "Common Button",
+			res_id = 118,
+		},
+		[25] = {
+			id = 25,
+			name = "Refresh (Shop, etc.)",
+			res_id = 109,
+		},
+		[26] = {
+			id = 26,
+			name = "Buy Button ",
+			res_id = 104,
+		},
+		[27] = {
+			id = 27,
+			name = "Sound Of Failure ",
+			res_id = 115,
+		},
+		[28] = {
+			id = 28,
+			name = "Red UI Pops Out When Accepting Tack ",
+			res_id = 124,
+		},
+		[29] = {
+			id = 29,
+			name = "Blue UI Poped Up After Task Done",
+			res_id = 118,
+		},
+		[30] = {
+			id = 30,
+			name = "Get Reward's UI",
+			res_id = 125,
+		},
+		[31] = {
+			id = 31,
+			name = "Tip For New Function Open UI",
+			res_id = 123,
+		},
+		[32] = {
+			id = 32,
+			name = "Enlist Tone",
+			res_id = 122,
+		},
+		[33] = {
+			id = 33,
+			name = "Tone For Inlay",
+			res_id = 119,
+		},
+		[34] = {
+			id = 34,
+			name = "Window For Upgrade Success",
+			res_id = 108,
+		},
+		[35] = {
+			id = 35,
+			name = "Summon 4 Button",
+			res_id = 116,
+		},
+		[36] = {
+			id = 36,
+			name = "Summon Of Goddess",
+			res_id = 1016,
+		},
+		[37] = {
+			id = 37,
+			name = "Item Poped Out When Draw Card",
+			res_id = 113,
+		},
+		[38] = {
+			id = 38,
+			name = "Show Card After Draw ",
+			res_id = 121,
+		},
+		[39] = {
+			id = 39,
+			name = "Dig2 ",
+			res_id = 115,
+		},
+		[40] = {
+			id = 40,
+			name = "Sound of Getting Coins",
+			res_id = 106,
+		},
+		[41] = {
+			id = 41,
+			name = "Nelu Smash Box",
+			res_id = 118,
+		},
+		[42] = {
+			id = 42,
+			name = "Page Of Activity",
+			res_id = 102,
+		},
+		[45] = {
+			id = 45,
+			name = "Instance Interface-Normal, Elite",
+			res_id = 118,
+		},
+		[47] = {
+			id = 47,
+			name = "Taskbar ",
+			res_id = 102,
+		},
+		[48] = {
+			id = 48,
+			name = "Main Interface: Control Button ",
+			res_id = 116,
+		},
+		[49] = {
+			id = 49,
+			name = "Two Buttons To Buy VIT",
+			res_id = 102,
+		},
+		[50] = {
+			id = 50,
+			name = "Plus And Minus Sign When Buy Articles, MAX Button",
+			res_id = 118,
+		},
+		[51] = {
+			id = 51,
+			name = "Fellow Interface. See ATTR And Illustration",
+			res_id = 102,
+		},
+		[52] = {
+			id = 52,
+			name = "Fellow Page. Add EXP ",
+			res_id = 118,
+		},
+		[53] = {
+			id = 53,
+			name = "Fellow Interface: Button for Skill Lv. Up",
+			res_id = 102,
+		},
+		[54] = {
+			id = 54,
+			name = "Arena Rules Button ",
+			res_id = 102,
+		},
+		[55] = {
+			id = 55,
+			name = "Arena. Change Buttons",
+			res_id = 118,
+		},
+		[56] = {
+			id = 56,
+			name = " Turning Arrow In VIP Page",
+			res_id = 102,
+		},
+		[57] = {
+			id = 57,
+			name = "Fellow Page. Next Page Arrow",
+			res_id = 116,
+		},
+		[58] = {
+			id = 58,
+			name = "Flip Arrow Of Rank List ",
+			res_id = 116,
+		},
+		[59] = {
+			id = 59,
+			name = "Click Mail ",
+			res_id = 102,
+		},
+}

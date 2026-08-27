@@ -1,0 +1,493 @@
+Config = Config or {}
+Config.cnftangyuanquestion = {
+		[1] = {
+			id = 1,
+			content = [[Where Was 2012 Euro Cup Held?]],
+			seletion = {[[Poland And Ukraine]],[[Germany]],[[Spain]],[[France]],},
+		},
+		[2] = {
+			id = 2,
+			content = [[Which Country Won The Champion Of 2012 Euro Cup?]],
+			seletion = {[[France]],[[Spain]],[[Germany]],[[Italy]],},
+		},
+		[3] = {
+			id = 3,
+			content = [[Which Country Will Hold 2016 Euro Cup?]],
+			seletion = {[[England]],[[Poland]],[[France]],[[Ukraine]],},
+		},
+		[4] = {
+			id = 4,
+			content = [[What Does The Mascot Of 2016 Euro Cup Call?]],
+			seletion = {[[Super Man]],[[Super Hero]],[[Victor]],[[Super Victor]],},
+		},
+		[5] = {
+			id = 5,
+			content = [[The 2016 Euro Cup Is Which Euro Cup?]],
+			seletion = {[[The 15th]],[[The 16th]],[[The 14th]],[[The 13th]],},
+		},
+		[6] = {
+			id = 6,
+			content = [[How Often Is Euro Cup Held?]],
+			seletion = {[[1 Year]],[[4 Years]],[[2 Years]],[[3 Years]],},
+		},
+		[7] = {
+			id = 7,
+			content = [[How Many Teams Are Entitled To 2016 Euro Cup?]],
+			seletion = {[[16]],[[18]],[[24]],[[36]],},
+		},
+		[8] = {
+			id = 8,
+			content = [[Which Two Teams Entered The Finals Of 2012 Euro Cup?]],
+			seletion = {[[Spain And France]],[[France And Italy]],[[Poland And Ukraine]],[[Spain And Italy]],},
+		},
+		[9] = {
+			id = 9,
+			content = [[Football Originated From Which Country?]],
+			seletion = {[[China]],[[Brazil]],[[England]],[[Portugal]],},
+		},
+		[10] = {
+			id = 10,
+			content = [[When Did Professional Football Come Out?]],
+			seletion = {[[The Early 20s]],[[The Late 19s]],[[The Mid 20s]],[[The Late 20s]],},
+		},
+		[11] = {
+			id = 11,
+			content = [[How Many Goals Did Pele Score In His Career?]],
+			seletion = {1288,1188,1281,1381,},
+		},
+		[12] = {
+			id = 12,
+			content = [[What Is The Name Of Euro Cup Award?]],
+			seletion = {[[FIFA World Cup Trophy]],[[Sudirman Trophy]],[[Jules Rimet Trophy]],[[Delaunay Trophy]],},
+		},
+		[13] = {
+			id = 13,
+			content = [[What Was The Score Of The Finals Between Spain And Italy In 2012 Euro Cup?]],
+			seletion = {[[4:0]],[[2:0]],[[1:0]],[[1:4]],},
+		},
+		[14] = {
+			id = 14,
+			content = [[How Many Times Did Spain Win The Champion Of Euro Cup?]],
+			seletion = {[[1 Time]],[[3 Times]],[[2 Times]],[[4 Times]],},
+		},
+		[15] = {
+			id = 15,
+			content = [[In Which Year Did France Win The First Champion Of Euro Cup?]],
+			seletion = {[[2000]],[[2012]],[[1984]],[[2008]],},
+		},
+		[16] = {
+			id = 16,
+			content = [[The Fastest Goal Record Of Euro Cup Is?]],
+			seletion = {[[10 Sec]],[[34 Sec]],[[134 Sec]],[[67 Sec]],},
+		},
+		[17] = {
+			id = 17,
+			content = [[In Which Year Was Messi Born?]],
+			seletion = {[[1987]],[[1986]],[[1988]],[[1989]],},
+		},
+		[18] = {
+			id = 18,
+			content = [[Only Which Player Can Be Allowed To Touch The Football With Hands? (Except The Case Of Throw-in)]],
+			seletion = {[[Forward]],[[Goalkeeper]],[[Midfielder]],[[Fullback]],},
+		},
+		[19] = {
+			id = 19,
+			content = [[The Jersey Of Pele, “The King Of Football”, Is Which Number?]],
+			seletion = {[[No.11]],[[No.23]],[[No.10]],[[No.24]],},
+		},
+		[20] = {
+			id = 20,
+			content = [[Who Is The Founder Of Euro Cup?]],
+			seletion = {[[Ruud Gullit]],[[Jan Koller]],[[Nikola Zigic]],[[Henri Delaunay]],},
+		},
+		[21] = {
+			id = 21,
+			content = [[After The Kickoff Of A Football Game, Members Of Defensive Team Should Stand How Many Yards Away From The Kick-off Point?]],
+			seletion = {[[10 Yards]],[[12 Yards]],[[20 Yards Beyond]],[[15 Yards]],},
+		},
+		[22] = {
+			id = 22,
+			content = [[Which Color Is Used For Sending Off Players In Football Game?]],
+			seletion = {[[White]],[[Red]],[[Yellow]],[[Orange]],},
+		},
+		[23] = {
+			id = 23,
+			content = [[Generally Speaking, How Long Does An International Football Match Last?]],
+			seletion = {[[80 Min]],[[48 Min]],[[90 Min]],[[60 Min]],},
+		},
+		[24] = {
+			id = 24,
+			content = [[Usually There Are 11 Players Per Team In A Match. The Referee Has The Right To Suspend Or Terminate The Match If There Are Less Than How Many Players In The Field?]],
+			seletion = {[[8]],[[9]],[[10]],[[7]],},
+		},
+		[25] = {
+			id = 25,
+			content = [[How Many Players Can Be Substituted During The Football Game?]],
+			seletion = {[[3]],[[4]],[[2]],[[1]],},
+		},
+		[26] = {
+			id = 26,
+			content = [[Bench Players Should Enter The Field From Which Place?]],
+			seletion = {[[Penalty Spot]],[[Midfield Midpoint]],[[Goal]],[[Endpoint]],},
+		},
+		[27] = {
+			id = 27,
+			content = [[Which Country Has Not Won The Champion Of World Cup?]],
+			seletion = {[[Spain]],[[France]],[[Netherlands]],[[Italy]],},
+		},
+		[28] = {
+			id = 28,
+			content = [[What Will Happen Next If The Football Bumps Against The Goalpost And Corner Flag, Then Bounces Against The Field?]],
+			seletion = {[[Suspend]],[[Kickout]],[[Get Goal Kick]],[[Continue]],},
+		},
+		[29] = {
+			id = 29,
+			content = [[How Long Does It Take For The First Half/Second Half Of World Cup Game?]],
+			seletion = {[[45 Min]],[[35 Min]],[[40 Min]],[[50 Min]],},
+		},
+		[30] = {
+			id = 30,
+			content = [[In 2014, Which Two Teams Entered The Finals Of Brazil World Cup?]],
+			seletion = {[[Germany And Brazil]],[[Germany And Argentina]],[[Brazil And Argentina]],[[France And Germany]],},
+		},
+		[31] = {
+			id = 31,
+			content = [[How Long Does It Take For The Half-time Interval Of Football Game?]],
+			seletion = {[[5 Min]],[[10 Min]],[[15 Min]],[[20 Min]],},
+		},
+		[32] = {
+			id = 32,
+			content = [[Football Sport Originated From Which Continent?]],
+			seletion = {[[America]],[[Asia]],[[South America]],[[Europe]],},
+		},
+		[33] = {
+			id = 33,
+			content = [[How Many Players Will Be Sent In Football Game Per Team?]],
+			seletion = {[[No.11]],[[No.7]],[[No.8]],[[No.10]],},
+		},
+		[34] = {
+			id = 34,
+			content = [[Which Of The Following Sports Will Keep A Place For Goalkeeper?]],
+			seletion = {[[Hockey]],[[Football]],[[Handball]],[[All Of The Above]],},
+		},
+		[35] = {
+			id = 35,
+			content = [[What Punishment Shall The Defensive Player Receive If With A Serious Foul In The Penalty Area?]],
+			seletion = {[[Direct Free Kick]],[[Indirect Free Kick]],[[Spot Kick]],[[Goal Kick]],},
+		},
+		[36] = {
+			id = 36,
+			content = [[In The Case Of A Penalty Kick, Except The Kicker And Goalkeeper, Other Players Should Stay How Many Yards Away From The Penalty Spot?]],
+			seletion = {[[9 Yards]],[[12 Yards]],[[15 Yards Beyond]],[[10 Yards]],},
+		},
+		[37] = {
+			id = 37,
+			content = [[Which Ball Will Be Allowed If The Defensive Player Kicks The Ball Out Of The Goal Line?]],
+			seletion = {[[Corner Kick]],[[Goal Kick]],[[Free Kick]],[[Spot Kick]],},
+		},
+		[38] = {
+			id = 38,
+			content = [[If The Football Crosses The End Line Without Entering The Goal Area, And It Is The Offensive Player Who Finally Touches The Ball, Then Which Ball Should The Defensive Player Take?]],
+			seletion = {[[Corner Kick]],[[Goal Kick]],[[Throw-in]],[[Direct Free Kick]],},
+		},
+		[39] = {
+			id = 39,
+			content = [[Yashin Award Was Renamed As?]],
+			seletion = {[[Golden Ball Award]],[[Golden Boot Award]],[[Gold Glove Award]],[[FIFA World Player]],},
+		},
+		[40] = {
+			id = 40,
+			content = [[In 1904, FIFA Was Established In Which Country?]],
+			seletion = {[[U.S.]],[[England]],[[Brazil]],[[France ]],},
+		},
+		[41] = {
+			id = 41,
+			content = [[Which Area Is Protected By The Goalkeeper?]],
+			seletion = {[[Penalty Area]],[[Corner Area]],[[Centre Circle]],[[All Of The Above]],},
+		},
+		[42] = {
+			id = 42,
+			content = [[Who Can Play The Role Of Taking Spot Kick In Football Matches?]],
+			seletion = {[[Forward]],[[Any Player]],[[Fullback]],[[Goalkeeper]],},
+		},
+		[43] = {
+			id = 43,
+			content = [[The Gold Glove Award Was Established In Which Year?]],
+			seletion = {[[1992]],[[1993]],[[1994]],[[2004]],},
+		},
+		[44] = {
+			id = 44,
+			content = [[Which National Football Team Has The Nickname Of “Die Mannschaft”?]],
+			seletion = {[[Turkey]],[[Ireland]],[[Sweden]],[[Germany]],},
+		},
+		[45] = {
+			id = 45,
+			content = [[Which National Football Team Is Named As “Gli Azzurri”?]],
+			seletion = {[[Italy]],[[Wales]],[[France]],[[U.S.]],},
+		},
+		[46] = {
+			id = 46,
+			content = [[Which National Team Does Mesut ?zil Belong To?]],
+			seletion = {[[Spain]],[[Germany]],[[Russia]],[[Ukraine]],},
+		},
+		[47] = {
+			id = 47,
+			content = [[After The Kickoff Of A Football Game, Members Of Defensive Team Should Stand How Many Yards Away From The Kick-off Point?]],
+			seletion = {[[11 Yards]],[[9 Yards]],[[10 Yards]],[[12 Yards]],},
+		},
+		[48] = {
+			id = 48,
+			content = [[In Which Year Was The 1st Euro Cup Held?]],
+			seletion = {[[1904]],[[1961]],[[1902]],[[1960]],},
+		},
+		[49] = {
+			id = 49,
+			content = [[Where Did The Football Sport Originate?]],
+			seletion = {[[Europe]],[[America]],[[Asia]],[[South America]],},
+		},
+		[50] = {
+			id = 50,
+			content = [[Which Is The Largest, The Most Influential, The Most Top Football Game In The World?]],
+			seletion = {[[Olympic Football Tournament]],[[World Cup]],[[Toyota Cup]],[[U-20 World Cup]],},
+		},
+		[51] = {
+			id = 51,
+			content = [[Football Sport Originated From?]],
+			seletion = {[[China]],[[France]],[[England]],[[Germany]],},
+		},
+		[52] = {
+			id = 52,
+			content = [[Where Was The 1st Euro Cup Held?]],
+			seletion = {[[Germany]],[[Spain]],[[Italy]],[[France ]],},
+		},
+		[53] = {
+			id = 53,
+			content = [[Which Country Won The Champion Of Euro Cup The Most Times?]],
+			seletion = {[[Germany]],[[France ]],[[England]],[[Netherlands]],},
+		},
+		[54] = {
+			id = 54,
+			content = [[Who Was Awarded The Best Player Of 2012 Euro Cup?]],
+			seletion = {[[James Rodriguez]],[[Andres Iniesta]],[[Thomas Muller]],[[Cristiano Ronaldo]],},
+		},
+		[55] = {
+			id = 55,
+			content = [[Which Football Team Has Not Won The Champion Of Euro Cup?]],
+			seletion = {[[Germany]],[[France]],[[England]],[[Spain]],},
+		},
+		[56] = {
+			id = 56,
+			content = [[Ferenc Puskás Award Was Established In Which Year?]],
+			seletion = {[[1999]],[[2008]],[[2010]],[[2009]],},
+		},
+		[57] = {
+			id = 57,
+			content = [[Where Is Football Player Miroslav Klose From?]],
+			seletion = {[[Germany]],[[U.S.]],[[England]],[[France]],},
+		},
+		[58] = {
+			id = 58,
+			content = [[When Did UEFA Champions League Start?]],
+			seletion = {[[1945]],[[1954]],[[1992]],[[1988]],},
+		},
+		[59] = {
+			id = 59,
+			content = [[In 1904, FIFA Was Founded By How Many Countries In France?]],
+			seletion = {[[8]],[[6]],[[7]],[[9]],},
+		},
+		[60] = {
+			id = 60,
+			content = [[The 2022 World Cup Will Be Held In Which Country?]],
+			seletion = {[[Brazil]],[[Korea]],[[France]],[[Qatar]],},
+		},
+		[61] = {
+			id = 61,
+			content = [[Which Continent Will Hold The 2022 World Cup?]],
+			seletion = {[[Asia]],[[Europe]],[[South America]],[[North America]],},
+		},
+		[62] = {
+			id = 62,
+			content = [[2018 World Cup Will Be Held In Which Continent?]],
+			seletion = {[[Asia]],[[Europe]],[[South America]],[[North America]],},
+		},
+		[63] = {
+			id = 63,
+			content = [[Which Club Won The Champion Of 2014/15 UEFA Champions League?]],
+			seletion = {[[Real Madrid]],[[AC Milan]],[[FC Barcelona]],[[FC Bayern]],},
+		},
+		[64] = {
+			id = 64,
+			content = [[Which Club Won The Champion Of UEFA Champions League The Most Times?]],
+			seletion = {[[FC Barcelona]],[[AC Milan]],[[FC Bayern]],[[Real Madrid]],},
+		},
+		[65] = {
+			id = 65,
+			content = [[In A Football Match, You Will Be Sent Off With How Many Yellow Cards?]],
+			seletion = {[[2]],[[1]],[[3]],[[4]],},
+		},
+		[66] = {
+			id = 66,
+			content = [[Which National Team Is Named As “Uncrowned King”?]],
+			seletion = {[[China]],[[Netherlands]],[[France]],[[North Korea]],},
+		},
+		[67] = {
+			id = 67,
+			content = [[How Many Rounds Are There In A Penalty Shootout?]],
+			seletion = {[[3 Rounds]],[[8 Rounds]],[[5 Rounds]],[[6 Rounds]],},
+		},
+		[68] = {
+			id = 68,
+			content = [[Where Was The 1st World Cup Held? ]],
+			seletion = {[[Brazil]],[[Germany]],[[Argentina]],[[Uruguay]],},
+		},
+		[69] = {
+			id = 69,
+			content = [[Which Country Won The Champion Of The First World Cup?]],
+			seletion = {[[Uruguay]],[[Chile]],[[Italy]],[[Brazil]],},
+		},
+		[70] = {
+			id = 70,
+			content = [[What Is The Predecessor Of FIFA World Cup Trophy?]],
+			seletion = {[[Delaunay Trophy]],[[Jules Rimet Trophy  ]],[[Swaythling Trophy ]],[[Toulon Trophy]],},
+		},
+		[71] = {
+			id = 71,
+			content = [[Which Country Won The Champion Of 1994 World Cup?]],
+			seletion = {[[Argentina]],[[Italy]],[[Brazil ]],[[Germany]],},
+		},
+		[72] = {
+			id = 72,
+			content = [[In Which World Cup Did France Win Their First Champion?]],
+			seletion = {1994,1990,1986,1998,},
+		},
+		[73] = {
+			id = 73,
+			content = [[The Last World Cup Before Second World War Was Which One?]],
+			seletion = {[[The 3rd]],[[The 2nd]],[[The 5th]],[[The 7th]],},
+		},
+		[74] = {
+			id = 74,
+			content = [[Which Team Won The Champion Of 1978 World Cup? ]],
+			seletion = {[[Brazil]],[[Argentina]],[[Netherlands]],[[Italy]],},
+		},
+		[75] = {
+			id = 75,
+			content = [[What Shall The Indirect Free Kick Be Judged If It Is Straight Into The Rival's Goal?]],
+			seletion = {[[Invalid]],[[Score]],[[Goal Kick]],[[Corner Kick]],},
+		},
+		[76] = {
+			id = 76,
+			content = [[In 1857, Which Country Set Up The First Football Club?]],
+			seletion = {[[France]],[[Italy]],[[Netherlands]],[[England]],},
+		},
+		[77] = {
+			id = 77,
+			content = [[How Often Is World Cup Held?]],
+			seletion = {[[4 Years]],[[3 Years]],[[2 Years]],[[1 Year]],},
+		},
+		[78] = {
+			id = 78,
+			content = [[In Which Year Did Beckham Retire?]],
+			seletion = {[[2008]],[[2013]],[[2012]],[[2000]],},
+		},
+		[79] = {
+			id = 79,
+			content = [[Who Won The Champion Of 2014 World Cup?]],
+			seletion = {[[Argentina]],[[France]],[[Germany]],[[Brazil]],},
+		},
+		[80] = {
+			id = 80,
+			content = [[Which Two Teams Entered The Finals Of 2014 World Cup?]],
+			seletion = {[[Spain And Italy]],[[Netherlands And Germany]],[[Brazil And Argentina]],[[Germany And Argentina]],},
+		},
+		[81] = {
+			id = 81,
+			content = [[Where Was 2014 World Cup Held?]],
+			seletion = {[[Brail ]],[[Germany]],[[China]],[[Argentina]],},
+		},
+		[82] = {
+			id = 82,
+			content = [[Where Will 2018 World Cup Be Held?]],
+			seletion = {[[Brazil ]],[[Russia]],[[Germany]],[[China]],},
+		},
+		[83] = {
+			id = 83,
+			content = [[How Many Times Has Messi Won FIFA Ballon d'Or?]],
+			seletion = {[[4 Times]],[[8 Times]],[[5 Times]],[[3 Times]],},
+		},
+		[84] = {
+			id = 84,
+			content = [[How Many Times Has Cristiano Ronaldo Won FIFA Ballon d'Or?]],
+			seletion = {[[4 Times]],[[5 Times]],[[6 Times]],[[3 Times]],},
+		},
+		[85] = {
+			id = 85,
+			content = [[When Was La Liga Established?]],
+			seletion = {[[1928]],[[1927]],[[1921]],[[1922]],},
+		},
+		[86] = {
+			id = 86,
+			content = [[Premier League Was Established In Which Year?]],
+			seletion = {1928,1992,1927,1898,},
+		},
+		[87] = {
+			id = 87,
+			content = [[Up To 2015/16, How Many Times Has FC Barcelona Won The Champion Of La Liga?]],
+			seletion = {22,12,24,13,},
+		},
+		[88] = {
+			id = 88,
+			content = [[How Many Times Has Leicester City Won The Champion Of Premier League?]],
+			seletion = {[[2 Times]],[[3 Times]],[[4 Times]],[[1 Time]],},
+		},
+		[89] = {
+			id = 89,
+			content = [[Fox Is The Nickname Of Which Football Team?]],
+			seletion = {[[Leicester City]],[[Manchester United]],[[Arsenal]],[[Chelsea]],},
+		},
+		[90] = {
+			id = 90,
+			content = [[Which Country Won The Champion Of World Cup The Most Times?]],
+			seletion = {[[Germany]],[[Brazil ]],[[Argentina]],[[Spain]],},
+		},
+		[91] = {
+			id = 91,
+			content = [[The First World Cup Was Held In Which Year?]],
+			seletion = {[[1926]],[[1934]],[[1930]],[[1949]],},
+		},
+		[92] = {
+			id = 92,
+			content = [[2018 World Cup In Russia Is Which World Cup?]],
+			seletion = {[[The 20th]],[[The 22th]],[[The 23th]],[[The 21th]],},
+		},
+		[93] = {
+			id = 93,
+			content = [[The 2014 World Cup In Brazil Belongs To Which World Cup?]],
+			seletion = {[[The 20th]],[[The 18th]],[[The 19th]],[[The 21th]],},
+		},
+		[94] = {
+			id = 94,
+			content = [[Which Country Has Not Held World Cup?]],
+			seletion = {[[Brazil]],[[China]],[[Italy]],[[Uruguay]],},
+		},
+		[95] = {
+			id = 95,
+			content = [[Who Won The Champion Of 2014 World Cup In Brazil?]],
+			seletion = {[[Brazil]],[[Italy]],[[Germany]],[[Uruguay]],},
+		},
+		[96] = {
+			id = 96,
+			content = [[How Many Times Did Brazil Win The Champion Of World Cup?]],
+			seletion = {[[3 Times]],[[4 Times]],[[6 Times]],[[5 Times]],},
+		},
+		[97] = {
+			id = 97,
+			content = [[How Many Times Did Italy Win The Champion Of World Cup?]],
+			seletion = {[[4 Times]],[[1 Time]],[[2 Times]],[[3 Times]],},
+		},
+		[98] = {
+			id = 98,
+			content = [[Which Club Won The Champion Of 2015 UEFA Super Cup?]],
+			seletion = {[[Real Madrid]],[[FC Barcelona]],[[Sevilla]],[[FC Bayern]],},
+		},
+}

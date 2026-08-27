@@ -1,0 +1,43 @@
+Config = Config or {}
+Config.cnfspringfbrankreward = {
+		[1] = {
+			rank = {1,1,},
+			reward_id = 7321,
+		},
+		[2] = {
+			rank = {2,2,},
+			reward_id = 7322,
+		},
+		[3] = {
+			rank = {3,3,},
+			reward_id = 7323,
+		},
+		[4] = {
+			rank = {4,4,},
+			reward_id = 7324,
+		},
+		[5] = {
+			rank = {5,5,},
+			reward_id = 7325,
+		},
+		[6] = {
+			rank = {6,6,},
+			reward_id = 7326,
+		},
+		[7] = {
+			rank = {7,7,},
+			reward_id = 7327,
+		},
+		[8] = {
+			rank = {8,8,},
+			reward_id = 7328,
+		},
+		[9] = {
+			rank = {9,9,},
+			reward_id = 7329,
+		},
+		[10] = {
+			rank = {10,10,},
+			reward_id = 7330,
+		},
+}

@@ -1,0 +1,12 @@
+Config = Config or {}
+Config.CnfTestBattle = {
+		[1] = {
+			id = 2075,
+			camp = 2,
+			pos = 5,
+			level = 45,
+			star = 5,
+			stage = 5,
+			fb_id = 5959,
+		},
+}

@@ -1,0 +1,894 @@
+Config = Config or {}
+Config.cnfserverwarduan = {
+		[1] = {
+			duan_id = 1,
+			stage = 1,
+			name = [[The Strongest]],
+			rank = 1,
+			desc = [[<COLOR VALUE=FFFFFF00>No.1 In Rank: The Strongest</COLOR><BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[2] = {
+			duan_id = 2,
+			stage = 2,
+			name = [[Grand Master]],
+			rank = 2,
+			desc = [[No.1: The Strongest <BR>
+<COLOR VALUE=FFFFFF00>No.2: Grand Master </COLOR><BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[3] = {
+			duan_id = 3,
+			stage = 3,
+			name = [[Diamond1]],
+			rank = 10,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+<COLOR VALUE=FFFFFF00>No.3~10:Diamond1</COLOR><BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[4] = {
+			duan_id = 4,
+			stage = 3,
+			name = [[Diamond2]],
+			rank = 25,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+<COLOR VALUE=FFFFFF00>No.11~25: Diamond2</COLOR><BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[5] = {
+			duan_id = 5,
+			stage = 3,
+			name = [[Diamond3]],
+			rank = 50,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+<COLOR VALUE=FFFFFF00>No.26~50: Diamond3</COLOR><BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[6] = {
+			duan_id = 6,
+			stage = 3,
+			name = [[Diamond4]],
+			rank = 75,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+<COLOR VALUE=FFFFFF00> Below No.50:Diamond4</COLOR><BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[7] = {
+			duan_id = 7,
+			stage = 3,
+			name = [[Diamond5]],
+			rank = 100,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+<COLOR VALUE=FFFFFF00>No.75 Later:Diamond5</COLOR><BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[8] = {
+			duan_id = 8,
+			stage = 4,
+			name = [[Platina1]],
+			rank = 150,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+<COLOR VALUE=FFFFFF00>No.101~150: Platina1</COLOR><BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[9] = {
+			duan_id = 9,
+			stage = 4,
+			name = [[Platina2]],
+			rank = 200,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+<COLOR VALUE=FFFFFF00>No.151~200:Platina2</COLOR><BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[10] = {
+			duan_id = 10,
+			stage = 4,
+			name = [[Platina3]],
+			rank = 300,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+<COLOR VALUE=FFFFFF00>No.201~300: Platina3</COLOR><BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[11] = {
+			duan_id = 11,
+			stage = 4,
+			name = [[Platina4]],
+			rank = 400,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+<COLOR VALUE=FFFFFF00>No.301~400: Platina4</COLOR><BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[12] = {
+			duan_id = 12,
+			stage = 4,
+			name = [[Platina5]],
+			rank = 600,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+<COLOR VALUE=FFFFFF00>No.401~600: Platina5</COLOR><BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[13] = {
+			duan_id = 13,
+			stage = 5,
+			name = [[Gold1]],
+			rank = 800,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+<COLOR VALUE=FFFFFF00>No.601~800: Gold1</COLOR><BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[14] = {
+			duan_id = 14,
+			stage = 5,
+			name = [[Gold2]],
+			rank = 1200,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+<COLOR VALUE=FFFFFF00>No.801~1200: Gold2</COLOR><BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[15] = {
+			duan_id = 15,
+			stage = 5,
+			name = [[Gold3]],
+			rank = 1600,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+<COLOR VALUE=FFFFFF00>No.1201~1600:Gold3</COLOR><BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[16] = {
+			duan_id = 16,
+			stage = 5,
+			name = [[Gold4]],
+			rank = 2000,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+<COLOR VALUE=FFFFFF00>No.1601~2000: Gold4</COLOR><BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[17] = {
+			duan_id = 17,
+			stage = 5,
+			name = [[Gold5]],
+			rank = 2400,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+<COLOR VALUE=FFFFFF00>No.2001~2400: Gold5</COLOR><BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[18] = {
+			duan_id = 18,
+			stage = 6,
+			name = [[Silver1]],
+			rank = 2800,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+<COLOR VALUE=FFFFFF00>No.2401~2800: Silver1</COLOR><BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[19] = {
+			duan_id = 19,
+			stage = 6,
+			name = [[Silver2]],
+			rank = 3100,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+<COLOR VALUE=FFFFFF00>2801~3100名:Silver2</COLOR><BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[20] = {
+			duan_id = 20,
+			stage = 6,
+			name = [[Silver3]],
+			rank = 3400,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+<COLOR VALUE=FFFFFF00>No.3101~3400: Silver3</COLOR><BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[21] = {
+			duan_id = 21,
+			stage = 6,
+			name = [[Silver4]],
+			rank = 3700,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+<COLOR VALUE=FFFFFF00>No.3401~3700: Silver4</COLOR><BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[22] = {
+			duan_id = 22,
+			stage = 6,
+			name = [[Silver5]],
+			rank = 4000,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+<COLOR VALUE=FFFFFF00>No.3701~4000: Silver5</COLOR><BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[23] = {
+			duan_id = 23,
+			stage = 7,
+			name = [[Bronze1]],
+			rank = 4200,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+<COLOR VALUE=FFFFFF00>No.4001~4200:Bronze1</COLOR><BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[24] = {
+			duan_id = 24,
+			stage = 7,
+			name = [[Bronze2]],
+			rank = 4400,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+<COLOR VALUE=FFFFFF00>No.4201~4400: Bronze2</COLOR><BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[25] = {
+			duan_id = 25,
+			stage = 7,
+			name = [[Bronze3]],
+			rank = 4600,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+<COLOR VALUE=FFFFFF00>No.4401~4600: Bronze3</COLOR><BR>
+No.4601~4800: Bronze4<BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[26] = {
+			duan_id = 26,
+			stage = 7,
+			name = [[Bronze4]],
+			rank = 4800,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+<COLOR VALUE=FFFFFF00>No.4601~4800: Bronze4</COLOR><BR>
+Below No.4800: Bronze5<BR> <BR>]],
+		},
+		[27] = {
+			duan_id = 27,
+			stage = 7,
+			name = [[Bronze5]],
+			rank = 5000,
+			desc = [[No.1: The Strongest <BR>
+No.2: Grand Master <BR> <BR>
+No.3~10:Diamond1<BR>
+No.11~25:Diamond2<BR>
+No.26~50:Diamond3<BR>
+No.51~75: Diamond4<BR>
+No.76~100: Diamond5<BR> <BR>
+No.101~150: Platina1<BR>
+No.151~200:Platina2<BR>
+o.201~300: Platina3<BR>
+No.301~400: Platina4<BR>
+No.401~600: Platina5<BR> <BR>
+No.601~800:Gold1<BR>
+No.801~1200: Gold2<BR>
+No.1201~1600: Gold3<BR>
+No.1601~2000: Gold4<BR>
+No.2001~2400:Gold5<BR> <BR>
+No.2401~2800: Silver1<BR>
+No.2801~3100: Silver2<BR>
+No.3101~3400:Silver3<BR>
+No.3401~3700:Silver4<BR>
+No.3701~4000: Silver5<BR> <BR>
+No.4001~4200:Bronze1<BR>
+No.4201~4400: Bronze2<BR>
+No.4401~4600: Bronze3<BR>
+No.4601~4800: Bronze4<BR>
+<COLOR VALUE=FFFFFF00>Below No.4800: Bronze5</COLOR><BR>]],
+		},
+}

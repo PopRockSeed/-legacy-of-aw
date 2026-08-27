@@ -1,0 +1,53 @@
+Config = Config or {}
+Config.cnfpeakreward = {
+		[1] = {
+			stage = 1,
+			reward_id = 9201,
+			explain = [[Open And Get A Random Reward: God Soul*350, Beast Soul*5, Train Bean*20, Jade Piece*5, Merryship Model*10]],
+		},
+		[2] = {
+			stage = 2,
+			reward_id = 9202,
+			explain = [[Open And Get A Random Reward: God Soul*450, Beast Soul*6, Train Bean*25, Jade Piece*8, Merryship Model*12]],
+		},
+		[3] = {
+			stage = 3,
+			reward_id = 9203,
+			explain = [[Open And Get A Random Reward: God Soul*550, Beast Soul*7, Train Bean*30, Jade Piece*10, Merryship Model*15]],
+		},
+		[4] = {
+			stage = 4,
+			reward_id = 9204,
+			explain = [[Open And Get A Random Reward: God Soul*600, Death Soul*4, Train Bean*35, Fine Jade Piece*4, Merryship Model*18]],
+		},
+		[5] = {
+			stage = 5,
+			reward_id = 9205,
+			explain = [[Open And Get A Random Reward: God Soul*800, Death Soul*5, Train Bean*40, Fine Jade Piece*5, Merryship Model*20]],
+		},
+		[6] = {
+			stage = 6,
+			reward_id = 9206,
+			explain = [[Open And Get A Random Reward: God Soul*1000, Death Soul*6, Train Bean*45, Fine Jade Piece*6, Merryship Model*20]],
+		},
+		[7] = {
+			stage = 7,
+			reward_id = 9207,
+			explain = [[Open And Get A Random Reward: God Soul*1000, Toad Immortal Stone*2, Death Soul*10, Train Bean*50, Fine Jade Piece*10, Merryship Model*25, MAG Crystal*200]],
+		},
+		[8] = {
+			stage = 8,
+			reward_id = 9208,
+			explain = [[Open And Get A Random Reward: God Soul*1200,Lucy Stone*2.Death Soul*11,Train Bean*50, Fine Jade Piece*11.Merryship Model*30, MAG Crystal*300]],
+		},
+		[9] = {
+			stage = 9,
+			reward_id = 9209,
+			explain = [[Open And Get A Random Reward: God Soul*1500, Natsu Stone*5, Death Soul*12, Train Bean*60, Fine Jade Piece*12, Diamond*200, MAG Crystal*400]],
+		},
+		[10] = {
+			stage = 10,
+			reward_id = 9210,
+			explain = [[Open And Get A Random Reward: God Soul*1700, Robin Stone*5, Death Soul*15, Train Bean*80, Fine Jade Piece*15, Diamond*240, MAG Crystal*500]],
+		},
+}

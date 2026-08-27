@@ -1,0 +1,26 @@
+Config = Config or {}
+Config.cnfserverwar = {
+		[1] = {
+			begin_time = {20,00,},
+			end_time = {22,00,},
+			begin_time2 = {12,00,},
+			end_time2 = {14,00,},
+			time_list = {{{8,00,},{10,00,},},{{12,00,},{14,00,},},{{20,00,},{22,00,},},},
+			explain = [[1. The Event Opens At Daily 8:00-10:00, 12:00-14:00, 20:00-22:00 (UTC+8). Leaders Can Preset Your Defense And Offense Lineup On “Lineup” Panel.<BR> <BR>
+2.You Can Challenge Players In Rank. Each Challenge Per Chance. Buy Challenge Chances With Few Diamonds. <BR> <BR>
+3.After Challenge Success, Both Ranking Exchange. Winner And Loser Can Get Some Fairy Coins.<BR> <BR>
+4. At Daily 22:05, Player Ranking Will Be Settled And ※Fairy Coins§ Will Be Sent. Meanwhile, Extra Gifts Based On The Gap Between Your Current Lv. And Lv. Limit Will Be Sent As Well(Only Until 90 Levels). <BR> <BR>
+5.Different Rankings, Different Stages; Higher Ranking, Higher Stage, More Fairy Coins.<BR> <BR>
+6.Fairy Coins Can Be Used For Various Goods In Fairy Shop. Higher Stage Can Buy More Rare Items! <BR> <BR>
+7.Stage Weekly Settles Once. Players Get Rewards According To Their Stages. Meanwhile All Players Will Return To Bronze5 And Start A New Battle. <BR> <BR>
+8.After Weekly Rank Settlement, Top1 Leader Will Get ?°The Strongest?± Title!! Available Until Next Weekly Settlement.<BR> <BR>
+9.After Weekly Rank Settlement, Leader Of No.2 Will Get ?°Grand Master?± Stage Title, Which Can Be Used In Scene Until Next Weekly Settlement.<BR><BR>]],
+			max_challenge = 5,
+			win_core = 40,
+			fail_core = 20,
+			recover_time = 600,
+			reward_time = {22,05,},
+			fb_list = {5005,},
+			buy_challenge_cost = {50,100,100,150,150,200,200,250,250,300,300,350,350,400,400,450,450,500,500,550,550,},
+		},
+}

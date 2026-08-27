@@ -1,0 +1,2063 @@
+
+Config.TaskConfig=
+{
+	[7] = {
+		task_type = 1,
+		name = [[Clone Crisis]],
+		is_auto = 1,
+		level_limit = 1,
+		coin = 500,
+		item = {
+			{3536, 10,},
+			{3701, 5,},
+		},
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5010, 1, [[Stage Done: Chapter 1-Clone Crisis]],},},
+		},
+	},
+	[10] = {
+		task_type = 1,
+		name = [[Strongest Death]],
+		pre_id = 7,
+		is_auto = 1,
+		level_limit = 1,
+		coin = 500,
+		item = {
+			{7039, 1,},
+			{3701, 5,},
+		},
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5013, 1, [[Stage Done: Chapter1-The Death]],},},
+		},
+	},
+	[13] = {
+		task_type = 1,
+		name = [[Find DB]],
+		pre_id = 10,
+		is_auto = 1,
+		level_limit = 1,
+		coin = 500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5014, 1, [[Stage Done: Chapter 2- Find Dragonball]],},},
+		},
+	},
+	[15] = {
+		task_type = 1,
+		name = [[Peaceful Area]],
+		pre_id = 13,
+		is_auto = 1,
+		level_limit = 1,
+		coin = 500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5017, 1, [[Stage Done: Chapter 2-Sea With No Wind]],},},
+		},
+	},
+	[16] = {
+		task_type = 1,
+		name = [[Trust Crisis]],
+		pre_id = 15,
+		is_auto = 1,
+		level_limit = 1,
+		coin = 500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5020, 1, [[Stage Done: Chapter 2-Crisis Of Confidence]],},},
+		},
+	},
+	[17] = {
+		task_type = 1,
+		name = [[StrawHat]],
+		pre_id = 16,
+		is_auto = 1,
+		level_limit = 1,
+		coin = 500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5023, 1, [[Stage Done:Chapter 2-StrawHat]],},},
+		},
+	},
+	[19] = {
+		task_type = 1,
+		name = [[Burning Heart]],
+		pre_id = 17,
+		is_auto = 1,
+		fb_limit = 5503,
+		level_limit = 1,
+		coin = 500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5026, 1, [[Stage Done: Chapter 2-Burning Heart]],},},
+		},
+	},
+	[20] = {
+		task_type = 1,
+		name = [[Alien Warrior]],
+		pre_id = 19,
+		is_auto = 1,
+		level_limit = 1,
+		coin = 500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5029, 1, [[Stage Done: Chapter 2- Alien Warrior]],},},
+		},
+	},
+	[21] = {
+		task_type = 1,
+		name = [[New Species]],
+		pre_id = 20,
+		is_auto = 1,
+		level_limit = 1,
+		coin = 500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5032, 1, [[Stage Done: Chapter 2-New Species]],},},
+		},
+	},
+	[23] = {
+		task_type = 1,
+		name = [[Dark Trade]],
+		pre_id = 21,
+		is_auto = 1,
+		level_limit = 10,
+		coin = 1000,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5033, 1, [[Stage Done: Chapter 3-Dark Trade]],},},
+		},
+	},
+	[24] = {
+		task_type = 1,
+		name = [[Woods' World]],
+		pre_id = 23,
+		is_auto = 1,
+		level_limit = 10,
+		coin = 1000,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5036, 1, [[Stage Done: Chapter 3-Woods]],},},
+		},
+	},
+	[25] = {
+		task_type = 1,
+		name = [[Living Trial]],
+		pre_id = 24,
+		is_auto = 1,
+		level_limit = 10,
+		coin = 1000,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5039, 1, [[Stage Done: Chapter 3-Human Test]],},},
+		},
+	},
+	[26] = {
+		task_type = 1,
+		name = [[Clone Base]],
+		pre_id = 25,
+		is_auto = 1,
+		level_limit = 10,
+		coin = 1000,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5042, 1, [[Stage Done: Chapter 3-Clone Base]],},},
+		},
+	},
+	[27] = {
+		task_type = 1,
+		name = [[Destroy All]],
+		pre_id = 26,
+		is_auto = 1,
+		level_limit = 10,
+		coin = 1000,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5045, 1, [[Stage Done: Chapter 3-Destroy All]],},},
+		},
+	},
+	[28] = {
+		task_type = 1,
+		name = [[Freezer]],
+		pre_id = 27,
+		is_auto = 1,
+		level_limit = 10,
+		coin = 1000,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5048, 1, [[Stage Done: Chapter 3-King of the Universe]],},},
+		},
+	},
+	[29] = {
+		task_type = 1,
+		name = [[Terror]],
+		pre_id = 28,
+		is_auto = 1,
+		level_limit = 10,
+		coin = 1000,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5051, 1, [[Stage Done: Chapter 3-Terror]],},},
+		},
+	},
+	[31] = {
+		task_type = 1,
+		name = [[Death's Trial]],
+		pre_id = 29,
+		is_auto = 1,
+		level_limit = 20,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5052, 1, [[Stage Done: Chapter 4-Death Trial]],},},
+		},
+	},
+	[32] = {
+		task_type = 1,
+		name = [[Unknown Enemy]],
+		pre_id = 31,
+		is_auto = 1,
+		level_limit = 20,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5055, 1, [[Stage Done: Chapter 4-Unknown Enemy]],},},
+		},
+	},
+	[33] = {
+		task_type = 1,
+		name = [[New Death]],
+		pre_id = 32,
+		is_auto = 1,
+		level_limit = 20,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5058, 1, [[Stage Done: Chapter 4-New Death]],},},
+		},
+	},
+	[34] = {
+		task_type = 1,
+		name = [[Missing]],
+		pre_id = 33,
+		is_auto = 1,
+		level_limit = 20,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5061, 1, [[Stage Done: Chapter 4-Disappearances]],},},
+		},
+	},
+	[35] = {
+		task_type = 1,
+		name = [[Shun Rikka]],
+		pre_id = 34,
+		is_auto = 1,
+		level_limit = 20,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5064, 1, [[Stage Done: Chapter 4- Shun Rikka]],},},
+		},
+	},
+	[36] = {
+		task_type = 1,
+		name = [[New Legend]],
+		pre_id = 35,
+		is_auto = 1,
+		level_limit = 20,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5067, 1, [[Stage Done: Chapter 4- New Legend]],},},
+		},
+	},
+	[37] = {
+		task_type = 1,
+		name = [[Fighting Heart]],
+		pre_id = 36,
+		is_auto = 1,
+		level_limit = 20,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5070, 1, [[Stage Done: Chapter 4-Heart of Battle]],},},
+		},
+	},
+	[38] = {
+		task_type = 1,
+		name = [[Full Attack]],
+		pre_id = 37,
+		is_auto = 1,
+		level_limit = 30,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5071, 1, [[Stage Done: Chapter 5-Assault]],},},
+		},
+	},
+	[39] = {
+		task_type = 1,
+		name = [[Secret Research]],
+		pre_id = 38,
+		is_auto = 1,
+		level_limit = 30,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5074, 1, [[Stage Done: Chapter 5-Secret Research]],},},
+		},
+	},
+	[40] = {
+		task_type = 1,
+		name = [[Fierce Fight]],
+		pre_id = 39,
+		is_auto = 1,
+		level_limit = 30,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5077, 1, [[Stage Done: Chapter 5-Fierce Battle]],},},
+		},
+	},
+	[41] = {
+		task_type = 1,
+		name = [[Fight To Death]],
+		pre_id = 40,
+		is_auto = 1,
+		level_limit = 30,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5080, 1, [[Stage Done: Chapter 5-Fight To the End]],},},
+		},
+	},
+	[42] = {
+		task_type = 1,
+		name = [[Moon Blade]],
+		pre_id = 41,
+		is_auto = 1,
+		level_limit = 30,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5083, 1, [[Stage Done: Chapter 5-Moon Blade]],},},
+		},
+	},
+	[43] = {
+		task_type = 1,
+		name = [[Evil Gleam]],
+		pre_id = 42,
+		is_auto = 1,
+		level_limit = 30,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5086, 1, [[Stage Done: Chapter 5-Evil Gleam]],},},
+		},
+	},
+	[44] = {
+		task_type = 1,
+		name = [[Final Arms]],
+		pre_id = 43,
+		is_auto = 1,
+		level_limit = 30,
+		coin = 1500,
+		gold = 10,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5089, 1, [[Stage Done: Chapter 5-Ultimate Weapon]],},},
+		},
+	},
+	[46] = {
+		task_type = 1,
+		name = [[Training Road]],
+		pre_id = 44,
+		is_auto = 1,
+		level_limit = 40,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5090, 1, [[Stage Done: Chapter 6-Training Road]],},},
+		},
+	},
+	[47] = {
+		task_type = 1,
+		name = [[War Animal]],
+		pre_id = 46,
+		is_auto = 1,
+		level_limit = 40,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5093, 1, [[Stage Done: Chapter 6-War Animal]],},},
+		},
+	},
+	[48] = {
+		task_type = 1,
+		name = [[World's NO.1]],
+		pre_id = 47,
+		is_auto = 1,
+		level_limit = 40,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5096, 1, [[Stage Done: Chapter 6-Strongest]],},},
+		},
+	},
+	[49] = {
+		task_type = 1,
+		name = [[Match Starts]],
+		pre_id = 48,
+		is_auto = 1,
+		level_limit = 40,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5099, 1, [[Stage Done: Chapter 6-Match Starts]],},},
+		},
+	},
+	[50] = {
+		task_type = 1,
+		name = [[Fierce Fight]],
+		pre_id = 49,
+		is_auto = 1,
+		level_limit = 40,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5102, 1, [[Stage Done: Chapter 6-Fierce Fight]],},},
+		},
+	},
+	[51] = {
+		task_type = 1,
+		name = [[Thunder Roar Cannon]],
+		pre_id = 50,
+		is_auto = 1,
+		level_limit = 40,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5105, 1, [[Stage Done: Chapter 6- Thunder And Ghost Howling]],},},
+		},
+	},
+	[52] = {
+		task_type = 1,
+		name = [[Masters Gather]],
+		pre_id = 51,
+		is_auto = 1,
+		level_limit = 40,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5108, 1, [[Stage Done: Chapter 6-Strong Men Gather]],},},
+		},
+	},
+	[53] = {
+		task_type = 1,
+		name = [[Open Fire]],
+		pre_id = 52,
+		is_auto = 1,
+		level_limit = 45,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5109, 1, [[Stage Done: Chapter 7-Open Fire]],},},
+		},
+	},
+	[54] = {
+		task_type = 1,
+		name = [[Semifinal]],
+		pre_id = 53,
+		is_auto = 1,
+		level_limit = 45,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5112, 1, [[Stage Done: Chapter 7-Semifinals]],},},
+		},
+	},
+	[55] = {
+		task_type = 1,
+		name = [[Final Battle]],
+		pre_id = 54,
+		is_auto = 1,
+		level_limit = 45,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5115, 1, [[Stage Done: Chapter 7-Final Battle]],},},
+		},
+	},
+	[56] = {
+		task_type = 1,
+		name = [[Zeal Of Youth]],
+		pre_id = 55,
+		is_auto = 1,
+		level_limit = 45,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5118, 1, [[Stage Done: Chapter 7-Zeal of Youth]],},},
+		},
+	},
+	[57] = {
+		task_type = 1,
+		name = [[Haunted]],
+		pre_id = 56,
+		is_auto = 1,
+		level_limit = 45,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5121, 1, [[Stage Done: Chapter 7-Haunted]],},},
+		},
+	},
+	[58] = {
+		task_type = 1,
+		name = [[Terror Attack]],
+		pre_id = 57,
+		is_auto = 1,
+		level_limit = 45,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5124, 1, [[Stage Done: Chapter 7-Terror Attack]],},},
+		},
+	},
+	[59] = {
+		task_type = 1,
+		name = [[No. 1]],
+		pre_id = 58,
+		is_auto = 1,
+		level_limit = 45,
+		coin = 2000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5127, 1, [[Stage Done: Chapter 7- No. 1]],},},
+		},
+	},
+	[61] = {
+		task_type = 1,
+		name = [[Heaven Gate]],
+		pre_id = 59,
+		is_auto = 1,
+		level_limit = 50,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5128, 1, [[Stage Done: Chapter 8-Heaven Gate]],},},
+		},
+	},
+	[62] = {
+		task_type = 1,
+		name = [[Sky Beach]],
+		pre_id = 61,
+		is_auto = 1,
+		level_limit = 50,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5131, 1, [[Stage Done: Chapter 8-Sky Beach]],},},
+		},
+	},
+	[63] = {
+		task_type = 1,
+		name = [[God's Trial]],
+		pre_id = 62,
+		is_auto = 1,
+		level_limit = 50,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5134, 1, [[Stage Done: Chapter 8-God’s Trial]],},},
+		},
+	},
+	[64] = {
+		task_type = 1,
+		name = [[Sakura Snow]],
+		pre_id = 63,
+		is_auto = 1,
+		level_limit = 50,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5137, 1, [[Stage Done: Chapter 8-Sakura Snow]],},},
+		},
+	},
+	[65] = {
+		task_type = 1,
+		name = [[Real God]],
+		pre_id = 64,
+		is_auto = 1,
+		level_limit = 50,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5140, 1, [[Stage Done: Chapter 8-Real God]],},},
+		},
+	},
+	[66] = {
+		task_type = 1,
+		name = [[Devastation]],
+		pre_id = 65,
+		is_auto = 1,
+		level_limit = 50,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5143, 1, [[Stage Done: Chapter 8-Devastation]],},},
+		},
+	},
+	[67] = {
+		task_type = 1,
+		name = [[Golden Altar]],
+		pre_id = 66,
+		is_auto = 1,
+		level_limit = 50,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5146, 1, [[Stage Done: Chapter 8-Golden Altar]],},},
+		},
+	},
+	[68] = {
+		task_type = 1,
+		name = [[Lost Forest]],
+		pre_id = 67,
+		is_auto = 1,
+		level_limit = 55,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5147, 1, [[Stage Done: Chapter 9-Lost Forest]],},},
+		},
+	},
+	[69] = {
+		task_type = 1,
+		name = [[End Of Trial]],
+		pre_id = 68,
+		is_auto = 1,
+		level_limit = 55,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5150, 1, [[Stage Done: Chapter 9-End Of Trial]],},},
+		},
+	},
+	[70] = {
+		task_type = 1,
+		name = [[Survival Game]],
+		pre_id = 69,
+		is_auto = 1,
+		level_limit = 55,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5153, 1, [[Stage Done: Chapter 9-Survival Game]],},},
+		},
+	},
+	[71] = {
+		task_type = 1,
+		name = [[Won't Give In]],
+		pre_id = 70,
+		is_auto = 1,
+		level_limit = 55,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5156, 1, [[Stage Done: Chapter 9-Won’t Give In]],},},
+		},
+	},
+	[72] = {
+		task_type = 1,
+		name = [[Challenge Deities]],
+		pre_id = 71,
+		is_auto = 1,
+		level_limit = 55,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5159, 1, [[Stage Done: Chapter 9-Challenge Deities]],},},
+		},
+	},
+	[73] = {
+		task_type = 1,
+		name = [[God's Envoy]],
+		pre_id = 72,
+		is_auto = 1,
+		level_limit = 55,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5162, 1, [[Stage Done: Chapter 9-God’s Envoy]],},},
+		},
+	},
+	[74] = {
+		task_type = 1,
+		name = [[Fight God]],
+		pre_id = 73,
+		is_auto = 1,
+		level_limit = 55,
+		coin = 2500,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5165, 1, [[Stage Done: Chapter 9-War Against God]],},},
+		},
+	},
+	[75] = {
+		task_type = 1,
+		name = [[Uninvited Guest]],
+		pre_id = 74,
+		is_auto = 1,
+		level_limit = 60,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5166, 1, [[Stage Done: Chapter 10-Uninvited Guest]],},},
+		},
+	},
+	[76] = {
+		task_type = 1,
+		name = [[Birth Of Demon]],
+		pre_id = 75,
+		is_auto = 1,
+		level_limit = 60,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5169, 1, [[Stage Done: Chapter 10-Birth of Demon]],},},
+		},
+	},
+	[77] = {
+		task_type = 1,
+		name = [[Challenge Maturity]],
+		pre_id = 76,
+		is_auto = 1,
+		level_limit = 60,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5172, 1, [[Stage Done: Chapter 10-Challenge Maturity]],},},
+		},
+	},
+	[78] = {
+		task_type = 1,
+		name = [[Horrific Abyss]],
+		pre_id = 77,
+		is_auto = 1,
+		level_limit = 60,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5175, 1, [[Stage Done: Chapter 10-Abyss]],},},
+		},
+	},
+	[79] = {
+		task_type = 1,
+		name = [[Prelude Begins]],
+		pre_id = 78,
+		is_auto = 1,
+		level_limit = 60,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5178, 1, [[Stage Done: Chapter 10-Prelude]],},},
+		},
+	},
+	[80] = {
+		task_type = 1,
+		name = [[Doomsday]],
+		pre_id = 79,
+		is_auto = 1,
+		level_limit = 60,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5181, 1, [[Stage Done: Chapter 10-Doomsday]],},},
+		},
+	},
+	[81] = {
+		task_type = 1,
+		name = [[A Fierce Battle]],
+		pre_id = 80,
+		is_auto = 1,
+		level_limit = 60,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5184, 1, [[Stage Done: Chapter 10-Fierce Battle]],},},
+		},
+	},
+	[82] = {
+		task_type = 1,
+		name = [[Strip Life]],
+		pre_id = 81,
+		is_auto = 1,
+		level_limit = 65,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5185, 1, [[Stage Done: Chapter 11-Slaughter]],},},
+		},
+	},
+	[83] = {
+		task_type = 1,
+		name = [[Dangerous]],
+		pre_id = 82,
+		is_auto = 1,
+		level_limit = 65,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5188, 1, [[Stage Done: Chapter 11-Dangerous]],},},
+		},
+	},
+	[84] = {
+		task_type = 1,
+		name = [[Final Battle]],
+		pre_id = 83,
+		is_auto = 1,
+		level_limit = 65,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5191, 1, [[Stage Done: Chapter 11-Final Battle]],},},
+		},
+	},
+	[85] = {
+		task_type = 1,
+		name = [[Ultr Self-destruction]],
+		pre_id = 84,
+		is_auto = 1,
+		level_limit = 65,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5194, 1, [[Stage Done: Chapter 11-Ult Self-destruction]],},},
+		},
+	},
+	[86] = {
+		task_type = 1,
+		name = [[Revival Of Demon]],
+		pre_id = 85,
+		is_auto = 1,
+		level_limit = 65,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5197, 1, [[Stage Done: Chapter 11-Revival Of Demon]],},},
+		},
+	},
+	[87] = {
+		task_type = 1,
+		name = [[Final Hero]],
+		pre_id = 86,
+		is_auto = 1,
+		level_limit = 65,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5200, 1, [[Stage Done: Chapter 11-Final Hero]],},},
+		},
+	},
+	[88] = {
+		task_type = 1,
+		name = [[Destruction]],
+		pre_id = 87,
+		is_auto = 1,
+		level_limit = 65,
+		coin = 3000,
+		gold = 15,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5203, 1, [[Stage Done: Chapter 11-Destruction]],},},
+		},
+	},
+	[89] = {
+		task_type = 1,
+		name = [[Disappear]],
+		pre_id = 88,
+		is_auto = 1,
+		level_limit = 70,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5204, 1, [[Stage Done: Chapter 12-Disapear Mysteriously]],},},
+		},
+	},
+	[90] = {
+		task_type = 1,
+		name = [[Ready]],
+		pre_id = 89,
+		is_auto = 1,
+		level_limit = 70,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5207, 1, [[Stage Done: Chapter 12-Ready]],},},
+		},
+	},
+	[91] = {
+		task_type = 1,
+		name = [[On The Verge]],
+		pre_id = 90,
+		is_auto = 1,
+		level_limit = 70,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5210, 1, [[Stage Done: Chapter 12- On the Verge]],},},
+		},
+	},
+	[92] = {
+		task_type = 1,
+		name = [[War Prelude]],
+		pre_id = 91,
+		is_auto = 1,
+		level_limit = 70,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5213, 1, [[Stage Done: Chapter 12-Prelude Of War]],},},
+		},
+	},
+	[93] = {
+		task_type = 1,
+		name = [[Liar Game]],
+		pre_id = 92,
+		is_auto = 1,
+		level_limit = 70,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5216, 1, [[Stage Done: Chapter 12-Liar Game]],},},
+		},
+	},
+	[94] = {
+		task_type = 1,
+		name = [[War In Kanna]],
+		pre_id = 93,
+		is_auto = 1,
+		level_limit = 70,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5219, 1, [[Stage Done: Chapter 12-War In Kanna]],},},
+		},
+	},
+	[95] = {
+		task_type = 1,
+		name = [[Endless War]],
+		pre_id = 94,
+		is_auto = 1,
+		level_limit = 70,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5222, 1, [[Stage Done: Chapter 12-Endless War]],},},
+		},
+	},
+	[96] = {
+		task_type = 1,
+		name = [[War Mist]],
+		pre_id = 95,
+		is_auto = 1,
+		level_limit = 75,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5223, 1, [[Stage Done: Chapter 13-War Mist]],},},
+		},
+	},
+	[97] = {
+		task_type = 1,
+		name = [[Evildoer]],
+		pre_id = 96,
+		is_auto = 1,
+		level_limit = 75,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5226, 1, [[Stage Done: Chapter 13-Evildoer]],},},
+		},
+	},
+	[98] = {
+		task_type = 1,
+		name = [[Desire War]],
+		pre_id = 97,
+		is_auto = 1,
+		level_limit = 75,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5229, 1, [[Stage Done: Chapter 13-Fight for Desire]],},},
+		},
+	},
+	[99] = {
+		task_type = 1,
+		name = [[Join Battle]],
+		pre_id = 98,
+		is_auto = 1,
+		level_limit = 75,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5232, 1, [[Stage Done: Chapter 13-Join Battle]],},},
+		},
+	},
+	[100] = {
+		task_type = 1,
+		name = [[Kill To Stop Killing]],
+		pre_id = 99,
+		is_auto = 1,
+		level_limit = 75,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5235, 1, [[Stage Done: Chapter 13-Kill for Save]],},},
+		},
+	},
+	[101] = {
+		task_type = 1,
+		name = [[Life Music]],
+		pre_id = 100,
+		is_auto = 1,
+		level_limit = 75,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5238, 1, [[Stage Done: Chapter 13-Life Music]],},},
+		},
+	},
+	[102] = {
+		task_type = 1,
+		name = [[Termination War]],
+		pre_id = 101,
+		is_auto = 1,
+		level_limit = 75,
+		coin = 3500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5241, 1, [[Stage Done: Chapter 13-Final Fight]],},},
+		},
+	},
+	[103] = {
+		task_type = 1,
+		name = [[Biggest Crisis]],
+		pre_id = 102,
+		is_auto = 1,
+		level_limit = 80,
+		coin = 4000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5242, 1, [[Stage Done: Chapter 14- Biggest Crisis]],},},
+		},
+	},
+	[104] = {
+		task_type = 1,
+		name = [[Sneak Into]],
+		pre_id = 103,
+		is_auto = 1,
+		level_limit = 80,
+		coin = 4000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5245, 1, [[Stage Done: Chapter 14- Sneak Into]],},},
+		},
+	},
+	[105] = {
+		task_type = 1,
+		name = [[Demon Fleet]],
+		pre_id = 104,
+		is_auto = 1,
+		level_limit = 80,
+		coin = 4000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5248, 1, [[Stage Done: Chapter 14- Devil Fleet]],},},
+		},
+	},
+	[106] = {
+		task_type = 1,
+		name = [[Frozen The World]],
+		pre_id = 105,
+		is_auto = 1,
+		level_limit = 80,
+		coin = 4000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5251, 1, [[Stage Done: Chapter 14- Frozen All]],},},
+		},
+	},
+	[107] = {
+		task_type = 1,
+		name = [[Night Serpent]],
+		pre_id = 106,
+		is_auto = 1,
+		level_limit = 80,
+		coin = 4000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5254, 1, [[Stage Done: Chapter 14-Dark Night And Serpent]],},},
+		},
+	},
+	[108] = {
+		task_type = 1,
+		name = [[Revolution Legion]],
+		pre_id = 107,
+		is_auto = 1,
+		level_limit = 80,
+		coin = 4000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5257, 1, [[Stage Done: Chapter 14-Revolution Legion]],},},
+		},
+	},
+	[109] = {
+		task_type = 1,
+		name = [[Final Battle Purdah]],
+		pre_id = 108,
+		is_auto = 1,
+		level_limit = 80,
+		coin = 4000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5260, 1, [[Stage Done: Chapter 14- Final Battle Purdah]],},},
+		},
+	},
+	[110] = {
+		task_type = 1,
+		name = [[Road Of Light]],
+		pre_id = 109,
+		is_auto = 1,
+		level_limit = 85,
+		coin = 4500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5261, 1, [[Stage Done: Chapter 15-Road Of Light]],},},
+		},
+	},
+	[111] = {
+		task_type = 1,
+		name = [[Bloody Revenge]],
+		pre_id = 110,
+		is_auto = 1,
+		level_limit = 85,
+		coin = 4500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5264, 1, [[Stage Done: Chapter 15-Revenge]],},},
+		},
+	},
+	[112] = {
+		task_type = 1,
+		name = [[Heart Of Devil]],
+		pre_id = 111,
+		is_auto = 1,
+		level_limit = 85,
+		coin = 4500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5267, 1, [[Stage Done: Chapter 15-Heart Of Devil]],},},
+		},
+	},
+	[113] = {
+		task_type = 1,
+		name = [[Extermination Crisis]],
+		pre_id = 112,
+		is_auto = 1,
+		level_limit = 85,
+		coin = 4500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5270, 1, [[Stage Done: Chapter 15-Extermination Crisis]],},},
+		},
+	},
+	[114] = {
+		task_type = 1,
+		name = [[Realm Of Death]],
+		pre_id = 113,
+		is_auto = 1,
+		level_limit = 85,
+		coin = 4500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5273, 1, [[Stage Done: Chapter 15-Dead Nation]],},},
+		},
+	},
+	[115] = {
+		task_type = 1,
+		name = [[Broken Secret]],
+		pre_id = 114,
+		is_auto = 1,
+		level_limit = 85,
+		coin = 4500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5276, 1, [[Stage Done: Chapter 15-Pieces Meaning]],},},
+		},
+	},
+	[116] = {
+		task_type = 1,
+		name = [[Super Star]],
+		pre_id = 115,
+		is_auto = 1,
+		level_limit = 85,
+		coin = 4500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5279, 1, [[Stage Done: Chapter 15- Supernovae]],},},
+		},
+	},
+	[117] = {
+		task_type = 1,
+		name = [[Gate Of Hell]],
+		pre_id = 116,
+		is_auto = 1,
+		level_limit = 90,
+		coin = 5000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5280, 1, [[Stage Done: Chapter 16-Door To Hell]],},},
+		},
+	},
+	[118] = {
+		task_type = 1,
+		name = [[Talons Burst]],
+		pre_id = 117,
+		is_auto = 1,
+		level_limit = 90,
+		coin = 5000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5283, 1, [[Stage Done: Chapter 16-Cannon Claw]],},},
+		},
+	},
+	[119] = {
+		task_type = 1,
+		name = [[Fierce Clash]],
+		pre_id = 118,
+		is_auto = 1,
+		level_limit = 90,
+		coin = 5000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5286, 1, [[Stage Done: Chapter 16-Fierce Clash]],},},
+		},
+	},
+	[120] = {
+		task_type = 1,
+		name = [[Fever Vortex]],
+		pre_id = 119,
+		is_auto = 1,
+		level_limit = 90,
+		coin = 5000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5289, 1, [[Stage Done: Chapter 16-Crazy Spiral]],},},
+		},
+	},
+	[121] = {
+		task_type = 1,
+		name = [[Nightmare]],
+		pre_id = 120,
+		is_auto = 1,
+		level_limit = 90,
+		coin = 5000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5292, 1, [[Stage Done: Chapter 16-Nightmare]],},},
+		},
+	},
+	[122] = {
+		task_type = 1,
+		name = [[Vital Judge]],
+		pre_id = 121,
+		is_auto = 1,
+		level_limit = 90,
+		coin = 5000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5295, 1, [[Stage Done: Chapter 16-Vital Judge]],},},
+		},
+	},
+	[123] = {
+		task_type = 1,
+		name = [[The Last Light]],
+		pre_id = 122,
+		is_auto = 1,
+		level_limit = 90,
+		coin = 5000,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5298, 1, [[Stage Done: Chapter  16- Last Light]],},},
+		},
+	},
+	[124] = {
+		task_type = 1,
+		name = [[Earth Lament]],
+		pre_id = 123,
+		is_auto = 1,
+		level_limit = 95,
+		coin = 5500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5299, 1, [[Stage Done: Chapter 17-Rumbling Earth]],},},
+		},
+	},
+	[125] = {
+		task_type = 1,
+		name = [[Upheaval]],
+		pre_id = 124,
+		is_auto = 1,
+		level_limit = 95,
+		coin = 5500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5302, 1, [[Stage Done: Chapter 17-Upheaval]],},},
+		},
+	},
+	[126] = {
+		task_type = 1,
+		name = [[Hero Gather]],
+		pre_id = 125,
+		is_auto = 1,
+		level_limit = 95,
+		coin = 5500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5305, 1, [[Stage Done: Chapter 17-Hero Gather]],},},
+		},
+	},
+	[127] = {
+		task_type = 1,
+		name = [[Light And Shadow]],
+		pre_id = 126,
+		is_auto = 1,
+		level_limit = 95,
+		coin = 5500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[I Feel An Air Of Devil. Go To Support.]],},
+		},
+		npc_commit = {
+			{1, 4, [[Strength Is Not Standard For Master. Brave Heart Is.]],},
+		},
+		section = {
+			{{1, 1, 5308, 1, [[Stage Done: Chapter 17-Light And Shadow]],},},
+		},
+	},
+	[128] = {
+		task_type = 1,
+		name = [[Fierce Conflict]],
+		pre_id = 127,
+		is_auto = 1,
+		level_limit = 95,
+		coin = 5500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5311, 1, [[Stage Done: Chapter 17-Fierce Conflict]],},},
+		},
+	},
+	[129] = {
+		task_type = 1,
+		name = [[Choice Of God]],
+		pre_id = 128,
+		is_auto = 1,
+		level_limit = 95,
+		coin = 5500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Sorry For Your Brother. Collect 10 Stones And I Can Revive Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Don't Cry, Kid. Everything Will Be Okay.]],},
+		},
+		section = {
+			{{1, 1, 5314, 1, [[Stage Done: Chapter 17-Choice of God]],},},
+		},
+	},
+	[130] = {
+		task_type = 1,
+		name = [[The Final War]],
+		pre_id = 129,
+		is_auto = 1,
+		level_limit = 95,
+		coin = 5500,
+		gold = 20,
+		npc_accept = {
+			{1, 4, [[Thief Has Been Found . Can't Believe It's Him!]],},
+		},
+		npc_commit = {
+			{1, 4, [[Cthulhu Affects Here.]],},
+		},
+		section = {
+			{{1, 1, 5317, 1, [[Stage Done: Chapter 17-End Of War]],},},
+		},
+	},
+};
+	

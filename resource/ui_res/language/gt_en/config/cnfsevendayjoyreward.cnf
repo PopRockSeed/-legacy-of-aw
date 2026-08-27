@@ -1,0 +1,58 @@
+Config = Config or {}
+Config.cnfsevendayjoyreward = {
+		[1] = {
+			level = 1,
+			progress = {0,10,},
+			reward = {3800,0,},
+		},
+		[2] = {
+			level = 2,
+			progress = {10,20,},
+			reward = {3800,5,},
+		},
+		[3] = {
+			level = 3,
+			progress = {20,30,},
+			reward = {3800,10,},
+		},
+		[4] = {
+			level = 4,
+			progress = {30,40,},
+			reward = {3800,15,},
+		},
+		[5] = {
+			level = 5,
+			progress = {40,50,},
+			reward = {3800,20,},
+		},
+		[6] = {
+			level = 6,
+			progress = {50,60,},
+			reward = {3800,25,},
+		},
+		[7] = {
+			level = 7,
+			progress = {60,70,},
+			reward = {3800,30,},
+		},
+		[8] = {
+			level = 8,
+			progress = {70,80,},
+			reward = {3800,35,},
+		},
+		[9] = {
+			level = 9,
+			progress = {80,90,},
+			reward = {3800,40,},
+		},
+		[10] = {
+			level = 10,
+			progress = {90,100,},
+			reward = {3800,45,},
+		},
+		[11] = {
+			level = 11,
+			progress = {100,100,},
+			reward = {3800,50,},
+		},
+}

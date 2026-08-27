@@ -1,0 +1,22 @@
+Config = Config or {}
+Config.cnfsdkcontact = {
+		["rmdbzqy"] = {
+			sdk_name = "rmdbzqy",
+			kf_qq_group = [[279982073]],
+			kf_wechat = [[herman_2y9y]],
+		},
+		["qyzfjc"] = {
+			sdk_name = "qyzfjc",
+			kf_qq_group = [[279982073]],
+			kf_wechat = [[herman_2y9y]],
+		},
+		["rmdbzuc"] = {
+			sdk_name = "rmdbzuc",
+			kf_qq_group = [[279982073]],
+			kf_wechat = [[herman_2y9y]],
+		},
+		["apple"] = {
+			sdk_name = "apple",
+			kf_qq_group = [[119527463]],
+		},
+}

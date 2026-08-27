@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfserverwarmatch = {
+		[1] = {
+			match_begin = "S1 Season June 7",
+			match_end = "S2 Season July 7 ",
+			sign_up_begin = {2015,8,28,5,},
+			sign_up_end = {2015,8,29,5,},
+			audition_begin = {2015,8,29,5,},
+			audition_end = {2015,8,30,5,},
+			promotion_begin = {2015,8,29,5,},
+			promotion_end = {2015,8,30,5,},
+			starcarft_begin = {2015,9,1,5,},
+			starcarft_end = {2015,9,2,5,},
+		},
+}

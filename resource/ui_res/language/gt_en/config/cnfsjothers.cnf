@@ -1,0 +1,11 @@
+Config = Config or {}
+Config.cnfsjothers = {
+		[1] = {
+			start_time = {2016,11,21,5,0,},
+			end_time = {2016,11,25,5,0,},
+			material_id = 4061,
+			price = 10,
+			reward_time = {2016,11,26,5,0,},
+			instruction = [[<BR>1. The event lasts for 5 days. The first 4 days will be Arena Competing, Magic Fight, Arena Competing and Magic Fight by turn. The second day will gain the previous day’s reward! The fifth day will gain the fourth day’s reward and the achievement reward! (Pull to preview reward!) <BR><BR>2. Daily reward also has scores. On the 5th day, the first 5 players will gain extra reward. (If scores are the same, the total fighting value will be ranked. If still the same, it’s a draw! )The first 3 will gain a medal of World Competition! <BR><BR>3. Daily reward will be calculated after 5:00 am. If not claimed, it will be sent to your mailbox. <BR><BR>4. Items in Competition Shop only receive Galleon coins, which can be gained in the World Competition or purchased in the Shop.]],
+		},
+}

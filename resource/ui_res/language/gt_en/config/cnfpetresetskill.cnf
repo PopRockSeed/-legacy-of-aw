@@ -1,0 +1,8 @@
+Config = Config or {}
+Config.cnfpetresetskill = {
+		[1] = {
+			cost = {3850,5,},
+			cost2 = {3851,1,5,},
+			help_desc = "1. Refreshing Pet Skills Needs Some Pet Refresh Stones Each Time <BR> <BR>2. Use Pet Bless Stone To Raise Success Rate Of Refreshing Pet Skills",
+		},
+}

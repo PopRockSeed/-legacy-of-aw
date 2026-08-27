@@ -1,0 +1,22 @@
+Config = Config or {}
+Config.cnfpartnerfusionmisc = {
+		[1] = {
+			ret_orb_rate = 0.9,
+			ret_feisheng_rate = 0.9,
+			upstar_ret_item = {4084,0.1,},
+			help_text = [[<BR>1. When two heroes are qualified, they could fuse a permanent fusion hero. 
+<BR>2. Combining to get a new hero, while the two old ones will disappear 
+<BR>3.If you've got a joint hero, the following combination would grant you <COLOR VALUE=FFFFD200>60</COLOR> joint hero stones.
+<BR>4.Combining to an SSS hero would cost some fusion balls
+<BR>5.Original ATTR of the new joint hero： 
+<BR>①.Star level: set specified star level. If the heroes’ star level is higher than after combination, exceeded stone will be returned.
+<BR>②.Level: level Sum of 2 heroes/2, round down to the nearest whole unit
+<BR>③.Level: half of the total amount of the two heroes’level, taking the integer
+<BR>④.Awake: Awake level Sum of 2 heroes/2, round down to the nearest whole unit, clearing stage to 0
+<BR>⑤.Quality: the new hero's quality is fixed. If the hero's quality is better than the new hero before combination, the exceeding part of Soaring and Deifying will be returned.
+<BR>⑥.Sacrifice: Sacrifice level sum of the two heroes/2, round down to the nearest whole unit
+<BR>⑦.Magatama: Magatama level sum of the two heroes/2, round down to the nearest whole unit
+<BR>⑧.Train: Training stats sum of the two heroes/2, round down to the nearest whole unit
+<BR>⑨.Skill: Restore to Lv.1]],
+		},
+}

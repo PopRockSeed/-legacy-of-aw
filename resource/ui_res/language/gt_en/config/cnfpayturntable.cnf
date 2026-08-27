@@ -1,0 +1,12 @@
+Config = Config or {}
+Config.cnfpayturntable = {
+		[1] = {
+			activity_time = {{2015,8,14,5,0,},{2015,8,17,4,59,},},
+			activity_describe = [[<COLOR VALUE=FFFF0000>Time:</COLOR><COLOR VALUE=FFFFFFFF>5:00am Aug.14, 2015~4:59am Aug.17, 2015.</COLOR><BR><BR><COLOR VALUE=FFFF0000>Details:</COLOR><COLOR VALUE=FFFFFFFF>Players recharge 1000 diamonds totally per day and have chance to do lucky draw (reset at 5:00am).</COLOR>]],
+			activity_rule = [[ 1. Single Recharge 1000 Diamonds And Above Per Day Can Get 1 Draw Chance (5 At Most). <BR>
+2. Diamond Rebate By Rate After Draw. More Recharge, More Rebate.<BR>3. Reset At 5:00am Daily.</COLOR><BR>]],
+			everyday_time = 5,
+			is_reset = 1,
+			gold_limit = 1000,
+		},
+}

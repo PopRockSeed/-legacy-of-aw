@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnfpetinherit = {
+		[1] = {
+			help_desc = "1. You Can Only Inherit From Those Whose Attributes Are All Higher Than You (Level, Growth And Smartness)<BR SPACING=10>2. Inheritance Simply Makes Changes To Pet Level, Growth And Smartness While No Changes To Pet Quality, Skill, Appearance And Name<BR SPACING=10>3. After Pet Inheritance, For Those Proceeding Inheritance: Pet Lv.1, Growth 1, Smartness 10; For Those Accepting Inheritance: Inherit The Level (Cannot Exceed The Inheritor’s Level Cap), Growth And Smartness From Those Proceeding Inheritance Before They Inherit<BR SPACING=10>4.The Inheritance Will Need Some Diamonds Depending On The Pet Level, Growth And Smartness Of Those Proceeding Inheritance<BR SPACING=10>",
+		},
+}

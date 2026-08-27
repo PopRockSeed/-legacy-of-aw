@@ -1,0 +1,33 @@
+Config = Config or {}
+Config.cnfpeakmisc = {
+		[1] = {
+			rand_weight = {{1,500,},{2,400,},{3,200,},},
+			group_weight = {{6,200,},{7,200,},},
+			music_id = {1,0,0,},
+			resource_id = {1071,1071,},
+			explain = [[1. Draw 6~7 Normal Fellows And 1~2 Holy Summoned Fellows At Daily 5:00 As Free Lineup Today. Draw Again At 5:00 Next Day.<BR> <BR>
+2.In Leisure Mode, Fellows Are The Highest Setting Of Current Lv., Including Star, Skill Lv., Stage, Ruin Jade, Sacrifice, Train, Ect. <BR> <BR>
+3.Can Form ATK And DEF Lineup;<BR> <BR>
+4.If Your DEF And ATK Lineup Win In Battle, Your Lineup Popularity+1. Check Top Popularity Lineups At Lineup Interface.<BR> <BR>
+5. In PK Mode, Players Can Join 6 Times For Free And Form Lineup To Battle Against Others.<BR> <BR>
+6. Each Season Lasts From Monday 5: 00 ~ Next Monday 4: 59 (UTC+8). After The Season Ends, Rewards Will Be Given Via Mail According To The Rankings. Meanwhile The Last Season’s Rankings Will Be Cleared.<BR> <BR>
+7. Players Can Win Points Per Victory And Half Points Per Failure. You Can Exchange Rare Items With Points In Points Shop. <BR> <BR>]],
+			explain1 = [[<COLOR VALUE=442c0c>1. Each Season Lasts From Monday 5: 00 To Next Monday 4:59 (UTC+8).<BR>
+2. After The Season Ends, Rewards Will Be Given Via According To The Rankings.<BR> <BR><COLOR>]],
+			rand_num = 8,
+			arena_lv = 90,
+			partner_num = 10,
+			ticket_price = 120,
+			free_time = 2,
+			fail_time = 3,
+			online_sec = 20,
+			offline_sec = 10,
+			robot_sec = 8,
+			free_times = 6,
+			win_jifen = 20,
+			fail_jifen = 10,
+			jidian_id = 10110,
+			jidian_value = 100,
+			fail_jidian_value = 50,
+		},
+}

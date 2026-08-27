@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnftangyuancommon = {
+		[1] = {
+			answer_time = 15,
+			delta_time = 3,
+			free_count = 1,
+			buy_cost = {50,100,100,150,150,},
+			detail_desc = [[<COLOR VALUE=FFFFFFFF>1. You Have 15 Sec To Answer Each Question. Every 1 Second You Spend Will Deduct 1 Score.<BR> <BR>2. The Correct Answer Will Earn You Surplus Scores; But If You Answer Wrong, No Score Will Be Added.<BR> <BR>3. With Certain Scores, You Can Get Rewards.<BR> <BR>4. Top 10 On Score Ranking Will Get Rewards After The Activity.<BR> <BR></COLOR>]],
+			rank_desc = [[No.1: Football Baby Stone*30<BR SPACING=10>No.2: Football Baby Stone*25<BR SPACING=10>No.3: Football Baby Stone*20<BR SPACING=10>No.4: Football Baby Stone*15<BR SPACING=10>No.5: Football Baby Stone*10<BR SPACING=10>No.6: God Soul*2500<BR SPACING=10>No.7: God Soul*2500<BR SPACING=10>No.8: God Soul*2000<BR SPACING=10>No.9: God Soul*2000<BR SPACING=10>No.10: God Soul*2000]],
+			main_say = {[[First Sentence]],[[Second Sentence]],[[Third Sentence]],},
+			right_say = [[Correct Answer. Keep Going!]],
+			wrong_say = [[Wrong Answer. Keep Going!]],
+			overtime_say = [[Wrong Answer. Keep Going!]],
+		},
+}

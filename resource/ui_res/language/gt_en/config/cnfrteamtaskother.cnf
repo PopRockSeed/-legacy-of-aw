@@ -1,0 +1,10 @@
+Config = Config or {}
+Config.cnfrteamtaskother = {
+		[1] = {
+			team_reward = {0,0,2759,2759,2759,2759,2760,2760,2760,2751,2751,2751,2751,2751,2751,},
+			task_open = {1,2,3,4,5,6,7,},
+			invite_cooltime = 300,
+			playtimes = 3,
+			desc = [[1.You Can Create Or Quickly Join A Team.<BR> <BR>2.Before Entering The Battle, You Can Leave The Team As You Like But After You Fight, You Cannot Leave.<BR> <BR>3.Every Player Will Be Provided With A Fellow.<BR> <BR>4.The Winner Of Every Single Round Will Get A Single Reward.<BR> <BR>5.Team Rewards Will Be Settled At 5:00(UTC+8) Which Can Be Got After Your Team Wins For Several Times.<BR> <BR>6.The Difficulty Of Enemies Is Decided By The Average Team Levels Of All Players In Your Team~]],
+		},
+}

@@ -1,0 +1,8 @@
+Config = Config or {}
+Config.cnfstartbattle = {
+		[1] = {
+			fb_id = 5903,
+			obj_list = {{7501,2,1,0,},{7502,6,1,0,},{7503,4,1,0,},{7504,8,1,2,},{7506,5,1,1,},{7507,2,1,1,},{7508,9,1,2,},{7509,2,1,2,},},
+			step = {{2,88.3,0,7501,1042,[[What…What Is Wrong With You?]],},{2,88.3,1,7507,1065,[[We Both Got Controlled, Stop Us!]],},{8,88,0,7501,8000,},{1,87,1,7506,0,0,},{2,83,0,7502,1067,[[Beat Them With Joint Attack Skill!]],},{4,82,0,7502,7503,1068,[[Click [Joint Attack] To Release Skill!]],},{2,81.5,1,7508,1002,[[Not Bad. Submit To Me And I Will Let You Go!]],},{2,81.3,0,7501,1042,[[Who Is There?]],},{6,81,1,9,7508,1,1,0,0,},{2,80,1,7508,1002,[[Stupid. Show You My Strength! Murmurmur!]],},{4,80,1,7506,7507,0,0,},{2,77,0,7504,1001,[[Stop! See My Healing Light!]],},{6,77,0,9,7504,1,1,0,1,},{1,75.5,0,7504,1001,[[Click [Portrait] To Release Skill]],},{2,73.5,1,7508,1002,[[ Light Goddess, Why You Always Stir My Business?!]],},{2,73.5,0,7504,1001,[[Cthulhu, In Order To Occupy Our Divine Land, You Have Took So Many Powerful People Away! Just Fight!]],},{8,73.5,0,7508,8000,},{8,73.5,0,7507,8000,},{8,73.5,0,7506,8000,},{8,73.5,0,7509,8000,},{7,73.5,0,7504,75043,1,},{2,73.4,1,7508,1002,[[Your Power Is Restricted Here, Right? Die Here!]],},{8,73.4,0,7504,8000,},{1,73.4,1,7508,0,0,},{2,67,0,7504,1001,[[Damn! We Have To Leave…]],},{5,66.8,0,7504,10016,},{5,66.8,0,7501,10426,},{2,65.5,1,7508,1002,[[Run So Fast…But I Got Your Blood. I Will Start The Plan Of Clones!!Hahahhaha!]],},{3,65,},},
+		},
+}

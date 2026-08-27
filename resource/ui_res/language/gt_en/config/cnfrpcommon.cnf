@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfrpcommon = {
+		[1] = {
+			level_limit = 30,
+			perosonal_limit = 1,
+			server_limit = 50,
+			coin_value = 0.00057,
+			diamond_value = 1,
+			yupian_value = 10,
+			yupian_item_id = 3733,
+			nv_desc = [[<COLOR VALUE=FF442C0C>1.Lv.<COLOR VALUE=FF3FC5FB>30</COLOR> Players Can Join The Activity; <BR SPACING=10>2.Goddess Redpocket Will Be Irregularly Sent At Daily <COLOR VALUE=FFFF00FF>18:00~21:00</COLOR>(UTC+8); <BR SPACING=10>3. Redpocket Amount Is Random And Limited. You Cannot Miss It!</COLOR>]],
+			send_desc = [[<COLOR VALUE=FF442C0C>1. Players Of Same Server Can Send <COLOR VALUE=FF3FC5FB>50</COLOR> Redpockets Every Day. It Refreshes At Daily <COLOR VALUE=FFFF00FF>05:00</COLOR>(UTC+8); <BR SPACING=10>2. Sent Redpockets Will Disappear After Refreshing And The Surplus Amount Will Not Be Returned; <BR SPACING=10>3. You Can Grab Redpockets You Sent!</COLOR></COLOR>]],
+			recv_desc = [[<COLOR VALUE=FF442C0C>1. Players Of Same Server Can Send <COLOR VALUE=FF3FC5FB>50</COLOR> Redpockets Every Day. It Refreshes At Daily <COLOR VALUE=FFFF00FF>05:00</COLOR>(UTC+8); <BR SPACING=10>2. Sent Redpockets Will Disappear After Refreshing And The Surplus Amount Will Not Be Returned; <BR SPACING=10>3. You Can Grab Redpockets You Sent! </COLOR>]],
+		},
+}
