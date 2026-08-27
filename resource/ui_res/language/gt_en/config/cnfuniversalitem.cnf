@@ -1,0 +1,33 @@
+Config = Config or {}
+Config.cnfuniversalitem = {
+		[1] = {
+			rare = 1,
+			id = 4021,
+			name = "White Universal Stuff",
+			res_name = "lv",
+		},
+		[2] = {
+			rare = 2,
+			id = 4021,
+			name = "Green Universal Stuff",
+			res_name = "lv",
+		},
+		[3] = {
+			rare = 3,
+			id = 4022,
+			name = "Blue Universal Stuff",
+			res_name = "lan",
+		},
+		[4] = {
+			rare = 4,
+			id = 4023,
+			name = "Purple Universal Stuff",
+			res_name = "zi",
+		},
+		[5] = {
+			rare = 5,
+			id = 4023,
+			name = "Orange Universal Stuff",
+			res_name = "zi",
+		},
+}

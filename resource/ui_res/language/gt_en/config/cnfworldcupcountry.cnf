@@ -1,0 +1,131 @@
+Config = Config or {}
+Config.cnfworldcupcountry = {
+		[1] = {
+			id = 1,
+			name = "Russia",
+		},
+		[2] = {
+			id = 2,
+			name = "Uruguay",
+		},
+		[3] = {
+			id = 3,
+			name = "Egypt",
+		},
+		[4] = {
+			id = 4,
+			name = "Saudi Arabia",
+		},
+		[5] = {
+			id = 5,
+			name = "Portugal",
+		},
+		[6] = {
+			id = 6,
+			name = "Spain",
+		},
+		[7] = {
+			id = 7,
+			name = "Iran",
+		},
+		[8] = {
+			id = 8,
+			name = "Morocco",
+		},
+		[9] = {
+			id = 9,
+			name = "France",
+		},
+		[10] = {
+			id = 10,
+			name = "Peru",
+		},
+		[11] = {
+			id = 11,
+			name = "Denmark",
+		},
+		[12] = {
+			id = 12,
+			name = "Australia",
+		},
+		[13] = {
+			id = 13,
+			name = "Argentina",
+		},
+		[14] = {
+			id = 14,
+			name = "Croatia",
+		},
+		[15] = {
+			id = 15,
+			name = "Iceland",
+		},
+		[16] = {
+			id = 16,
+			name = "Nigeria",
+		},
+		[17] = {
+			id = 17,
+			name = "Brazil",
+		},
+		[18] = {
+			id = 18,
+			name = "Switzerland",
+		},
+		[19] = {
+			id = 19,
+			name = "Costa Rica ",
+		},
+		[20] = {
+			id = 20,
+			name = "Serbia",
+		},
+		[21] = {
+			id = 21,
+			name = "German",
+		},
+		[22] = {
+			id = 22,
+			name = "Mexico",
+		},
+		[23] = {
+			id = 23,
+			name = "Switzerland",
+		},
+		[24] = {
+			id = 24,
+			name = "Korea",
+		},
+		[25] = {
+			id = 25,
+			name = "Belgium",
+		},
+		[26] = {
+			id = 26,
+			name = "England",
+		},
+		[27] = {
+			id = 27,
+			name = "Tunisia",
+		},
+		[28] = {
+			id = 28,
+			name = "Panama",
+		},
+		[29] = {
+			id = 29,
+			name = "Poland",
+		},
+		[30] = {
+			id = 30,
+			name = "Colombia",
+		},
+		[31] = {
+			id = 31,
+			name = "Senegal",
+		},
+		[32] = {
+			id = 32,
+			name = "Japan",
+		},
+}

@@ -1,0 +1,18 @@
+Config = Config or {}
+Config.cnfworldboss = {
+		[1] = {
+			def_attr_id = 51,
+			def_attr_id_percent = 50,
+			def_attr_add_cost = {10,15,20,25,30,35,40,45,50,55,},
+			atk_attr_id = 66,
+			atk_attr_id_percent = 50,
+			atk_attr_add_cost = {10,15,20,25,30,35,40,45,50,55,},
+			escape_time = 7200,
+			invite_cooltime = 600,
+			battle_cost = 2,
+			teleport_sale_time = {12,14,},
+			damage_doubel_time = {18,20,},
+			teleport_buy_cost = {100,100,150,150,200,200,250,250,300,300,350,350,400,400,400,400,},
+			desc = [[1. You May Encounter Boss After Passing Normal Instances.<BR> <BR>2. Once You Defeat Boss, You will Get A Reward And Boss Will Lose One Revival Chance.<BR> <BR>3. If Boss Uses Up All Revival Chances, You Will Get A Kill Reward Via Mail But You Can Not Get It If You Cannot Kill Boss In Time.<BR> <BR>4. You Can Invite Other Players To Help You And The Kill Reward Will Be Divided Based On Your Respective Kills.<BR> <BR>]],
+		},
+}

@@ -1,0 +1,6 @@
+Config = Config or {}
+Config.cnftrialvip = {
+		[1] = {
+			describe_text = [[<COLOR VALUE=442C0C>1. Player Can Access To VIP Service, But Can?ˉt Get VIP Gifts. <BR>2. If Actual VIP Lv. Exceeds Trial VIP Lv., Trial VIP Will Be Invalid Automatically.]],
+		},
+}

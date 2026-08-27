@@ -1,0 +1,18 @@
+Config = Config or {}
+Config.cnftreemisc = {
+		[1] = {
+			jinkela_id = 30000,
+			jinkela_price = 55,
+			jinkela_nutrition = 50,
+			water_pot_id = 30001,
+			water_pot_price = 150,
+			water_pot_time = 1,
+			buff_item_id = 30002,
+			buff_item_price = 100,
+			rob_protect = 600,
+			rob_count_price = 200,
+			day_free_rob = 5,
+			buff_keep_time = 60,
+			buff_attr = {{9,500,},{10,500,},},
+		},
+}

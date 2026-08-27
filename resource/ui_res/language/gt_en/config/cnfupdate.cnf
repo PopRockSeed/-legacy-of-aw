@@ -1,0 +1,21 @@
+Config = Config or {}
+Config.cnfupdate = {
+		[1] = {
+			version = 33,
+			title = [[New Content]],
+			msg_text = [[1.  Finally It Comes Out! Hero Awake Opens! Heroes Reach Lv.50 And Awake Function Unlocks. Players Can Collect Hero Equip In Sky Arena And Transform To A Certain Extent! In Battles, Heroes Can Unlock Transform Mode And Activate Skill 5 When HP Reduces To A Certain Extent! The First Awaken Hero In Current Version Is—Urukiora! (Applause For Him)<BR> <BR>2.  Who’s The King Of Sky Arena? New Gameplay, Sky Arena, Unlocks At Lv.50. Who Can Climb To The Top In This 200-Layer Challenge? Every 5 Stages, There Will Be A Lord Place. Occupy It And You Can Get Plenty Fields! Sky Arena Drops Awaken Resources Such As Equip, MAG Crystal, etc; <BR><BR>3. Combine Servers Function Test Has Been Finished. It Is Estimated That Servers Will Be Gradually Combined After Aug 10. ]],
+			show_time = 72000,
+		},
+		[2] = {
+			version = 33,
+			title = [[Optimize]],
+			msg_text = [[1.  New Bone Effect In Daily Task Icon;]],
+			show_time = 72000,
+		},
+		[3] = {
+			version = 33,
+			title = [[Debug]],
+			msg_text = [[1. Debug No Limit In Hero Stages; <BR><BR>2. Debug Server;<BR> <BR>3. Tips: Force Quit And Restart The Game After Every Update In Order To Update Successfully.]],
+			show_time = 72000,
+		},
+}

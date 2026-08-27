@@ -1,0 +1,18 @@
+Config = Config or {}
+Config.cnftopwar = {
+		[1] = {
+			apply_time = {{0,00,},{15,30,},},
+			match_time = {{15,30,},{16,00,},},
+			battle_time = {{16,00,},{21,00,},},
+			settle_time = {{21,00,},{24,00,},},
+			reward_rate = {1,0.5,0.25,},
+			detect_gold = 10,
+			inspire_gold = 10,
+			harass_gold = 10,
+			match_diff = 20,
+			desc = [[1.Guild/ Vice chairman can apply and choose scale/ member, successfully match will cost Liveness<BR> <BR>2.The survival of our guild are less)<BR> <BR>3.Enemy Guild HP Loss=Current HP*10%*Star，minimum3%/6%/10%<BR> <BR>4.The guild with more HP will win. The result will affect the bonus and scores.<BR> <BR>5.Guild can acquire Enemy Guild HP Loss%*10 general scores; Win/Draw/Fail/Unmatch will acquire 2/1/1/1 fold extra scores of the war scale respectively.<BR> <BR>6.Win/Draw/Fail will acquire 1/0.5/0.25 fold bonus of war scale. Please try your best!<BR> <BR>7.The higher score you get, the higher rank you will reach!The weekly rank rewards will be settle on 5 P.M. on Monday. The orange soul stone will be available!
+]],
+			battle_max = 10,
+			extra_score = 10,
+		},
+}

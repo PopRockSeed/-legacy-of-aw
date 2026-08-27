@@ -1,0 +1,15 @@
+Config = Config or {}
+Config.cnfturntable = {
+		[1] = {
+			cost_fragment = 200,
+			cost_diamond = 50,
+			fragment_score = 1,
+			diamond_score = 1,
+			section_count = 10,
+			gold_pool_weight = 10,
+			convert_rate = 10,
+			get_reward_rate = 50,
+			npc_text = {[[ Try As A Lucky Dog!]],[[ I’ll Prove I’m Lucky, Too!]],[[Remember To Exchange Fees For Items In Shop!]],[[Remember! Wheel Will Refresh After Drawing.]],[[Be Patient To Get Pets!]],},
+			describe_text = [[1.Wheel Needs Space Debris. Get Debris From Attacking Space Rebel. More DMG, More Debris. <BR><BR>2. Each Draw Gets Fees. Fees Can Exchange Pet Debris From Fee Shop.]],
+		},
+}

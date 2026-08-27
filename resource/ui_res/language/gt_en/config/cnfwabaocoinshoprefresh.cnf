@@ -1,0 +1,39 @@
+Config = Config or {}
+Config.cnfwabaocoinshoprefresh = {
+		[1] = {
+			id = 1,
+			zuanshi = 10,
+		},
+		[2] = {
+			id = 2,
+			zuanshi = 10,
+		},
+		[3] = {
+			id = 3,
+			zuanshi = 20,
+		},
+		[4] = {
+			id = 4,
+			zuanshi = 20,
+		},
+		[5] = {
+			id = 5,
+			zuanshi = 30,
+		},
+		[6] = {
+			id = 6,
+			zuanshi = 30,
+		},
+		[7] = {
+			id = 7,
+			zuanshi = 40,
+		},
+		[8] = {
+			id = 8,
+			zuanshi = 40,
+		},
+		[9] = {
+			id = 9,
+			zuanshi = 50,
+		},
+}
