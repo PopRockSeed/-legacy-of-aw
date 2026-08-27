@@ -1,0 +1,42 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Common=
+{
+	Path = "resource/ui_res/language/en/common.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	back = { 104, 82, 30, 30, 0, 0, },
+	
+	defeate = { 293, 0, 65, 71, 0, 0, },
+	
+	di = { 621, 0, 95, 27, 0, 0, },
+	
+	front = { 293, 75, 36, 36, 0, 0, },
+	
+	get_award = { 169, 0, 120, 75, 0, 0, },
+	
+	get_newpartner = { 333, 75, 330, 36, 0, 0, },
+	
+	has_award = { 362, 0, 93, 57, 0, 0, },
+	
+	middle = { 138, 82, 30, 30, 0, 0, },
+	
+	mo = { 172, 79, 30, 30, 0, 0, },
+	
+	sold_out = { 0, 0, 100, 100, 0, 0, },
+	
+	victory = { 104, 0, 61, 78, 0, 0, },
+	
+	weishangbang = { 561, 34, 86, 29, 0, 0, },
+	
+	wo = { 651, 31, 95, 27, 0, 0, },
+	
+	wu = { 206, 79, 30, 30, 0, 0, },
+	
+	ywc = { 459, 0, 98, 56, 0, 0, },
+	
+	zhangli = { 561, 0, 56, 30, 0, 0, },
+}
+

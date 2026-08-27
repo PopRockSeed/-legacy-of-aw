@@ -1,0 +1,22 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Battleend=
+{
+	Path = "resource/ui_res/language/en/battleend.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	huoban_upgrade = { 0, 101, 95, 26, 0, 0, },
+	
+	jiejie_upgrade = { 99, 101, 94, 26, 0, 0, },
+	
+	lose = { 0, 0, 219, 97, 0, 0, },
+	
+	skill_upgrade = { 197, 101, 93, 26, 0, 0, },
+	
+	star_upgrade = { 294, 101, 94, 26, 0, 0, },
+	
+	win = { 223, 0, 320, 97, 0, 0, },
+}
+

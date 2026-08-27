@@ -1,0 +1,30 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Buzhen=
+{
+	Path = "resource/ui_res/language/en/buzhen.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	bing = { 0, 0, 102, 102, 0, 0, },
+	
+	dou = { 0, 106, 102, 102, 0, 0, },
+	
+	jie = { 0, 212, 102, 102, 0, 0, },
+	
+	lie = { 106, 0, 102, 102, 0, 0, },
+	
+	lin = { 106, 106, 102, 102, 0, 0, },
+	
+	qian = { 106, 212, 102, 102, 0, 0, },
+	
+	title = { 0, 318, 260, 42, 0, 0, },
+	
+	zai = { 212, 0, 102, 102, 0, 0, },
+	
+	zhe = { 212, 106, 102, 102, 0, 0, },
+	
+	zhen = { 212, 212, 102, 102, 0, 0, },
+}
+

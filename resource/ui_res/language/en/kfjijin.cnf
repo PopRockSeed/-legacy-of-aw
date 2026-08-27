@@ -1,0 +1,20 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Kfjijin=
+{
+	Path = "resource/ui_res/language/en/kfjijin.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	fuli = { 304, 0, 163, 52, 0, 0, },
+	
+	kaifu = { 0, 0, 300, 53, 0, 0, },
+	
+	rest = { 649, 0, 88, 25, 0, 0, },
+	
+	ten = { 471, 0, 174, 41, 0, 0, },
+	
+	yigou = { 649, 29, 88, 25, 0, 0, },
+}
+

@@ -1,0 +1,12 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Shizhuang=
+{
+	Path = "resource/ui_res/language/en/shizhuang.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	syz = { 0, 0, 99, 66, 0, 0, },
+}
+

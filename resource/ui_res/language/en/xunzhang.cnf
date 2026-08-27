@@ -1,0 +1,12 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Xunzhang=
+{
+	Path = "resource/ui_res/language/en/xunzhang.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	yjh = { 0, 0, 98, 56, 0, 0, },
+}
+

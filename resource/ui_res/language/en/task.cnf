@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Task=
+{
+	Path = "resource/ui_res/language/en/task.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	task_accpet = { 0, 0, 120, 66, 0, 0, },
+	
+	task_finish = { 124, 0, 120, 66, 0, 0, },
+	
+	task_running = { 248, 0, 140, 66, 0, 0, },
+}
+

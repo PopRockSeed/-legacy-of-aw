@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Shenshu=
+{
+	Path = "resource/ui_res/language/en/shenshu.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	ss_bai = { 130, 0, 49, 49, 0, 0, },
+	
+	ss_sheng = { 183, 0, 49, 49, 0, 0, },
+	
+	ss_title = { 0, 0, 126, 56, 0, 0, },
+}
+

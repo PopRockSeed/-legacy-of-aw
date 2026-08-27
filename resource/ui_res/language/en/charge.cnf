@@ -1,0 +1,32 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Charge=
+{
+	Path = "resource/ui_res/language/en/charge.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	charge_suc = { 124, 320, 199, 34, 0, 0, },
+	
+	has_shop = { 0, 204, 126, 112, 0, 0, },
+	
+	limit = { 130, 278, 60, 30, 0, 0, },
+	
+	max = { 124, 358, 177, 28, 0, 0, },
+	
+	month_card = { 0, 0, 200, 200, 0, 0, },
+	
+	month_card1 = { 204, 0, 200, 200, 0, 0, },
+	
+	title = { 0, 320, 120, 54, 0, 0, },
+	
+	wenzi1 = { 130, 242, 120, 32, 0, 0, },
+	
+	wenzi2 = { 130, 204, 260, 34, 0, 0, },
+	
+	word1 = { 194, 278, 70, 28, 0, 0, },
+	
+	word2 = { 254, 242, 120, 28, 0, 0, },
+}
+

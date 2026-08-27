@@ -1,0 +1,16 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Cardrare=
+{
+	Path = "resource/ui_res/language/en/cardrare.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	i1 = { 0, 0, 51, 51, 0, 0, },
+	
+	i2 = { 55, 0, 51, 51, 0, 0, },
+	
+	i3 = { 110, 0, 51, 51, 0, 0, },
+}
+

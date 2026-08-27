@@ -1,0 +1,14 @@
+
+
+GameConfig.ResCompose.Ui_Res_Language_Rankinglist=
+{
+	Path = "resource/ui_res/language/en/rankinglist.png",
+	ScaleSize = 1,
+	FrameInterval = 0.125,
+	
+	
+	title = { 0, 0, 220, 54, 0, 0, },
+	
+	weishangbang = { 224, 0, 86, 29, 0, 0, },
+}
+
