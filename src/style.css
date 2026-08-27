@@ -80,5 +80,21 @@ main { flex: 1; display: flex; min-height: 0; }
 .lb-close {
   position: absolute; top: -12px; right: -12px; width: 32px; height: 32px;
   border-radius: 50%; border: none; background: #fff; color: #000;
-  cursor: pointer; font-size: 16px; box-shadow: 0 2px 8px #000;
+  cursor: pointer; font-size: 16px; box-shadow: 0 2px 8px #000; z-index: 5;
+}
+.ico3d {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  font-size: 34px; color: #4f9cff; text-shadow: 0 1px 3px #000;
+}
+.lb-canvas {
+  position: relative; width: 92vw; height: 92vh; background: #14161d;
+  border-radius: 10px; overflow: hidden;
+}
+.lb-mount { position: absolute; inset: 0; }
+.mv-loading, .mv-info {
+  position: absolute; color: #8b93a7; font-size: 13px; padding: 10px 14px;
+}
+.mv-info {
+  bottom: 0; left: 0; background: rgba(0,0,0,0.4); border-radius: 0 10px 0 0;
+  pointer-events: none;
 }

@@ -1,7 +1,9 @@
 import './style.css'
+import { mountMeshViewer } from './meshViewer.js'
 
 const app = document.getElementById('app')
 let currentDir = ''
+let lightboxCleanup = null
 
 function assetUrl(dir, name) {
   return '/resource/' + [dir, name].filter(Boolean).map(encodeURIComponent).join('/')
@@ -118,12 +120,19 @@ function go(dir) {
 
 function openLightbox(type, src) {
   const lb = document.getElementById('lightbox')
-  const el =
-    type === 'video'
-      ? `<video src="${src}" controls autoplay></video>`
-      : `<img src="${src}" />`
-  lb.innerHTML = `<div class="lb-inner"><button class="lb-close">✕</button>${el}</div>`
-  lb.classList.remove('hidden')
+  if (type === 'mesh') {
+    lb.classList.remove('hidden')
+    lb.innerHTML = `<div class="lb-canvas"><button class="lb-close">✕</button><div class="lb-mount" id="lbMount"></div></div>`
+    const mount = document.getElementById('lbMount')
+    mountMeshViewer(mount, src).then((c) => (lightboxCleanup = c))
+  } else {
+    const el =
+      type === 'video'
+        ? `<video src="${src}" controls autoplay></video>`
+        : `<img src="${src}" />`
+    lb.innerHTML = `<div class="lb-inner"><button class="lb-close">✕</button>${el}</div>`
+    lb.classList.remove('hidden')
+  }
   lb.querySelector('.lb-close').onclick = closeLightbox
   lb.onclick = (e) => {
     if (e.target === lb) closeLightbox()
@@ -133,6 +142,10 @@ function openLightbox(type, src) {
 function closeLightbox() {
   const lb = document.getElementById('lightbox')
   lb.classList.add('hidden')
+  if (lightboxCleanup) {
+    lightboxCleanup()
+    lightboxCleanup = null
+  }
   lb.innerHTML = ''
 }
 

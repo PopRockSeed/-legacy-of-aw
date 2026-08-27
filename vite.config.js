@@ -6,9 +6,11 @@ const RESOURCE = path.resolve(__dirname, 'resource')
 
 const IMAGE_EXT = new Set(['png', 'jpg', 'jpeg', 'gif', 'webp'])
 const VIDEO_EXT = new Set(['mp4', 'webm'])
+const MESH_EXT = new Set(['mesh'])
 const MIME = {
   png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg',
   gif: 'image/gif', webp: 'image/webp', mp4: 'video/mp4', webm: 'video/webm',
+  mesh: 'application/octet-stream',
 }
 
 function listDir(relDir) {
@@ -23,7 +25,8 @@ function listDir(relDir) {
     if (e.isDirectory()) dirs.push(e.name)
     else if (e.isFile()) {
       const ext = e.name.split('.').pop().toLowerCase()
-      if (IMAGE_EXT.has(ext) || VIDEO_EXT.has(ext)) files.push({ name: e.name, ext })
+      if (IMAGE_EXT.has(ext) || VIDEO_EXT.has(ext) || MESH_EXT.has(ext))
+        files.push({ name: e.name, ext })
     }
   }
   dirs.sort()
