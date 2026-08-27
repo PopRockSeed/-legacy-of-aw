@@ -1,0 +1,5 @@
+GameConfig.ResCompose.Ui_Res_captainshow_bk=
+{
+	Path = "resource/ui_res/singlepic/captainshow_bk.sdz",
+	Rect = {0, 0, 270, 378,0 ,0, },
+}

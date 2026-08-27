@@ -1,0 +1,5 @@
+GameConfig.ResCompose.Ui_Res_bk_tangyuan=
+{
+	Path = "resource/ui_res/singlepic/bk_tangyuan.sdz",
+	Rect = {0, 0, 549, 430,0 ,0, },
+}

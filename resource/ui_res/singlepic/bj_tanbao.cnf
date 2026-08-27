@@ -1,0 +1,5 @@
+GameConfig.ResCompose.Ui_Res_bj_tanbao=
+{
+	Path = "resource/ui_res/singlepic/bj_tanbao.sdz",
+	Rect = {0, 0, 880, 580,0 ,0, },
+}

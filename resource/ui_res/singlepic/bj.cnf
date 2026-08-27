@@ -1,0 +1,5 @@
+GameConfig.ResCompose.Ui_Res_bj=
+{
+	Path = "resource/ui_res/singlepic/bj.sdz",
+	Rect = {0, 0, 534, 253,0 ,0, },
+}

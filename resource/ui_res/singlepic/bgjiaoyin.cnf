@@ -1,0 +1,5 @@
+GameConfig.ResCompose.Ui_Res_bgjiaoyin=
+{
+	Path = "resource/ui_res/singlepic/bgjiaoyin.sdz",
+	Rect = {0, 0, 113, 84,0 ,0, },
+}

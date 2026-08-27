@@ -1,0 +1,5 @@
+GameConfig.ResCompose.Ui_Res_bk_chunjie=
+{
+	Path = "resource/ui_res/singlepic/bk_chunjie.sdz",
+	Rect = {0, 0, 407, 438,0 ,0, },
+}

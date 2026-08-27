@@ -1,0 +1,5 @@
+GameConfig.ResCompose.Ui_Res_heianshijiebeijing=
+{
+	Path = "resource/ui_res/singlepic/heianshijiebeijing.sdz",
+	Rect = {0, 0, 1280, 640,0 ,0, },
+}
